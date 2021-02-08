@@ -1,0 +1,74 @@
+\documentclass[12pt,openany]{report}
+\usepackage[a4paper,left=1in,right=1in,top=1in,bottom=1in,footskip=.25in]{geometry}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\setlength{\parskip}{1em}
+\usepackage{url}
+\usepackage{minitoc}
+\usepackage{palatino}
+\usepackage{tocloft}
+\usepackage{marginnote}
+\usepackage{amssymb,amsmath,amsthm,amsfonts}
+\usepackage{mathtools}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=blue
+}
+\newtheorem{theorem}{Theorem}
+\renewcommand\cftchapafterpnum{\vskip5pt}
+\renewcommand\cftsecafterpnum{\vskip2pt}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        
+        \Huge
+        \textbf{Empirical Finance: A Review}
+
+        \Large
+        \textit{For Personal Reference}
+            
+        \vspace{2.5cm}
+        
+        \LARGE    
+        \textbf{Sai Zhang}
+            
+        \vfill
+        
+        \large    
+        Based on the Course \textbf{\textit{Empirical Finance}} at\\
+        London Business School by \href{https://sabryzgalova.com/research/}{\textit{Dr. Svetlana Bryzgalova}}
+            
+        \vspace{0.8cm}
+        \large
+        \today
+            
+    \end{center}
+\end{titlepage}
+
+%%%%%%%% NOT COVERED BY THESE NOTES %%%%%%%%%%
+%% Approximate Inference (Variational Techniques) Bayesian Methods
+%% Probabilistic Graphical Methods
+
+\chapter*{Here we go ...}
+Say something
+
+\newpage
+
+\dominitoc
+\tableofcontents
+
+\chapter{This is Chapter 1}
+\input{chapter1}
+
+\chapter{This is Chapter 2}
+\input{chapter2}
+
+\end{document}
