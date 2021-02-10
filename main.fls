@@ -43,6 +43,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/marginnote/marginnote.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/marginnote/marginnote.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty

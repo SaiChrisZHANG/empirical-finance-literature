@@ -7,6 +7,7 @@
 \usepackage{palatino}
 \usepackage{tocloft}
 \usepackage{marginnote}
+\usepackage{natbib}
 \usepackage{amssymb,amsmath,amsthm,amsfonts}
 \usepackage{mathtools}
 \usepackage{hyperref}
@@ -22,6 +23,7 @@
 \renewcommand\cftsecafterpnum{\vskip0pt}
 
 \usepackage{minitoc}
+
 \begin{document}
 
 \begin{titlepage}
@@ -96,7 +98,11 @@ or send the mistakes to this email address
 \chapter{Time-Series Predictability}
 \input{chapter1}
 
-\chapter{This is Chapter 2}
+\chapter{Cross-Section Predictability}
 \input{chapter2}
+
+\newpage
+\bibliographystyle{aea}
+\bibliography{refs}
 
 \end{document}
