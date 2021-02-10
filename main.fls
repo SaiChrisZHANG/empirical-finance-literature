@@ -380,8 +380,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplbi7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplbi8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplbi7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplbi7t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplbi8r.tfm
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2
