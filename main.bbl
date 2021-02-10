@@ -1,0 +1,18 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Campbell(2017)]{campbell2017financial}
+John~Y Campbell.
+\newblock \emph{Financial decisions and markets: a course in asset pricing}.
+\newblock Princeton University Press, 2017.
+
+\bibitem[Cochrane(2009)]{cochrane2009asset}
+John~H Cochrane.
+\newblock \emph{Asset pricing: Revised edition}.
+\newblock Princeton university press, 2009.
+
+\end{thebibliography}

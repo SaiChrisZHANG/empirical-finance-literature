@@ -41,6 +41,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/palatino.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/palatino.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/marginnote/marginnote.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/marginnote/marginnote.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
@@ -391,6 +393,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplbi8r.tfm
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2
+OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm
@@ -462,6 +465,8 @@ INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc0
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.aux
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.out
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.out
