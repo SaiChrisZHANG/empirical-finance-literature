@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  10 FEB 2021 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  10 FEB 2021 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -335,8 +335,46 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip89
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
+\f@nch@headwidth=\skip90
+\f@nch@O@elh=\skip91
+\f@nch@O@erh=\skip92
+\f@nch@O@olh=\skip93
+\f@nch@O@orh=\skip94
+\f@nch@O@elf=\skip95
+\f@nch@O@erf=\skip96
+\f@nch@O@olf=\skip97
+\f@nch@O@orf=\skip98
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/fncychap/fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip99
+\mylen=\skip100
+\myhi=\skip101
+\px=\skip102
+\py=\skip103
+\pyy=\skip104
+\pxx=\skip105
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 25.
 \c@theorem=\count125
  (/usr/local/texlive/2018/texmf-dist/tex/latex/minitoc/minitoc.sty
 Package: minitoc 2015/07/13 v61 Package minitoc
@@ -346,8 +384,8 @@ Package: mtcmess 2006/03/14
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 61 ***.
 \tf@mtc=\write3
-\mtcindent=\skip90
-\mtcskipamount=\skip91
+\mtcindent=\skip106
+\mtcskipamount=\skip107
 Package minitoc Info: I0005
 (minitoc)             compatible with hyperref.
 Package minitoc Info: I0023
@@ -377,7 +415,7 @@ Package minitoc Info: I0031
 \c@minitocdepth=\count127
 \c@ptc=\count128
 \c@parttocdepth=\count129
-\ptcindent=\skip92
+\ptcindent=\skip108
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
 (minitoc)              on input line 4909.
@@ -388,21 +426,21 @@ File: english.mld 2006/01/13
 )) (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 43.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
@@ -426,7 +464,7 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
-* \footskip=18.06749pt
+* \footskip=30.0pt
 * \marginparwidth=44.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
@@ -456,22 +494,40 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
+)
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring ON on input line 43.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count130
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out) (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count130
-\scratchdimen=\dimen134
-\scratchbox=\box30
-\nofMPsegments=\count131
-\nofMParguments=\count132
+\scratchcounter=\count131
+\scratchdimen=\dimen136
+\scratchbox=\box31
+\nofMPsegments=\count132
+\nofMParguments=\count133
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count133
-\MPscratchDim=\dimen135
-\MPnumerator=\count134
-\makeMPintoPDFobject=\count135
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen137
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks35
-))) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
@@ -483,32 +539,6 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\Gin@req@height=\dimen136
-\Gin@req@width=\dimen137
-)
-\AtBeginShipoutBox=\box31
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-Package hyperref Info: Link coloring ON on input line 28.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count136
-)
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out) (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
-
 \c@minilofdepth=\count137
 \c@minilotdepth=\count138
 \c@partlofdepth=\count139
@@ -548,27 +578,27 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                of loading the ``hyperref'' package.
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 48.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 63.
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 68.
+(Font)              Font shape `OT1/ppl/b/it' tried instead on input line 83.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \newpage
-              [1
+l.109 \newpage
+               [1
 
 ]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 97.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 112.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout3 = `main.mtc1'.
@@ -597,7 +627,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [2]
 Chapter 1.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1.tex
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 115.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 115.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1.tex
 \openout3 = `main.mtc'.
 
 \openout3 = `main.mtc'.
@@ -631,31 +668,31 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
 [5
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3E9589FE57431B90C2BE9D9530A38DDD;337.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+(rerunfilecheck)             Checksum: 84D8D9F6DB04CBD7145B731B78087FC7;338.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 10055 strings out of 492649
- 147371 string characters out of 6129623
- 282292 words of memory out of 5000000
- 13547 multiletter control sequences out of 15000+600000
- 25755 words of font info for 69 fonts, out of 8000000 for 9000
+ 10741 strings out of 492649
+ 155173 string characters out of 6129623
+ 299048 words of memory out of 5000000
+ 14214 multiletter control sequences out of 15000+600000
+ 29775 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,32p,385b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (6 pages, 68631 bytes).
+ 28i,9n,43p,385b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (6 pages, 74881 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

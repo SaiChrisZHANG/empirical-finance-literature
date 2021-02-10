@@ -4,4 +4,4 @@
 \contentsline {section}{\numberline {1.2}Section 2}{3}{section.1.2}
 \contentsline {chapter}{\numberline {2}Cross-Section Predictability}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Section 1}{4}{section.2.1}
-\contentsline {chapter}{Bibliography}{5}{chapter*.2}
+\contentsline {chapter}{Bibliography}{5}{section.2.1}
