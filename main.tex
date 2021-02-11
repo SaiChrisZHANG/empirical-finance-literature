@@ -114,13 +114,17 @@ or send the mistakes to this email address
 \newpage
 
 \dominitoc
+\phantomsection% Place hyperlink marker
+\label{ToC-first-page}
 \tableofcontents
+
 
 \pagestyle{mystyle}
 \chapter{Time-Series Predictability}
 \input{chapter1}
 
 \chapter{Cross-Section Predictability}
+\thispagestyle{mystyle}
 \input{chapter2}
 
 \newpage
