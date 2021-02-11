@@ -418,6 +418,7 @@ INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3
+OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
@@ -527,6 +528,7 @@ INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.maf
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc0
+INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.aux
