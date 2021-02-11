@@ -12,8 +12,13 @@
 \usepackage{amssymb,amsmath,amsthm,amsfonts}
 \usepackage{mathtools}
 \usepackage{hyperref}
+\usepackage{newpxtext,newpxmath}
 \usepackage{fancyhdr}
-\usepackage[Lenny]{fncychap}
+\usepackage[Conny]{fncychap}
+    \ChNameVar{\centering\Huge\fontfamily{ppl}\selectfont\rm\bfseries}
+    \ChNumVar{\Huge\fontfamily{ppl}\selectfont}
+    \ChTitleVar{\centering\LARGE\fontfamily{ppl}\selectfont\rm}
+
 \usepackage{xcolor}
 
 \hypersetup{
@@ -31,7 +36,7 @@
   \fancyhf{}% Clear header/footer
   \renewcommand{\headrulewidth}{1pt}% Remove header rule
   \renewcommand{\footrulewidth}{1pt}% Remove footer rule
-  \fancyhead[R]{\href{https://github.com/SaiChrisZHANG}{Github Page}}
+  \fancyhead[R]{\href{https://github.com/SaiChrisZHANG/empirical-finance-literature}{Github Page}}
   \fancyhead[L]{Empirical Finance: A Review}
   \fancyfoot[L]{\hyperref[ToC-first-page]{To Contents}}
   \fancyfoot[C]{\small \leftmark}
