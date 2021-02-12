@@ -6,4 +6,5 @@
 \contentsline {section}{\numberline {2.1}Section 1}{4}{section.2.1}
 \contentsline {chapter}{\numberline {3}GMM and Cross-section test}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Section 1}{5}{section.3.1}
-\contentsline {chapter}{Bibliography}{6}{section.3.1}
+\contentsline {chapter}{\numberline {4}Advances in cross-section asset pricing}{6}{chapter.4}
+\contentsline {chapter}{Bibliography}{7}{chapter.4}
