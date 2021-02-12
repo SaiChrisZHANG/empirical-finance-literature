@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  12 FEB 2021 04:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  12 FEB 2021 04:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -930,7 +930,7 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 123.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 123.
 (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1.tex
 \openout3 = `main.mtc'.
@@ -1017,7 +1017,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  30i,9n,43p,1031b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (8 pages, 110789 bytes).
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (8 pages, 110733 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  117 compressed objects within 2 object streams
