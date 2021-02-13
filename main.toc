@@ -12,4 +12,6 @@
 \contentsline {section}{\numberline {5.1}Section 1}{7}{section.5.1}
 \contentsline {chapter}{\numberline {6}Term structure of returns}{8}{chapter.6}
 \contentsline {section}{\numberline {6.1}Section 1}{8}{section.6.1}
-\contentsline {chapter}{Bibliography}{9}{section.6.1}
+\contentsline {chapter}{\numberline {7}Learning}{9}{chapter.7}
+\contentsline {section}{\numberline {7.1}Section 1}{9}{section.7.1}
+\contentsline {chapter}{Bibliography}{10}{section.7.1}
