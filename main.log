@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  13 FEB 2021 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  13 FEB 2021 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -967,7 +967,7 @@ LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 
 ]
 Chapter 2.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter2.tex
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
 \openout3 = `main.mtc'.
 
 \openout3 = `main.mtc'.
@@ -1035,8 +1035,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
- 12949 strings out of 492649
- 185523 string characters out of 6129623
+ 12951 strings out of 492649
+ 185613 string characters out of 6129623
  320226 words of memory out of 5000000
  16327 multiletter control sequences out of 15000+600000
  82954 words of font info for 98 fonts, out of 8000000 for 9000
