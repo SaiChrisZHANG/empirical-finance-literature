@@ -8,4 +8,5 @@
 \contentsline {section}{\numberline {3.1}Section 1}{5}{section.3.1}
 \contentsline {chapter}{\numberline {4}Advances in cross-section asset pricing}{6}{chapter.4}
 \contentsline {section}{\numberline {4.1}Section 1}{6}{section.4.1}
-\contentsline {chapter}{Bibliography}{7}{section.4.1}
+\contentsline {chapter}{\numberline {5}Consumption-based asset pricing}{7}{chapter.5}
+\contentsline {chapter}{Bibliography}{8}{chapter.5}
