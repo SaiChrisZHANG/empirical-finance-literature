@@ -10,4 +10,5 @@
 \contentsline {section}{\numberline {4.1}Section 1}{6}{section.4.1}
 \contentsline {chapter}{\numberline {5}Consumption-based asset pricing}{7}{chapter.5}
 \contentsline {section}{\numberline {5.1}Section 1}{7}{section.5.1}
-\contentsline {chapter}{Bibliography}{8}{section.5.1}
+\contentsline {chapter}{\numberline {6}Term structure of returns}{8}{chapter.6}
+\contentsline {chapter}{Bibliography}{9}{chapter.6}
