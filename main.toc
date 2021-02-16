@@ -14,5 +14,7 @@
 \contentsline {section}{\numberline {6.1}Section 1}{8}{section.6.1}
 \contentsline {chapter}{\numberline {7}Learning}{9}{chapter.7}
 \contentsline {section}{\numberline {7.1}Section 1}{9}{section.7.1}
-\contentsline {chapter}{\numberline {8}Currencies: time }{10}{chapter.8}
-\contentsline {chapter}{Bibliography}{11}{chapter.8}
+\contentsline {chapter}{\numberline {8}Currencies: time-series and cross-section}{10}{chapter.8}
+\contentsline {section}{\numberline {8.1}Section 1}{10}{section.8.1}
+\contentsline {chapter}{\numberline {9}Currencies: time-series and cross-section}{11}{chapter.9}
+\contentsline {section}{\numberline {9.1}Section 1}{11}{section.9.1}
