@@ -16,6 +16,6 @@
 \contentsline {section}{\numberline {7.1}Section 1}{9}{section.7.1}
 \contentsline {chapter}{\numberline {8}Currencies: time-series and cross-section}{10}{chapter.8}
 \contentsline {section}{\numberline {8.1}Section 1}{10}{section.8.1}
-\contentsline {chapter}{\numberline {9}Intermediary-based }{11}{chapter.9}
+\contentsline {chapter}{\numberline {9}Intermediary-based asset pricing}{11}{chapter.9}
 \contentsline {section}{\numberline {9.1}Section 1}{11}{section.9.1}
 \contentsline {chapter}{Bibliography}{12}{section.9.1}
