@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  19 FEB 2021 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  19 FEB 2021 19:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -927,4 +927,126 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 2.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input li
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+npxmia on input line 2.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxmia.fd
+File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
+)
+LaTeX Font Info:    Try loading font information for U+npxsym on input line 2.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxsym.fd
+File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
+)
+LaTeX Font Info:    Try loading font information for U+npxsyc on input line 2.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxsyc.fd
+File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
+))
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [2]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 123.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 123.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chapter1.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 2.
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 1.
+)
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 6.
+) [3
+
+]
+Chapter 2.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2)) [4
+
+]
+Chapter 3.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter3/chapter3.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3)) [5
+
+]
+Chapter 4.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter4/chapter4.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4)) [6
+
+]
+Chapter 5.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter5/chapter5.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc5)) [7
+
+]
+Chapter 6.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter6/chapter6.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc6)) [8
+
+]
+Chapter 7.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter7/chapter7.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7)) [9
+
+]
+Chapter 8.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter8/chapter8.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [10
+
+]
+Chapter 9.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter9/chapter9.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [11
+
+] (/Users/admin/Desktop/LIT/empirical-finance-literature/
