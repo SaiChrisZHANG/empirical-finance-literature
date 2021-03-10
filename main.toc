@@ -19,4 +19,5 @@
 \contentsline {chapter}{\numberline {9}Intermediary-based asset pricing}{11}{chapter.9}
 \contentsline {section}{\numberline {9.1}Section 1}{11}{section.9.1}
 \contentsline {chapter}{\numberline {10}something}{12}{chapter.10}
-\contentsline {chapter}{Bibliography}{13}{chapter.10}
+\contentsline {section}{\numberline {10.1}Section 1}{12}{section.10.1}
+\contentsline {chapter}{Bibliography}{13}{section.10.1}
