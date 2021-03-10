@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  3 MAR 2021 03:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  10 MAR 2021 12:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -908,6 +908,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc10.
 \openout3 = `main.mtc10'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc11.
+\openout3 = `main.mtc11'.
+
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <12> not available
 (Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 2.
@@ -1049,6 +1053,10 @@ Chapter 9.
 
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [11
 
+]
+Chapter 10.
+[12
+
 ] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -1061,31 +1069,38 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
-[12
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
+[13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 938BD49C9F2C0475B521A739484145D3;1181.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: A23135C78D7DE222EAF3F2964ED440BD;1218
+(rerunfilecheck)             After:  BD85734284851F1535CA3B69097AB91B;1226.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 13004 strings out of 492649
- 187240 string characters out of 6129623
+ 13010 strings out of 492649
+ 187287 string characters out of 6129623
  321226 words of memory out of 5000000
- 16333 multiletter control sequences out of 15000+600000
+ 16334 multiletter control sequences out of 15000+600000
  82954 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,9n,43p,1031b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (13 pages, 118270 bytes).
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (14 pages, 119054 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
