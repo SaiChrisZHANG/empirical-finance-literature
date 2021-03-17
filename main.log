@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  15 MAR 2021 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  17 MAR 2021 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1062,7 +1062,11 @@ Chapter 10.
 
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [12
 
-] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl)
+] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 8.
+
+)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -1087,18 +1091,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 13019 strings out of 492649
- 187678 string characters out of 6129623
+ 13007 strings out of 492649
+ 187422 string characters out of 6129623
  321226 words of memory out of 5000000
- 16335 multiletter control sequences out of 15000+600000
+ 16325 multiletter control sequences out of 15000+600000
  82954 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,9n,43p,1031b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (14 pages, 119405 bytes).
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (14 pages, 116871 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
