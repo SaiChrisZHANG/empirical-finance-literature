@@ -517,6 +517,11 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newpx/t1zplsups.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newpx/t1zplsups.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zplsups-Regular-t1.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zplsups-Regular-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
@@ -628,6 +633,7 @@ INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.aux
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.out
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.out
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
