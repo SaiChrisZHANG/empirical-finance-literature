@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  24 MAR 2021 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  24 MAR 2021 23:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -986,9 +986,9 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 14.
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 14.
+(Font)              scaled to size 17.28pt on input line 15.
 ) [3
 
 ]
@@ -1105,10 +1105,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  30i,9n,43p,1031b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (14 pages, 120102 bytes).
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (14 pages, 120222 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
+ 235 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
  38 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
