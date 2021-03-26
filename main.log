@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  26 MAR 2021 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  26 MAR 2021 21:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -946,11 +946,20 @@ File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 LaTeX Font Info:    Try loading font information for U+npxsyc on input line 2.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
-))
+) [2])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [2]
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 122.
+[3]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 122.
@@ -961,8 +970,6 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 
 \openout3 = `main.mtc'.
 
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
@@ -985,27 +992,28 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
-LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 19.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 19.
- [3
+ [4
 
-])
+]
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 22.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 22.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[5]
 Chapter 2.
 (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
 \openout3 = `main.mtc'.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2)) [5
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2)) [6
 
 ]
 Chapter 3.
@@ -1014,7 +1022,7 @@ Chapter 3.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3)) [6
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3)) [7
 
 ]
 Chapter 4.
@@ -1023,7 +1031,7 @@ Chapter 4.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4)) [7
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4)) [8
 
 ]
 Chapter 5.
@@ -1032,7 +1040,7 @@ Chapter 5.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc5)) [8
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc5)) [9
 
 ]
 Chapter 6.
@@ -1041,7 +1049,7 @@ Chapter 6.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc6)) [9
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc6)) [10
 
 ]
 Chapter 7.
@@ -1050,7 +1058,7 @@ Chapter 7.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7)) [10
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7)) [11
 
 ]
 Chapter 8.
@@ -1059,7 +1067,7 @@ Chapter 8.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [11
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [12
 
 ]
 Chapter 9.
@@ -1068,7 +1076,7 @@ Chapter 9.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [12
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [13
 
 ]
 Chapter 10.
@@ -1077,7 +1085,7 @@ Chapter 10.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [13
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [14
 
 ] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl)
 Package minitoc Info: I0009
@@ -1092,7 +1100,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the main.log file.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
-[14
+[15
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
@@ -1100,22 +1108,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EBA24618B7D61E7B3BC3CEDE07647F73;1686.
+(rerunfilecheck)             Checksum: 194D7CFD269C7F3BB438FF499180163C;1868.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 13069 strings out of 492649
- 188528 string characters out of 6129623
- 322226 words of memory out of 5000000
- 16375 multiletter control sequences out of 15000+600000
+ 13077 strings out of 492649
+ 188641 string characters out of 6129623
+ 323226 words of memory out of 5000000
+ 16380 multiletter control sequences out of 15000+600000
  88495 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,11n,43p,1031b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,11n,43p,1031b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (15 pages, 123512 bytes).
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (16 pages, 124497 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 269 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
