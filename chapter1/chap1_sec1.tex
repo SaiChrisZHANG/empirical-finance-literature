@@ -20,4 +20,8 @@ definition is not easy to test. On the other hand, \cite{malkiel1989efficient} g
 \end{quote}
 
 This is the idea behind an enormous literature in empirical asset pricing: if an economic model
-defines the equilibrium return as $\mathbb{R}_{it}$, 
+defines the equilibrium return as $\Theta_{i,t}$, then the null hypothesis is
+$$
+R_{i,t+1} = \Theta_{i,t}+U_{i,t+1}
+$$
+where $U_{i,t+1}$ is a FAIR game regarding the information set at t, or $\mathbb{E}(U_{i,t+1}|\phi_t)=0$
