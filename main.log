@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  30 MAR 2021 02:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  30 MAR 2021 02:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -643,56 +643,63 @@ Package minitoc Info: I0010
 File: english.mld 2006/01/13
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/minitoc/english.mld
 File: english.mld 2006/01/13
-))
-LaTeX Font Info:    Try loading font information for T1+zpltlf on input line 51.
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip111
+\plpartopsep=\skip112
+\plitemsep=\skip113
+\plparsep=\skip114
+\pl@lab=\toks37
+)
+LaTeX Font Info:    Try loading font information for T1+zpltlf on input line 67.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/t1zpltlf.fd
 File: t1zpltlf.fd 2015/01/17 v1.0 font definition file for T1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 51.
+(Font)              scaled to size 12.0pt on input line 67.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 51.
-LaTeX Font Info:    Try loading font information for OML+npxmi on input line 51.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 67.
+LaTeX Font Info:    Try loading font information for OML+npxmi on input line 67.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for U+npxexa on input line 51.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for U+npxexa on input line 67.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 67.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 51.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 67.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/08/13 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 51.
-LaTeX Font Info:    Try loading font information for LMX+npxexx on input line 51.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for LMX+npxexx on input line 67.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/08/13 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    ... okay on input line 67.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -749,7 +756,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@width=\dimen140
 )
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 51.
+Package hyperref Info: Link coloring ON on input line 67.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -757,9 +764,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out) (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -773,12 +780,12 @@ LaTeX Info: Redefining \nameref on input line 51.
 \scratchbox=\box32
 \nofMPsegments=\count137
 \nofMParguments=\count138
-\everyMPshowfont=\toks37
+\everyMPshowfont=\toks38
 \MPscratchCnt=\count139
 \MPscratchDim=\dimen142
 \MPnumerator=\count140
 \makeMPintoPDFobject=\count141
-\everyMPtoPDFconversion=\toks38
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -836,55 +843,55 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                of loading the ``hyperref'' package.
 
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 57.
+(Font)              scaled to size 24.88pt on input line 73.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 58.
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 58.
+(Font)              scaled to size 24.88pt on input line 74.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 60.
+(Font)              scaled to size 17.28pt on input line 76.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 17.28pt on input line 61.
+(Font)              scaled to size 17.28pt on input line 77.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 65.
+(Font)              scaled to size 20.74pt on input line 81.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 66.
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 66.
+(Font)              scaled to size 20.74pt on input line 82.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 70.
+(Font)              scaled to size 14.4pt on input line 86.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 87.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 71.
+(Font)              scaled to size 14.4pt on input line 87.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/zpltlf/b/it' tried instead on input line 71.
+(Font)              Font shape `T1/zpltlf/b/it' tried instead on input line 87.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/it' will be
-(Font)              scaled to size 14.4pt on input line 71.
+(Font)              scaled to size 14.4pt on input line 87.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 14.4pt on input line 72.
+(Font)              scaled to size 14.4pt on input line 88.
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 84.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 100.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 91.
+(Font)              scaled to size 12.0pt on input line 107.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/it' in size <12> not available
-(Font)              Font shape `T1/zpltlf/b/it' tried instead on input line 91.
+(Font)              Font shape `T1/zpltlf/b/it' tried instead on input line 107.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 91.
+(Font)              scaled to size 12.0pt on input line 107.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117 \newpage
+l.133 \newpage
                [1
 
 ]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 120.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 136.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout3 = `main.mtc1'.
@@ -975,13 +982,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 125.
+(Font)              scaled to size 10.95pt on input line 141.
 [3]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 125.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 141.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 125.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 141.
 (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chapter1.tex
 \openout3 = `main.mtc'.
 
@@ -1017,14 +1024,7 @@ LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 17.28pt on input line 21.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec1.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5]
-Package marginnote Info: Margin note 7.1 is on absolute page 7
+Package marginnote Info: Margin note 6.1 is on absolute page 6
 (marginnote)              on input line 35.
 Package marginnote Info: right page because not two side mode on input line 35.
 Package marginnote Info: xpos seems to be 101.64468pt,
@@ -1035,7 +1035,14 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 6.2pt on input line 35.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 35.
-)
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1142,28 +1149,28 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 [17
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 112CBA10AA122AA02B4EEE6156333243;2182.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 13403 strings out of 492649
- 192992 string characters out of 6129623
+ 13531 strings out of 492649
+ 194815 string characters out of 6129623
  328587 words of memory out of 5000000
- 16669 multiletter control sequences out of 15000+600000
+ 16793 multiletter control sequences out of 15000+600000
  106446 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,11n,44p,1031b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,12n,44p,1031b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (18 pages, 160743 bytes).
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (18 pages, 160711 bytes).
 PDF statistics:
  375 PDF objects out of 1000 (max. 8388607)
  340 compressed objects within 4 object streams
