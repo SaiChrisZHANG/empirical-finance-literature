@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -20,5 +20,12 @@ Burton~G Malkiel and Eugene~F Fama.
 \newblock Efficient capital markets: A review of theory and empirical work.
 \newblock \emph{The journal of Finance}, 25\penalty0 (2):\penalty0 383--417,
   1970.
+
+\bibitem[Shefrin and Statman(1985)]{shefrin1985disposition}
+Hersh Shefrin and Meir Statman.
+\newblock The disposition to sell winners too early and ride losers too long:
+  Theory and evidence.
+\newblock \emph{The Journal of finance}, 40\penalty0 (3):\penalty0 777--790,
+  1985.
 
 \end{thebibliography}
