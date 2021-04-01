@@ -94,11 +94,13 @@ the definition of the variance ratio as:
 
 Then by comparing $VR(K)$ with 1, we can deduct the direction of the autocorrelations:
 \begin{center}
-    \begin{tabular}{ |c|c|c| } 
-     \hline
-     cell1 & cell2 & cell3 \\ 
-     cell4 & cell5 & cell6 \\ 
-     cell7 & cell8 & cell9 \\ 
-     \hline
+    \begin{tabular}{rl}
+    \hline
+    $VR(K) > 1$ & predominantly \textbf{positive} autocorrelations  \\ 
+    $VR(K) = 1$ & no autocorrelations \\ 
+    $VR(K) < 1$ & predominantly \textbf{negative} autocorrelations \\ 
+    \hline
     \end{tabular}
 \end{center}
+
+Notice that the weight term $1-\frac{j}{K}$ increases as $j$ approaches $K$.
