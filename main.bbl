@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -40,6 +40,12 @@ James~M Poterba and Lawrence~H Summers.
 \newblock Mean reversion in stock prices: Evidence and implications.
 \newblock \emph{Journal of financial economics}, 22\penalty0 (1):\penalty0
   27--59, 1988.
+
+\bibitem[Priestley(1981)]{priestley1981spectral}
+Maurice~Bertram Priestley.
+\newblock \emph{Spectral analysis and time series: probability and mathematical
+  statistics}.
+\newblock Number 04; QA280, P7. 1981.
 
 \bibitem[Shefrin and Statman(1985)]{shefrin1985disposition}
 Hersh Shefrin and Meir Statman.
