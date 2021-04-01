@@ -61,7 +61,11 @@ Starting points:
 Any autocorrelation test would have to solve these issues.
 
 \subsubsection{Q-statistics}
-\citet{box1970distribution} calculates 
-
+Because the stock returns are i.i.d. ($H_0$), different autocorrelations are uncorrelated with one another.
+\citet{box1970distribution} calculates a sum of $K$ squared sample autocorrelations:
+\begin{equation}
+    Q_K = T\sum^K_{j=1}\hat{\rho}^2_j
+\end{equation}
+where $\hat{\rho}_j=\hat{Corr}(r_t,r_{t-j})$. Q is asymptotically distributed $\chi^2$ with K degrees of freedom.
 \subsubsection{Variance ratio}
 
