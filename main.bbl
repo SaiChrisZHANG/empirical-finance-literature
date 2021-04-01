@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -17,6 +17,13 @@ John~Y Campbell.
 \newblock \emph{Financial decisions and markets: a course in asset pricing}.
 \newblock Princeton University Press, 2017.
 
+\bibitem[Lo and MacKinlay(1988)]{lo1988stock}
+Andrew~W Lo and A~Craig MacKinlay.
+\newblock Stock market prices do not follow random walks: Evidence from a
+  simple specification test.
+\newblock \emph{The review of financial studies}, 1\penalty0 (1):\penalty0
+  41--66, 1988.
+
 \bibitem[Malkiel(1989)]{malkiel1989efficient}
 Burton~G Malkiel.
 \newblock Efficient market hypothesis.
@@ -27,6 +34,12 @@ Burton~G Malkiel and Eugene~F Fama.
 \newblock Efficient capital markets: A review of theory and empirical work.
 \newblock \emph{The journal of Finance}, 25\penalty0 (2):\penalty0 383--417,
   1970.
+
+\bibitem[Poterba and Summers(1988)]{poterba1988mean}
+James~M Poterba and Lawrence~H Summers.
+\newblock Mean reversion in stock prices: Evidence and implications.
+\newblock \emph{Journal of financial economics}, 22\penalty0 (1):\penalty0
+  27--59, 1988.
 
 \bibitem[Shefrin and Statman(1985)]{shefrin1985disposition}
 Hersh Shefrin and Meir Statman.
