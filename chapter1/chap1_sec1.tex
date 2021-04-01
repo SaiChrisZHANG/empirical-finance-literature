@@ -52,7 +52,16 @@ macro efficiency are still and will continue to be heated. Some noticable altern
 The most basic time-series test of market efficiency is to test "whether past deviations of returns from model-implied expected returns
 predict future return deviations" \citep[See][p.~124]{campbell2017financial}. The leading approach to do so is to test the autocorrelations.
 
+Starting points:
+\begin{enumerate}
+    \item The null hypothesis $H_0$: the stock returns are i.i.d. 
+    \item The standard error for any single sample autocorrelation equals asymptotically $1/\sqrt{T}$
+    \item The standard error would be large, (0.1 if $T=100$), not so easy to detect small autocorrelation
+\end{enumerate}
+Any autocorrelation test would have to solve these issues.
+
 \subsubsection{Q-statistics}
+\citet{box1970distribution} calculates 
 
 \subsubsection{Variance ratio}
 
