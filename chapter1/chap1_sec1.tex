@@ -81,4 +81,10 @@ This statistic was introduced to the finance literature by \citet{lo1988stock} a
 $$
 r_t(K) \equiv r_t + r_{t+1} + \cdots + r_{t+K-1}
 $$
-If 
+and the variance ratio over the period $K$ would be defined as:
+$$
+    VR(K) = \frac{Var(r_t(K))}{K\cdot Var(r_{t})}
+$$
+If there are not autocorrelations, then the i.i.d. returns would have identical variance in each period from $t$ to $t+K$,
+and $Var(r_t(K)) = Var(r_t+\cdots+r_{t+K-1})=Var(r_t)+\cdots+Var(r_{t+K-1})=K\cdot Var(r_t)$. Thus, $VR(K)=1$. If we rewrite
+the definition of the variance ratio, 
