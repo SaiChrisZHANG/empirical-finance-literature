@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,6 +16,12 @@ George~EP Box and David~A Pierce.
 John~Y Campbell.
 \newblock \emph{Financial decisions and markets: a course in asset pricing}.
 \newblock Princeton University Press, 2017.
+
+\bibitem[Charles and Darn{\'e}(2009)]{charles2009variance}
+Am{\'e}lie Charles and Olivier Darn{\'e}.
+\newblock Variance-ratio tests of random walk: an overview.
+\newblock \emph{Journal of Economic Surveys}, 23\penalty0 (3):\penalty0
+  503--527, 2009.
 
 \bibitem[Fama and French(1988)]{fama1988permanent}
 Eugene~F Fama and Kenneth~R French.
