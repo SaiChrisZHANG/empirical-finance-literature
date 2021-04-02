@@ -122,6 +122,10 @@ alternative asymptotics assuming $K/T\rightarrow \delta$ where $\delta>0$.
 \subsubsection{Regression approach}
 \citet{fama1988permanent} established a regression approach to test AR(K). The basic idea is to regress the
 K-period return on the lagged K-period return:
+$$
+    r_t(K) = \alpha_K + \beta_K r_{t-K}(K)+\epsilon_t^K
+$$
+The coefficient $\beta_K$ would then be:
 \begin{equation}
-    r_t(K) = 
+    \beta_K = \frac{Cov[r_t(K),r_{t-K}(K)]}{Var[r_t(K)]} = \frac{VR(2K)}{VR(K)}-1
 \end{equation}
