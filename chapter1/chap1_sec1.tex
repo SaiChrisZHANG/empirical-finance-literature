@@ -129,4 +129,13 @@ The coefficient $\beta_K$ would then be:
 \begin{equation}
     \beta_K = \frac{Cov[r_t(K),r_{t-K}(K)]}{Var[r_{t-K}(K)]} = 2\left[\frac{VR(2K)}{VR(K)}-1\right]=\frac{2\sum^{K-1}_{j=1}\left(\frac{\min (j,2K-j)}{K}\right)\rho_j}{VR(K)}
 \end{equation}
-It is clear to see that 
+It is clear to see that:
+\begin{center}
+    \begin{tabular}{rl}
+    \hline
+    $\beta_K > 0$ & predominantly \textbf{positive} autocorrelations  \\ 
+    $\beta_K = 0$ & no autocorrelations \\ 
+    $\beta_K < 0$ & predominantly \textbf{negative} autocorrelations: mean reversion \\
+    \hline
+    \end{tabular}
+\end{center}
