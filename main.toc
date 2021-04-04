@@ -9,6 +9,7 @@
 \contentsline {subsubsection}{\numberline {1.1.2.4}Other variance-ratio tests}{8}{subsubsection.1.1.2.4}
 \contentsline {section}{\numberline {1.2}Autocorrelations in returns: empirical evidence}{8}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Positive autocorrelations}{8}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Negative autocorrelations}{8}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Excess volatility puzzle}{8}{section.1.3}
 \contentsline {section}{\numberline {1.4}Decomposing prices}{9}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Campbell-Schiller decomposition}{9}{subsection.1.4.1}
