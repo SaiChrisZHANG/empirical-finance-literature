@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -35,6 +35,12 @@ Andrew~W Lo and A~Craig MacKinlay.
   simple specification test.
 \newblock \emph{The review of financial studies}, 1\penalty0 (1):\penalty0
   41--66, 1988.
+
+\bibitem[Lo and MacKinlay(1990)]{lo1990contrarian}
+Andrew~W Lo and A~Craig MacKinlay.
+\newblock When are contrarian profits due to stock market overreaction?
+\newblock \emph{The review of financial studies}, 3\penalty0 (2):\penalty0
+  175--205, 1990.
 
 \bibitem[Malkiel(1989)]{malkiel1989efficient}
 Burton~G Malkiel.
