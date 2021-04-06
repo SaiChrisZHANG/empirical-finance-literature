@@ -88,7 +88,7 @@ $$
 If there are not autocorrelations, then the i.i.d. returns would have identical variance in each period from $t$ to $t+K$,
 and $Var(r_t(K)) = Var(r_t+\cdots+r_{t+K-1})=Var(r_t)+\cdots+Var(r_{t+K-1})=K\cdot Var(r_t)$. Thus, $VR(K)=1$. If we rewrite
 the definition of the variance ratio as:
-\begin{equation}
+\begin{equation}\label{eq1.3}
     VR(K) = \frac{Var(r_t(K))}{K\cdot Var(r_{t})} = 1+\underbrace{2\sum^{K-1}_{j=1}\left(1-\frac{j}{K}\right)\hat{\rho}_j}_{\text{weighted average of the first $K-1$ sample autocorrelations}}
 \end{equation}
 
@@ -142,5 +142,5 @@ It is clear to see that:
 
 \subsection{Extension: Other variance-ratio tests}
 As summarized by \citet{charles2009variance}, the intuition behind the VR test is rather simple, but conducting a statistical inference using the VR test is less
-straightforward. In this bonus subsection, I briefly summarize the 
+straightforward. In this bonus subsection, I briefly summarize 
 
