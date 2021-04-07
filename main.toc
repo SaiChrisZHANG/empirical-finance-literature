@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {1.4.2}Lettau-Ludvigson decomposition}{9}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Prediction zoo}{9}{section.1.5}
 \contentsline {section}{\numberline {1.6}Issues and extensions}{9}{section.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{9}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{10}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{10}{subsection.1.6.2}
 \contentsline {subsection}{\numberline {1.6.3}Instability in the prediction relation}{10}{subsection.1.6.3}
 \contentsline {subsection}{\numberline {1.6.4}Measurement}{10}{subsection.1.6.4}
