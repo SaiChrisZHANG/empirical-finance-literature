@@ -5,14 +5,15 @@
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.1.2.2}Variance ratio}{\reset@font\mtcSSSfont 7}{subsubsection.1.1.2.2}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.1.2.3}Regression approach}{\reset@font\mtcSSSfont 8}{subsubsection.1.1.2.3}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1.3}Extension: Other variance-ratio tests}{\reset@font\mtcSSfont 8}{subsection.1.1.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.1.3.1}Individual VR tests}{\reset@font\mtcSSSfont 9}{subsubsection.1.1.3.1}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.2}Autocorrelations in returns: empirical evidence}{\reset@font\mtcSfont 9}{section.1.2}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.1}Positive autocorrelations}{\reset@font\mtcSSfont 9}{subsection.1.2.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.2}Negative autocorrelations}{\reset@font\mtcSSfont 9}{subsection.1.2.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.3}Excess volatility puzzle}{\reset@font\mtcSfont 9}{section.1.3}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.4}Decomposing prices}{\reset@font\mtcSfont 9}{section.1.4}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.1}Campbell-Schiller decomposition}{\reset@font\mtcSSfont 9}{subsection.1.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.2}Lettau-Ludvigson decomposition}{\reset@font\mtcSSfont 9}{subsection.1.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.5}Prediction zoo}{\reset@font\mtcSfont 9}{section.1.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.2}Lettau-Ludvigson decomposition}{\reset@font\mtcSSfont 10}{subsection.1.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.5}Prediction zoo}{\reset@font\mtcSfont 10}{section.1.5}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.6}Issues and extensions}{\reset@font\mtcSfont 10}{section.1.6}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.6.1}Persistency of most regressors}{\reset@font\mtcSSfont 10}{subsection.1.6.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.6.2}Aggregate predictors without ex-ante choice}{\reset@font\mtcSSfont 10}{subsection.1.6.2}}
