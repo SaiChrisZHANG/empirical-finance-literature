@@ -124,7 +124,7 @@ alternative asymptotics assuming $K/T\rightarrow \delta$ where $\delta>0$.
 To accommodate $r_t$'s exhibiting conditional heteroskedasticity, \citet{lo1988stock} proposed a heteroskedasticity-robust
 variance estimation of VR(K) as:
 $$
-Var^*(\hat{VR}(K)) = 4\sum^{K-1}_{j=1}\left(1-\frac{j}{K}\right)^2 \cdot 
+Var^*(\hat{VR}(K)) = 4\sum^{K-1}_{j=1}\left(1-\frac{j}{K}\right)^2 \cdot \frac{\sum^T_{t=j+1}}{s}
 $$
 
 \subsubsection{Regression approach}
