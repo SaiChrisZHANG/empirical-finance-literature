@@ -8,7 +8,7 @@
 \contentsline {subsubsection}{\numberline {1.1.2.3}Regression approach}{8}{subsubsection.1.1.2.3}
 \contentsline {subsection}{\numberline {1.1.3}Extension: Other variance-ratio tests}{8}{subsection.1.1.3}
 \contentsline {section}{\numberline {1.2}Autocorrelations in returns: empirical evidence}{8}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Positive autocorrelations}{8}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Positive autocorrelations}{9}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Negative autocorrelations}{9}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Excess volatility puzzle}{9}{section.1.3}
 \contentsline {section}{\numberline {1.4}Decomposing prices}{9}{section.1.4}
@@ -17,7 +17,7 @@
 \contentsline {section}{\numberline {1.5}Prediction zoo}{9}{section.1.5}
 \contentsline {section}{\numberline {1.6}Issues and extensions}{9}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{9}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{9}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{10}{subsection.1.6.2}
 \contentsline {subsection}{\numberline {1.6.3}Instability in the prediction relation}{10}{subsection.1.6.3}
 \contentsline {subsection}{\numberline {1.6.4}Measurement}{10}{subsection.1.6.4}
 \contentsline {chapter}{\numberline {2}Cross-Section Predictability}{11}{chapter.2}

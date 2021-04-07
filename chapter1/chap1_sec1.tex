@@ -87,7 +87,9 @@ $$
 $$
 If there are not autocorrelations, then the i.i.d. returns would have identical variance in each period from $t$ to $t+K$,
 and $Var(r_t(K)) = Var(r_t+\cdots+r_{t+K-1})=Var(r_t)+\cdots+Var(r_{t+K-1})=K\cdot Var(r_t)$. Thus, $VR(K)=1$. If we rewrite
-the definition of the variance ratio as:
+the definition of the variance ratio as \footnote{\citet{cochrane1988big} showed that the estimator of VR(K) can be 
+interpreted in terms of the frequency domain. It is asymptotically equivalent to $2\pi$ times the normalized spectral density
+estimator at the zero frequency, which uses the Bartlett kernel.}:
 \begin{equation}\label{eq1.3}
     VR(K) = \frac{Var(r_t(K))}{K\cdot Var(r_{t})} = 1+\underbrace{2\sum^{K-1}_{j=1}\left(1-\frac{j}{K}\right)\hat{\rho}_j}_{\text{weighted average of the first $K-1$ sample autocorrelations}}
 \end{equation}
@@ -145,3 +147,4 @@ As summarized by \citet{charles2009variance}, the intuition behind the VR test i
 straightforward. In this bonus subsection, I briefly summarize some recent development of individual VR tests, multiple VR tests and bootstrapping VR tests.
 For more detailed discussion, see \citet{charles2009variance} for a review.
 
+\

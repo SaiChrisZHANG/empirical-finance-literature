@@ -5,45 +5,45 @@ The style file: plainnat.bst
 Database file #1: reference.bib
 Warning--there's a number but no series in priestley1981spectral
 Warning--empty publisher in priestley1981spectral
-You've used 11 entries,
+You've used 12 entries,
             2773 wiz_defined-function locations,
-            664 strings with 6551 characters,
-and the built_in function-call counts, 4792 in all, are:
-= -- 453
-> -- 198
-< -- 13
-+ -- 68
-- -- 57
-* -- 360
-:= -- 719
-add.period$ -- 35
-call.type$ -- 11
-change.case$ -- 50
-chr.to.int$ -- 11
-cite$ -- 24
-duplicate$ -- 233
-empty$ -- 436
-format.name$ -- 84
-if$ -- 1016
+            670 strings with 6653 characters,
+and the built_in function-call counts, 5183 in all, are:
+= -- 491
+> -- 208
+< -- 14
++ -- 72
+- -- 60
+* -- 389
+:= -- 778
+add.period$ -- 38
+call.type$ -- 12
+change.case$ -- 54
+chr.to.int$ -- 12
+cite$ -- 26
+duplicate$ -- 253
+empty$ -- 476
+format.name$ -- 88
+if$ -- 1098
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 13
-newline$ -- 63
-num.names$ -- 44
-pop$ -- 99
+missing$ -- 14
+newline$ -- 68
+num.names$ -- 48
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 41
+purify$ -- 44
 quote$ -- 0
-skip$ -- 176
+skip$ -- 189
 stack$ -- 0
-substring$ -- 248
-swap$ -- 21
+substring$ -- 275
+swap$ -- 22
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 111
+type$ -- 122
 warning$ -- 2
-while$ -- 52
+while$ -- 57
 width$ -- 0
-write$ -- 149
+write$ -- 162
 (There were 2 warnings)

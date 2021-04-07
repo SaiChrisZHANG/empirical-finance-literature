@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,6 +22,12 @@ Am{\'e}lie Charles and Olivier Darn{\'e}.
 \newblock Variance-ratio tests of random walk: an overview.
 \newblock \emph{Journal of Economic Surveys}, 23\penalty0 (3):\penalty0
   503--527, 2009.
+
+\bibitem[Cochrane(1988)]{cochrane1988big}
+John~H Cochrane.
+\newblock How big is the random walk in gnp?
+\newblock \emph{Journal of political economy}, 96\penalty0 (5):\penalty0
+  893--920, 1988.
 
 \bibitem[Fama and French(1988)]{fama1988permanent}
 Eugene~F Fama and Kenneth~R French.
