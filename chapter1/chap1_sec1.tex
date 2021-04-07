@@ -87,9 +87,7 @@ $$
 $$
 If there are not autocorrelations, then the i.i.d. returns would have identical variance in each period from $t$ to $t+K$,
 and $Var(r_t(K)) = Var(r_t+\cdots+r_{t+K-1})=Var(r_t)+\cdots+Var(r_{t+K-1})=K\cdot Var(r_t)$. Thus, $VR(K)=1$. If we rewrite
-the definition of the variance ratio as \footnote{\citet{cochrane1988big} showed that the estimator of VR(K) can be 
-interpreted in terms of the frequency domain. It is asymptotically equivalent to $2\pi$ times the normalized spectral density
-estimator at the zero frequency, which uses the Bartlett kernel.}:
+the definition of the variance ratio as:
 \begin{equation}\label{eq1.3}
     VR(K) = \frac{Var(r_t(K))}{K\cdot Var(r_{t})} = 1+\underbrace{2\sum^{K-1}_{j=1}\left(1-\frac{j}{K}\right)\hat{\rho}_j}_{\text{weighted average of the first $K-1$ sample autocorrelations}}
 \end{equation}
@@ -104,7 +102,9 @@ Then by comparing $VR(K)$ with 1, we can deduct the direction of the autocorrela
     \hline
     \end{tabular}
 \end{center}
-Notice that the weight term $1-\frac{j}{K}$ increases as $j$ approaches $K$.
+Notice that the weight term $1-\frac{j}{K}$ increases as $j$ approaches $K$\footnote{\citet{cochrane1988big} showed that the estimator of VR(K) can be 
+interpreted in terms of the frequency domain. It is asymptotically equivalent to $2\pi$ times the normalized spectral density
+estimator at the zero frequency, which uses the Bartlett kernel.}.
 
 The asymptotic variance of the variance-ratio statistic, under $H_0$ (i.i.d. returns), is:
 \begin{equation}
