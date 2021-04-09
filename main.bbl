@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,6 +22,11 @@ Am{\'e}lie Charles and Olivier Darn{\'e}.
 \newblock Variance-ratio tests of random walk: an overview.
 \newblock \emph{Journal of Economic Surveys}, 23\penalty0 (3):\penalty0
   503--527, 2009.
+
+\bibitem[Chen and Deo(2006)]{chen2006variance}
+Willa~W Chen and Rohit~S Deo.
+\newblock The variance ratio statistic at large horizons.
+\newblock \emph{Econometric Theory}, pages 206--234, 2006.
 
 \bibitem[Cochrane(1988)]{cochrane1988big}
 John~H Cochrane.

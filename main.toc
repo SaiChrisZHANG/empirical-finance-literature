@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {1.2.2}Negative autocorrelations}{9}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Excess volatility puzzle}{9}{section.1.3}
 \contentsline {section}{\numberline {1.4}Decomposing prices}{9}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Campbell-Schiller decomposition}{9}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}Campbell-Schiller decomposition}{10}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Lettau-Ludvigson decomposition}{10}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Prediction zoo}{10}{section.1.5}
 \contentsline {section}{\numberline {1.6}Issues and extensions}{10}{section.1.6}
