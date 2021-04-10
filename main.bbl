@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -27,6 +27,12 @@ Am{\'e}lie Charles and Olivier Darn{\'e}.
 Willa~W Chen and Rohit~S Deo.
 \newblock The variance ratio statistic at large horizons.
 \newblock \emph{Econometric Theory}, pages 206--234, 2006.
+
+\bibitem[Choi(1999)]{choi1999testing}
+In~Choi.
+\newblock Testing the random walk hypothesis for real exchange rates.
+\newblock \emph{Journal of Applied Econometrics}, 14\penalty0 (3):\penalty0
+  293--308, 1999.
 
 \bibitem[Cochrane(1988)]{cochrane1988big}
 John~H Cochrane.
