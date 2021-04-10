@@ -184,6 +184,6 @@ determine the optimal value of $K$. This test is based on frequency domain follo
 All the tests above are individual tests, where the null hypothesis is tested for an individual value of $K$. However, to determine whether a time series is a random walk, we need to rule
 out all possibilities, meaning that for all values of $K$, the null hypothesis can not be rejected. It is necessary to conduct a joint test where a multiple comparison of VRs over a set of
 different time horizons is made. However, conducting separate individual tests for a number of $K$ values may lead to over rejection of the null hypothesis. Several tests have been developed 
-for this problem, with the joint null hypothesis $H_0$
+for this problem, with the joint null hypothesis $H_0: \forall K_i, V(K_i)=1$ against the alternative $H_1: \exists K_i, V(K_i)\neq 1$
 
 \textbf{\citet{choi1999testing} Test}:
