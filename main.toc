@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {1.6}Issues and extensions}{10}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{10}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{10}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Instability in the prediction relation}{11}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.3}Instability in the prediction relation}{10}{subsection.1.6.3}
 \contentsline {subsection}{\numberline {1.6.4}Measurement}{11}{subsection.1.6.4}
 \contentsline {chapter}{\numberline {2}Cross-Section Predictability}{12}{chapter.2}
 \contentsline {section}{\numberline {2.1}Section 1}{12}{section.2.1}
