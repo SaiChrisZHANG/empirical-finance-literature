@@ -176,4 +176,6 @@ density of a stationary process at the origin.
 The rank-based tests display low-size distortions under conditional heteroskedasticity. One thing to notice is that the sign test assumes a zero drift value,
 \citet{luger2003exact} extended this test with unknown drift.
 
-\textbf{\citet{choi1999testing} Test}: 
+\textbf{\citet{choi1999testing} Test}: To overcome the issue that the arbitrary and \textit{ad hoc} choice of $K$, \citet{choi1999testing} proposed a data-dependent procedure to
+determine the optimal value of $K$. This test is based on frequency domain following \citet{cochrane1988big}. However, instead of using Bartlett kernel as \citeauthor{cochrane1988big},
+\citeauthor{choi1999testing} employed the quadratic spectral kernel since it's optimal in estimating the spectral density at the zero frequency.
