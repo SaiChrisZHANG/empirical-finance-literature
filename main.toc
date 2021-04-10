@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {1.3}Excess volatility puzzle}{10}{section.1.3}
 \contentsline {section}{\numberline {1.4}Decomposing prices}{10}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Campbell-Schiller decomposition}{10}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Lettau-Ludvigson decomposition}{10}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Lettau-Ludvigson decomposition}{11}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Prediction zoo}{11}{section.1.5}
 \contentsline {section}{\numberline {1.6}Issues and extensions}{11}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{11}{subsection.1.6.1}
