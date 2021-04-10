@@ -657,8 +657,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/pxmi.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/pxfonts/pxmi.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/rpxmi.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/rpxpplri.tfm
-INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex
-INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newtx/ntxmia.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/txmia.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxsyralt.tfm
@@ -669,6 +667,13 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxexb.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/rtxmio.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/boondox/zxxrl7z.tfm
+INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex
+INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newpx/zplmi.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/pxmi.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/pxfonts/pxmi.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/rpxmi.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/rpxpplri.tfm
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2
@@ -796,4 +801,3 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb
