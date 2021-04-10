@@ -1,0 +1,42 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Time-Series Predictability}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Concepts and models}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Market Efficiency}{4}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Model: autocorrelation of returns}{5}{subsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.2.1}Q-statistics}{5}{subsubsection.1.1.2.1}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Variance ratio}{6}{subsubsection.1.1.2.2}
+\contentsline {subsubsection}{\numberline {1.1.2.3}Regression approach}{7}{subsubsection.1.1.2.3}
+\contentsline {subsection}{\numberline {1.1.3}Extension: Other variance-ratio tests}{7}{subsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.3.1}Individual VR tests}{8}{subsubsection.1.1.3.1}
+\contentsline {subsubsection}{\numberline {1.1.3.2}Multiple VR tests}{8}{subsubsection.1.1.3.2}
+\contentsline {section}{\numberline {1.2}Autocorrelations in returns: empirical evidence}{9}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Positive autocorrelations}{9}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Negative autocorrelations}{9}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}Excess volatility puzzle}{9}{section.1.3}
+\contentsline {section}{\numberline {1.4}Decomposing prices}{9}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Campbell-Schiller decomposition}{9}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Lettau-Ludvigson decomposition}{10}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Prediction zoo}{10}{section.1.5}
+\contentsline {section}{\numberline {1.6}Issues and extensions}{10}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{10}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{10}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Instability in the prediction relation}{10}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Measurement}{10}{subsection.1.6.4}
+\contentsline {chapter}{\numberline {2}Cross-Section Predictability}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Section 1}{11}{section.2.1}
+\contentsline {chapter}{\numberline {3}GMM and Cross-section test}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Section 1}{12}{section.3.1}
+\contentsline {chapter}{\numberline {4}Advances in cross-section asset pricing}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Section 1}{13}{section.4.1}
+\contentsline {chapter}{\numberline {5}Consumption-based asset pricing}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}Section 1}{14}{section.5.1}
+\contentsline {chapter}{\numberline {6}Term structure of returns}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}Section 1}{15}{section.6.1}
+\contentsline {chapter}{\numberline {7}Learning}{16}{chapter.7}
+\contentsline {section}{\numberline {7.1}Section 1}{16}{section.7.1}
+\contentsline {chapter}{\numberline {8}Currencies: time-series and cross-section}{17}{chapter.8}
+\contentsline {section}{\numberline {8.1}Section 1}{17}{section.8.1}
+\contentsline {chapter}{\numberline {9}Intermediary-based asset pricing}{18}{chapter.9}
+\contentsline {section}{\numberline {9.1}Section 1}{18}{section.9.1}
+\contentsline {chapter}{\numberline {10}finance and big data}{19}{chapter.10}
+\contentsline {section}{\numberline {10.1}Section 1}{19}{section.10.1}
