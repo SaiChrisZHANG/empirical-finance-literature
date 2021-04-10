@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{18}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -101,6 +101,11 @@ Hersh Shefrin and Meir Statman.
   Theory and evidence.
 \newblock \emph{The Journal of finance}, 40\penalty0 (3):\penalty0 777--790,
   1985.
+
+\bibitem[Whang and Kim(2003)]{whang2003multiple}
+Yoon-Jae Whang and Jinho Kim.
+\newblock A multiple variance ratio test using subsampling.
+\newblock \emph{Economics Letters}, 79\penalty0 (2):\penalty0 225--230, 2003.
 
 \bibitem[Wright(2000)]{wright2000alternative}
 Jonathan~H Wright.

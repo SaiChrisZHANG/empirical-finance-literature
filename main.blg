@@ -3,48 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: reference.bib
-Warning--I didn't find a database entry for ""
 Warning--there's a number but no series in priestley1981spectral
 Warning--empty publisher in priestley1981spectral
-You've used 17 entries,
+You've used 18 entries,
             2773 wiz_defined-function locations,
-            705 strings with 7334 characters,
-and the built_in function-call counts, 7323 in all, are:
-= -- 701
-> -- 280
-< -- 20
-+ -- 98
-- -- 81
-* -- 543
-:= -- 1093
-add.period$ -- 53
-call.type$ -- 17
-change.case$ -- 76
-chr.to.int$ -- 17
-cite$ -- 36
-duplicate$ -- 362
-empty$ -- 677
-format.name$ -- 118
-if$ -- 1557
+            711 strings with 7456 characters,
+and the built_in function-call counts, 7779 in all, are:
+= -- 745
+> -- 301
+< -- 21
++ -- 105
+- -- 87
+* -- 580
+:= -- 1161
+add.period$ -- 56
+call.type$ -- 18
+change.case$ -- 81
+chr.to.int$ -- 18
+cite$ -- 38
+duplicate$ -- 382
+empty$ -- 717
+format.name$ -- 127
+if$ -- 1653
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 19
-newline$ -- 93
-num.names$ -- 68
-pop$ -- 145
+missing$ -- 20
+newline$ -- 98
+num.names$ -- 72
+pop$ -- 153
 preamble$ -- 1
-purify$ -- 61
+purify$ -- 65
 quote$ -- 0
-skip$ -- 272
+skip$ -- 288
 stack$ -- 0
-substring$ -- 405
-swap$ -- 36
+substring$ -- 432
+swap$ -- 37
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 177
+type$ -- 188
 warning$ -- 2
-while$ -- 83
+while$ -- 88
 width$ -- 0
-write$ -- 227
-(There were 3 warnings)
+write$ -- 240
+(There were 2 warnings)
