@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -33,6 +33,12 @@ In~Choi.
 \newblock Testing the random walk hypothesis for real exchange rates.
 \newblock \emph{Journal of Applied Econometrics}, 14\penalty0 (3):\penalty0
   293--308, 1999.
+
+\bibitem[Chow and Denning(1993)]{chow1993simple}
+K~Victor Chow and Karen~C Denning.
+\newblock A simple multiple variance ratio test.
+\newblock \emph{Journal of Econometrics}, 58\penalty0 (3):\penalty0 385--401,
+  1993.
 
 \bibitem[Cochrane(1988)]{cochrane1988big}
 John~H Cochrane.
