@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -100,6 +100,13 @@ Maurice~Bertram Priestley.
 \newblock \emph{Spectral analysis and time series: probability and mathematical
   statistics}.
 \newblock Number 04; QA280, P7. 1981.
+
+\bibitem[Richardson and Smith(1991)]{richardson1991tests}
+Matthew Richardson and Tom Smith.
+\newblock Tests of financial models in the presence of overlapping
+  observations.
+\newblock \emph{The Review of Financial Studies}, 4\penalty0 (2):\penalty0
+  227--254, 1991.
 
 \bibitem[Shefrin and Statman(1985)]{shefrin1985disposition}
 Hersh Shefrin and Meir Statman.
