@@ -205,4 +205,6 @@ For a subsample of size $b$: $(x_t,\cdots,x_{t-b+1})$ where $t=1,\cdots,T-b+1$. 
 $100(1-\alpha)\%$ critical value. To implement this subsampling technique, a choice of block length $b$ must be made. \citet{whang2003multiple} recommended the interval of 
 $(2.5T^{0.3},3.5T^{0.6})$, but they also found that the size and power properties of their test are not sensitive to $b$.
 
-\textbf{\cite{belaire2004ranks} Test}: This is a multiple rank and sign VR tests.
+\textbf{\cite{belaire2004ranks} Test}: This is a multiple rank and sign VR tests, an extension to the \citeauthor{wright2000alternative}'s rank- and sign-based tests. The test is based on 
+the definition of \citet{chow1993simple} procedure. The rank-based procedures are exact under the i.i.d. assumption whereas the sign-based procedures are exact under both the i.i.d. and
+martingale difference sequence assumption. They showed that rank-based tests are more powerful than their sign-based counterparts.
