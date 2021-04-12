@@ -187,7 +187,7 @@ different time horizons is made. However, conducting separate individual tests f
 for this problem, with the joint null hypothesis $H_0: \forall K_i, V(K_i)=1$ against the alternative $H_1: \exists K_i, V(K_i)\neq 1$
 
 \textbf{\citet{chow1993simple} Test}: This test statistic is defined as 
-$$MV_1=\sqrt{T}\max_{1\leq i \leq m}|M_1(K_i)|$$
+$$MVR_1=\sqrt{T}\max_{1\leq i \leq m}|M_1(K_i)|$$
 where $M_1(K_i) = \frac{VR(K_i)-1}{\sqrt{2(2K-1)(K-1)/3KT}}$. This is based on the idea that the decision regarding the null hypothesis can be obtained from the maximum absolute value of
 the individual VR statistics. Then, they applied the Sidak probability inequality and give an upper bound to the critical values taken in the studentized maximum modulus (SMM) distribution.
 The statistic follows the SMM distribution with $m$ and $T$ degrees of freedom, where $m$ is the number of $K$ values. To accommodate heteroskedasticity, one can change $M_1(K_i)$ into 
@@ -196,5 +196,5 @@ a heteroskedasticity-robust individual VR test.
 \textbf{\cite{whang2003multiple} Test}: They use a subsampling technique to develop a multiple VR test. When sample size ($T$) is relatively small, this test outperforms the conventional VR
 tests, and shows little to no serious size distortions. The statistic is:
 $$
-MVR_T = \sqrt{T}\max_{1\leq i \leq m}
+MVR_T = \sqrt{T}\max_{1\leq i \leq m}|VR(K_i)-1|
 $$
