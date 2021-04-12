@@ -211,7 +211,7 @@ martingale difference sequence assumption. They showed that rank-based tests are
 
 \textbf{\citet[Wald-Type Test]{richardson1991tests}}: They suggested a joint test based on the following Wald statistic:
 $$
-MVR_{RS}(K) = T(\mathbf{VR}-\mathbf{1})'\Phi^{-1}(\mathbf{VR}-\mathbf{1})
+MVR_{RS}(K) = T(\mathbf{VR}-\mathbf{1})'\mathbf{\Phi}^{-1}(\mathbf{VR}-\mathbf{1})
 $$
 where $\mathbf{VR}$ is the $K\times 1$ vector of sample $K$ VRs, $\mathbf{1}$ is the $K\times 1$ unit vector; $\Phi$ is the covariance matrix of $\mathbf{VR}$. This statistic $MVR_{RS}(K)$ follows
 a $\chi^2$ distribution with $K$ degrees of freedom. One thing to remember about this test is that the VR tests are computed over Long lags with overlapping observations, the distribution 
@@ -220,5 +220,6 @@ of the VR test is NON-normal.
 \textbf{\citet[Wald-Type Test]{cecchetti1994variance}}: They also developed a Wald-type multiple VR statistic that incorporates the correlations between VR statistics at various horizon and weights
 them according to their variances:
 $$
-MVR_{CL}(K) = [\mathbf{VR}(K)-\mathbb{E}[\mathbf{VR(K)}]]'\sum^{-1}(K)[\mathbf{VR}(K)-\mathbb{E}[\mathbf{VR(K)}]]
+MVR_{CL}(K) = [\mathbf{VR}(K)-\mathbb{E}[\mathbf{VR(K)}]]'\mathbf{\Psi}^{-1}(K)[\mathbf{VR}(K)-\mathbb{E}[\mathbf{VR(K)}]]
 $$
+where $\mathbf{VR}(K)$ is a vector of VR statistics 
