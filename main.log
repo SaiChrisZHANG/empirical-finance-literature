@@ -1152,4 +1152,71 @@ Chapter 8.
 (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter8/chapter8.tex
 \openout3 = `main.mtc'.
 
-\openout3 = `main.mtc'
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [18
+
+]
+Chapter 9.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter9/chapter9.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [19
+
+]
+Chapter 10.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter10/chapter10.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [20
+
+] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl [21
+
+])
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main.maf file.
+\openout3 = `main.maf'.
+
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the main.log file.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 50316677BAE47037656365CEDF9E38B3;2524.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+ ) 
+Here is how much of TeX's memory you used:
+ 13712 strings out of 492649
+ 198204 string characters out of 6129623
+ 330587 words of memory out of 5000000
+ 16913 multiletter control sequences out of 15000+600000
+ 144863 words of font info for 223 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 32i,12n,44p,1031b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/ntxsyralt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexas.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (23 pages, 208151 bytes).
+PDF statistics:
+ 537 PDF objects out of 1000 (max. 8388607)
+ 492 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 297 words of extra memory for PDF output out of 10000 (max. 10000000)
+
