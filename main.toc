@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {1.1.3}Extension: Other variance-ratio tests}{8}{subsection.1.1.3}
 \contentsline {subsubsection}{\numberline {1.1.3.1}Individual VR tests}{9}{subsubsection.1.1.3.1}
 \contentsline {subsubsection}{\numberline {1.1.3.2}Multiple VR tests}{9}{subsubsection.1.1.3.2}
-\contentsline {section}{\numberline {1.2}Autocorrelations in returns: empirical evidence}{10}{section.1.2}
+\contentsline {section}{\numberline {1.2}Autocorrelations in returns: empirical evidence}{11}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Positive autocorrelations}{11}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Negative autocorrelations}{11}{subsection.1.2.2}
 \contentsline {section}{\numberline {1.3}Excess volatility puzzle}{11}{section.1.3}
@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {1.4.1}Campbell-Schiller decomposition}{11}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Lettau-Ludvigson decomposition}{11}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Prediction zoo}{11}{section.1.5}
-\contentsline {section}{\numberline {1.6}Issues and extensions}{11}{section.1.6}
+\contentsline {section}{\numberline {1.6}Issues and extensions}{12}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{12}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{12}{subsection.1.6.2}
 \contentsline {subsection}{\numberline {1.6.3}Instability in the prediction relation}{12}{subsection.1.6.3}

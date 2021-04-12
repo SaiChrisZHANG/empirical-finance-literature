@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,6 +22,13 @@ George~EP Box and David~A Pierce.
 John~Y Campbell.
 \newblock \emph{Financial decisions and markets: a course in asset pricing}.
 \newblock Princeton University Press, 2017.
+
+\bibitem[Cecchetti and Lam(1994)]{cecchetti1994variance}
+Stephen~G Cecchetti and Pok-sang Lam.
+\newblock Variance-ratio tests: small-sample properties with an application to
+  international output data.
+\newblock \emph{Journal of Business \& Economic Statistics}, 12\penalty0
+  (2):\penalty0 177--186, 1994.
 
 \bibitem[Charles and Darn{\'e}(2009)]{charles2009variance}
 Am{\'e}lie Charles and Olivier Darn{\'e}.
