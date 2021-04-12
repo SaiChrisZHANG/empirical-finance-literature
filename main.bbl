@@ -1,9 +1,15 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Belaire-Franch and Contreras(2004)]{belaire2004ranks}
+Jorge Belaire-Franch and Dulce Contreras.
+\newblock Ranks and signs-based multiple variance ratio tests.
+\newblock In \emph{Spanish-Italian Meeting on Financial Mathematics, VII},
+  page~40. Spanish-Italian Meeting on Financial Mathematics Cuenca, 2004.
 
 \bibitem[Box and Pierce(1970)]{box1970distribution}
 George~EP Box and David~A Pierce.
