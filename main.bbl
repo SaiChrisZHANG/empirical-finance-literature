@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -143,5 +143,12 @@ Jonathan~H Wright.
 \newblock Alternative variance-ratio tests using ranks and signs.
 \newblock \emph{Journal of Business \& Economic Statistics}, 18\penalty0
   (1):\penalty0 1--9, 2000.
+
+\bibitem[Wu et~al.(1986)]{wu1986jackknife}
+Chien-Fu~Jeff Wu et~al.
+\newblock Jackknife, bootstrap and other resampling methods in regression
+  analysis.
+\newblock \emph{the Annals of Statistics}, 14\penalty0 (4):\penalty0
+  1261--1295, 1986.
 
 \end{thebibliography}
