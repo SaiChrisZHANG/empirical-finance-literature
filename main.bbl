@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -64,6 +64,11 @@ Eugene~F Fama and Kenneth~R French.
 \newblock Permanent and temporary components of stock prices.
 \newblock \emph{Journal of political Economy}, 96\penalty0 (2):\penalty0
   246--273, 1988.
+
+\bibitem[Kim(2006)]{kim2006wild}
+Jae~H Kim.
+\newblock Wild bootstrapping variance ratio tests.
+\newblock \emph{Economics letters}, 92\penalty0 (1):\penalty0 38--43, 2006.
 
 \bibitem[Lo and MacKinlay(1988)]{lo1988stock}
 Andrew~W Lo and A~Craig MacKinlay.
