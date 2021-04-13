@@ -246,6 +246,8 @@ instead of actual returns. The bootstrap scheme can be summarized in 4 steps:
 \begin{enumerate}
     \item[(1)] For each $t$, draw a weighting factor $z_t^*$ with replacement from the empirical distribution of normalized returns $z_t = (r_t-\bar{r})/\sigma(r)$, where $t=1,\cdots,T$, $\bar(r)=E(r)$, $\sigma(r)=Var(r)$.
     \item[(2)] Form the bootstrap sample of $T$ observations $\tilde{r}^*_t=z_t^*r_t$
-    \item[(3)] Calculate the VR statistic $VR^*(K)$
-    \item[(4)]   
+    \item[(3)] Calculate the VR statistic $VR^*(K)$ from the sample $r_t^*$
+    \item[(4)] Repeat steps (1) and (2) M times, obtaining $VR^*(K;m)_{1\leq m \leq M}$ 
 \end{enumerate}
+Using this procedure, resampling from normalized returns, the weighted bootstrap method accounts for the possible non-constancy of the variance of returns. This weighted bootstrap scheme is designed to 
+overcome the difficulty that resampling methods may generate data that are less dependent than the original data.
