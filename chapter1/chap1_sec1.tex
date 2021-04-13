@@ -200,7 +200,6 @@ MVR_T = \sqrt{T}\max_{1\leq i \leq m}|VR(K_i)-1|
 $$
 and the sampling distribution function for the $MVR_T$ statistic is asymptotically a maximum of a multivariate normal vector with an unknown covariance matrix, which would be complicated to
 estimate. Therefore, they proposed to approximate the null distribution by means of the subsampling approach.
-
 For a subsample of size $b$: $(x_t,\cdots,x_{t-b+1})$ where $t=1,\cdots,T-b+1$. The statistic $MVR$s calculated from all individual subsamples would generate a $(1-\alpha)$th percentile for the
 $100(1-\alpha)\%$ critical value. To implement this subsampling technique, a choice of block length $b$ must be made. \citet{whang2003multiple} recommended the interval of 
 $(2.5T^{0.3},3.5T^{0.6})$, but they also found that the size and power properties of their test are not sensitive to $b$.
@@ -240,4 +239,4 @@ the distribution of the original population is unknown.
     \item[(3)] Repeat (1) and (2) for a sufficient amount of times $m$, to form a bootstrap distribution of the test statistic $\left\{VR(X^{*},K_j; j)\right\}^m_{j=1}$
 \end{enumerate}
 Conditional on $X_t$, $X_t^*$ is a serially uncorrelated sequence with zero mean and variance $X_t^2$. Thus, wild bootstrapping approximates the sampling distributions under the null hypothesis, which is
-a desirable property for a bootstrap test.
+a desirable property for a bootstrap test. To perform the test, a specific form of $\eta_t$ should be chosen. \citet{kim2006wild} recommended using the standard normal distribution for $\eta_t$.
