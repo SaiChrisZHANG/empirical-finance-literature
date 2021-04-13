@@ -236,6 +236,6 @@ the distribution of the original population is unknown.
 \textbf{\citet{kim2006wild}}: \citet{kim2006wild} applied the wild bootstrap to the \citeauthor{lo1988stock} test and the \citeauthor{chow1993simple} test in 3 stages:
 \begin{enumerate}
     \item[(1)] From a bootstrap sample of $T$ observations $X_t^{*}=\eta_tX_t$, where $\eta_t$ is a random sequence with $E(\eta)=0, E(\eta^2)=1$ and $t=1,\cdots,T$
-    \item[(2)]
-    \item[(3)]   
+    \item[(2)] For the bootstrap sample generated in (1), calculate $VR^{*}=VR(X^{*},K_i)$
+    \item[(3)] Repeat (1) and (2) for a sufficient amount of times $m$, to form a bootstrap distribution of the test statistic $\left\{VR(X^{*},K_j; j)\right\}^m_{j=1}$
 \end{enumerate}
