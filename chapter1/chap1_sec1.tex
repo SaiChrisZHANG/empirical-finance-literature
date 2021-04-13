@@ -250,4 +250,5 @@ instead of actual returns. The bootstrap scheme can be summarized in 4 steps:
     \item[(4)] Repeat steps (1) and (2) M times, obtaining $VR^*(K;m)_{1\leq m \leq M}$ 
 \end{enumerate}
 Using this procedure, resampling from normalized returns, the weighted bootstrap method accounts for the possible non-constancy of the variance of returns. This weighted bootstrap scheme is designed to 
-overcome the difficulty that resampling methods may generate data that are less dependent than the original data.
+overcome the difficulty that resampling methods may generate data that are less dependent than the original data. One thing to notice is that \citeauthor{malliaropulos1999mean}'s method is not asymptotically
+pivotal and not supported by any asymptotic theory or Monte Carlo evidence to evaluate its properties, unlike \citeauthor{kim2006wild}'s method.
