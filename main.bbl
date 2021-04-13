@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -100,6 +100,12 @@ Burton~G Malkiel and Eugene~F Fama.
 \newblock Efficient capital markets: A review of theory and empirical work.
 \newblock \emph{The journal of Finance}, 25\penalty0 (2):\penalty0 383--417,
   1970.
+
+\bibitem[Malliaropulos and Priestley(1999)]{malliaropulos1999mean}
+Dimitrios Malliaropulos and Richard Priestley.
+\newblock Mean reversion in southeast asian stock markets.
+\newblock \emph{Journal of Empirical Finance}, 6\penalty0 (4):\penalty0
+  355--384, 1999.
 
 \bibitem[Poterba and Summers(1988)]{poterba1988mean}
 James~M Poterba and Lawrence~H Summers.

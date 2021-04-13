@@ -232,7 +232,7 @@ $H_1: \exists K_i$ s.t. $VR(K_i)<1$).
 Instead of using the subsampling method, some researchers proposed to employ a bootstrap method, which is distribution-free and can be used to estimate the sampling distribution of the VR statistic when 
 the distribution of the original population is unknown.
 
-\textbf{\citet{kim2006wild}}: \citet{kim2006wild} applied the wild bootstrap to the \citeauthor{lo1988stock} test and the \citeauthor{chow1993simple} test in 3 stages:
+\textbf{\citet{kim2006wild} Test}: \citet{kim2006wild} applied the wild bootstrap to the \citeauthor{lo1988stock} test and the \citeauthor{chow1993simple} test in 3 stages:
 \begin{enumerate}
     \item[(1)] From a bootstrap sample of $T$ observations $X_t^{*}=\eta_tX_t$, where $\eta_t$ is a random sequence with $E(\eta)=0, E(\eta^2)=1$ and $t=1,\cdots,T$
     \item[(2)] For the bootstrap sample generated in (1), calculate $VR^{*}=VR(X^{*},K_i)$
@@ -240,3 +240,5 @@ the distribution of the original population is unknown.
 \end{enumerate}
 Conditional on $X_t$, $X_t^*$ is a serially uncorrelated sequence with zero mean and variance $X_t^2$. Thus, wild bootstrapping approximates the sampling distributions under the null hypothesis, which is
 a desirable property for a bootstrap test. To perform the test, a specific form of $\eta_t$ should be chosen. \citet{kim2006wild} recommended using the standard normal distribution for $\eta_t$.
+
+\textbf{\citet{malliaropulos1999mean} Test}: 
