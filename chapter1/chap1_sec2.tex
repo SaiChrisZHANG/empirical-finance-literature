@@ -41,12 +41,11 @@ take expectation, get:
     E[\pi_t(k)] &= -\frac{1}{N}\sum^N_{i=1} E\left[R_{i,t-k}R_{i,t}\right]+E\left[R_{m,t-k}R_{m,t}\right]\\
     &= -\frac{1}{N}\sum^N_{i=1}\left(Cov\left[R_{i,t-k},R_{i,t}\right] +\mu_i^2 \right) + \left(Cov\left[R_{m,t-k},R_{m,t}\right] +\mu_m^2 \right)\\
 \end{align*}
-where $\mu_m\equiv E\left[R_{m,t}\right]=\mu'\iota/N$
+where $\mu_m\equiv E\left[R_{m,t}\right]=\mu'\iota/N$. Reorganizing this equation into 3 components:
 \begin{align*}
-    E[\pi_t(k)] &= -\frac{1}{N}\sum^N_{i=1} E\left[R_{i,t-k}R_{i,t}\right]+E\left[R_{m,t-k}R_{m,t}\right]\\
-    &= -\frac{1}{N}\sum^N_{i=1}\left(Cov\left[R_{i,t-k},R_{i,t}\right] +\mu_i^2 \right) + \left(Cov\left[R_{m,t-k},R_{m,t}\right] +\mu_m^2 \right)\\
-    &= -\frac{1}{N} tr(\Gamma_k)-\frac{1}{N}\sum^N_{i=1}\mu_i^2+\frac{\iota'\Gamma_k\iota}{N^2}+\mu_m^2\\
-    & = \frac{\iota'\Gamma_k\iota}{N^2} -\frac{1}{N} tr(\Gamma_k) -\frac{1}{N}\sum^N_{i=1}(\mu_i-\mu_m)^2
+    E[\pi_t(k)] &= -\frac{1}{N}tr(\Gamma_k) -\frac{1}{N}\sum^N_{i=1}\mu_i^2+\frac{\iota'\Gamma_k\iota}{N^2}+\mu_m^2\\
+    & = \left\{\frac{\iota'\Gamma_k\iota}{N^2} -\frac{1}{N} tr(\Gamma_k) \right\}- \left\{\frac{1}{N}\sum^N_{i=1}(\mu_i-\mu_m)^2\right\}\\
+    & = \frac{1}{N^2}\left[\iota'\Gamma_k\iota-tr(\Gamma_k)\right]
 \end{align*}
 
 Based on the size-sorted portfolio returns, the authors have found that returns on larger and more liquid stocks 
