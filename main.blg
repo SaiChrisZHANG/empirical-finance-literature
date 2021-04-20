@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: plainnat.bst
+Database file #1: reference.bib
+Warning--there's a number but no series in priestley1981spectral
+Warning--empty publisher in priestley1981spectral
+You've used 24 entries,
+            2773 wiz_defined-function locations,
+            748 strings with 8435 characters,
+and the built_in function-call counts, 10449 in all, are:
+= -- 1002
+> -- 415
+< -- 28
++ -- 144
+- -- 120
+* -- 782
+:= -- 1558
+add.period$ -- 75
+call.type$ -- 24
+change.case$ -- 109
+chr.to.int$ -- 24
+cite$ -- 50
+duplicate$ -- 510
+empty$ -- 960
+format.name$ -- 175
+if$ -- 2226
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 26
+newline$ -- 128
+num.names$ -- 96
+pop$ -- 205
+preamble$ -- 1
+purify$ -- 87
+quote$ -- 0
+skip$ -- 384
+stack$ -- 0
+substring$ -- 573
+swap$ -- 49
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 254
+warning$ -- 2
+while$ -- 117
+width$ -- 0
+write$ -- 319
+(There were 2 warnings)
