@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  20 APR 2021 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  20 APR 2021 21:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1255,4 +1255,151 @@ Package natbib Warning: Citation `kim2006wild' on page 11 undefined on input lin
 
 ) (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex
 
-Package Fancyhdr Warning: \headheight i
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package natbib Warning: Citation `lo1988stock' on page 12 undefined on input line 13.
+
+
+Package natbib Warning: Citation `lo1990contrarian' on page 12 undefined on input line 13.
+
+
+Package natbib Warning: Citation `lo1988stock' on page 12 undefined on input line 14.
+
+
+Package natbib Warning: Citation `lo1990contrarian' on page 12 undefined on input line 14.
+
+
+Package natbib Warning: Citation `lo1988stock' on page 12 undefined on input line 15.
+
+
+Package natbib Warning: Citation `lo1990contrarian' on page 12 undefined on input line 17.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
+Chapter 2.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
+(Font)              scaled to size 6.1pt on input line 2.
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2)) [15
+
+]
+Chapter 3.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter3/chapter3.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3)) [16
+
+]
+Chapter 4.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter4/chapter4.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4)) [17
+
+]
+Chapter 5.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter5/chapter5.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc5)) [18
+
+]
+Chapter 6.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter6/chapter6.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc6)) [19
+
+]
+Chapter 7.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter7/chapter7.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7)) [20
+
+]
+Chapter 8.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter8/chapter8.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [21
+
+]
+Chapter 9.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter9/chapter9.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [22
+
+]
+Chapter 10.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter10/chapter10.tex
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [23
+
+] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl [24
+
+])
+
+Package natbib Warning: There were undefined citations.
+
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main.maf file.
+\openout3 = `main.maf'.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the main.log file.
+
+Package atver
