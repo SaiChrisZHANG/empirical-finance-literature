@@ -26,7 +26,7 @@ stocks at $t$ that were winners at $t-k$. This strategy can be formally written 
 $$
 \omega_{i,t}(k)=-\frac{1}{N}(R_{i,t-k}-R_{m,t-k}),\ i=1,\cdots,N
 $$
-where $R_{m,t-k}=\frac{1}{N}\sum^N_{i=1}R_{i,t-k}$ is the market index return.
+where $R_{m,t-k}=\frac{1}{N}\sum^N_{i=1}R_{i,t-k}$ is the market (equal-weighted) index return.
 
 By construction, $\vec{\omega}_{t}(k)\equiv \left[\omega_{1,t}(k),\cdots,\omega_{N,t}(k)\right]'$ is an arbitrage portfolio 
 since the weights sum to zero. Such a strategy is designed to take advantage of stock market overreactions since the stocks
@@ -34,7 +34,7 @@ whose returns deviate more from the market index return will be given higher wei
 vice versa). Profit generated from this strategy is $\pi_t(k)=\sum^N_{t=1}\omega_{i,t}(k)R_{i,t}$, rewrite this profit, get:
 
 $$
-\pi_t(k)= \sum^N_{i=1}\omega_{i,t}(k)R_{i,t}= -\frac{1}{N}\sum^N_{i=1}\left(R_{i,t-k}-\frac{1}{N}\sum^N_{i=1}R_{i,t-k}\right)R_{i,t} = -\frac{1}{N}\sum^N_{i=1}R_{i,t-k}R_{i,t}
+\pi_t(k)= \sum^N_{i=1}\omega_{i,t}(k)R_{i,t}= -\frac{1}{N}\sum^N_{i=1}\left(R_{i,t-k}-R_{m,t-k}\right)R_{i,t} = -\frac{1}{N}\sum^N_{i=1}R_{i,t-k}R_{i,t}
 $$
 
 Based on the size-sorted portfolio returns, the authors have found that returns on larger and more liquid stocks 
