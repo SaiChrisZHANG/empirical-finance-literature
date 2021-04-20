@@ -45,15 +45,16 @@ where $\mu_m\equiv E\left[R_{m,t}\right]=\mu'\iota/N$. Reorganizing this equatio
 \begin{align*}
     E[\pi_t(k)] &= -\frac{1}{N}tr(\Gamma_k) -\frac{1}{N}\sum^N_{i=1}\mu_i^2+\frac{\iota'\Gamma_k\iota}{N^2}+\mu_m^2\\
     & = \left\{\frac{\iota'\Gamma_k\iota}{N^2} -\frac{1}{N} tr(\Gamma_k) \right\}- \left\{\frac{1}{N}\sum^N_{i=1}(\mu_i-\mu_m)^2\right\}\\
-    & = \underbrace{\frac{1}{N^2}\left[\iota'\Gamma_k\iota-tr(\Gamma_k)\right]}_{\mathbf{C_k}} + \underbrace{\left(-\frac{N-1}{N}\right)tr(\Gamma_k)}_{\mathbf{O_k}} - \underbrace{\frac{1}{N}\sum^N_{i=1}(\mu_i-\mu_m)^2}_{\mathbf{\sigma^2(\mu)}}
+    & = \underbrace{\frac{1}{N^2}\left[\iota'\Gamma_k\iota-tr(\Gamma_k)\right]}_{\mathbf{C_k}} + \underbrace{\left(-\frac{N-1}{N}\right)tr(\Gamma_k)}_{\mathbf{O_k}} - \underbrace{\frac{1}{N}\sum^N_{i=1}(\mu_i-\mu_m)^2}_{\sigma^2(\mu)}
 \end{align*}
 
 The three components are:
 \begin{enumerate}
-    \item[-]: $\mathbf{C_k}$
-    \item[-]: $\mathbf{O_k}$ 
-    \item[-]: $\mathbf{\sigma^2(\mu)}$ 
+    \item[-]: $\mathbf{C_k}$ depends ONLY on the off-diagonals of the auto-covariance matrix $\Gamma_k$
+    \item[-]: $\mathbf{O_k}$ depends ONLY on the diagonals of the auto-covariance matrix $\Gamma_k$
+    \item[-]: $\sigma^2(\mu)$ is independent of $\Gamma_k$
 \end{enumerate}
+Or, cross-autocovariances dictate $\mathbf{C_k}$, own-autocovariances dicate $\mathbf{O_k}$.
 
 Based on the size-sorted portfolio returns, the authors have found that returns on larger and more liquid stocks 
 and subsequent returns on smaller and less liquid stocks are positively cross-autocorrelated. 
