@@ -24,8 +24,9 @@ of the negative own-autocovariances. They built the following model and showed t
 Consider a stylized contrarian investment strategy: buy stocks at time $t$ that were losers at time $t-k$ and sell 
 stocks at $t$ that were winners at $t-k$. This strategy can be formally written as 
 $$
-\omega_{it}(k)=-\frac{1}{N}(R_{i,t-k}-\frac{1}{N}\sum^N_{i=1}R_{i,t-k})
+\omega_{i,t}(k)=-\frac{1}{N}(R_{i,t-k}-\frac{1}{N}\sum^N_{i=1}R_{i,t-k}),\ i=1,\cdots,N
 $$
+By construction, $\vec{\omega}_{t}(k)=$
 
 Based on the size-sorted portfolio returns, the authors have found that returns on larger and more liquid stocks 
 and subsequent returns on smaller and less liquid stocks are positively cross-autocorrelated. 
