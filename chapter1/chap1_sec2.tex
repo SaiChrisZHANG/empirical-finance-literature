@@ -10,7 +10,7 @@ A brief summary is listed below, and the details are discussed in the correspond
 Due to the positive cross-autocorrelations among individual stocks, \textbf{Stock indexes} have predominantly
 positive high-frequency autocorrelations.
 
-\subsubsection{\citet{lo1988stock,lo1990contrarian}}
+\subsubsection{\citet{lo1988stock,lo1990contrarian}}\label{chap1:sec2:ssec2:paper1}
 \citet{lo1988stock,lo1990contrarian} presented evidence that broad market indexes have predominantly positive
 high-frequency autocorrelations. In \citeyear{lo1988stock}, they found a 30\% AR(1) with weekly returns
 of \textit{September 1962} to \textit{December 1985}, while higher-order ARs are also positive although smaller in magnitude.
@@ -21,8 +21,11 @@ are generally negative, they deducted that the cross-autocovariances must be pos
 of the negative own-autocovariances. They built the following model and showed the importance of the forecastability 
 \textit{across} securities for contrarian profits:
 
-Consider a stylized 
-
+Consider a stylized contrarian investment strategy: buy stocks at time $t$ that were losers at time $t-k$ and sell 
+stocks at $t$ that were winners at $t-k$. This strategy can be formally written as 
+$$
+\omega_{it}(k)=-\frac{1}{N}(R_{i,t-k}-\frac{1}{N}\sum^N_{i=1}R_{i,t-k})
+$$
 
 Based on the size-sorted portfolio returns, the authors have found that returns on larger and more liquid stocks 
 and subsequent returns on smaller and less liquid stocks are positively cross-autocorrelated. 
