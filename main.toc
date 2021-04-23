@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {1.2.2}Positive autocorrelations}{12}{subsection.1.2.2}
 \contentsline {subsubsection}{\numberline {1.2.2.1}\citet {lo1988stock,lo1990contrarian}}{12}{subsubsection.1.2.2.1}
 \contentsline {section}{\numberline {1.3}Excess volatility puzzle}{14}{section.1.3}
-\contentsline {section}{\numberline {1.4}Decomposing prices}{14}{section.1.4}
+\contentsline {section}{\numberline {1.4}Decomposing prices}{15}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Campbell-Schiller decomposition}{15}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Lettau-Ludvigson decomposition}{15}{subsection.1.4.2}
 \contentsline {section}{\numberline {1.5}Prediction zoo}{15}{section.1.5}
