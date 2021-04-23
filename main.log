@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  23 APR 2021 03:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  23 APR 2021 03:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1114,7 +1114,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13])
+[13]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1128,7 +1128,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
+[15])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
 Chapter 2.
 (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
 \openout3 = `main.mtc'.
@@ -1141,7 +1148,7 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 8.0pt on input line 2.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 6.1pt on input line 2.
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2)) [16
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2)) [17
 
 ]
 Chapter 3.
@@ -1150,7 +1157,7 @@ Chapter 3.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3)) [17
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3)) [18
 
 ]
 Chapter 4.
@@ -1159,7 +1166,7 @@ Chapter 4.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4)) [18
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4)) [19
 
 ]
 Chapter 5.
@@ -1168,7 +1175,7 @@ Chapter 5.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc5)) [19
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc5)) [20
 
 ]
 Chapter 6.
@@ -1177,7 +1184,7 @@ Chapter 6.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc6)) [20
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc6)) [21
 
 ]
 Chapter 7.
@@ -1186,7 +1193,7 @@ Chapter 7.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7)) [21
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7)) [22
 
 ]
 Chapter 8.
@@ -1195,7 +1202,7 @@ Chapter 8.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [22
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [23
 
 ]
 Chapter 9.
@@ -1204,7 +1211,7 @@ Chapter 9.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [23
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [24
 
 ]
 Chapter 10.
@@ -1213,9 +1220,9 @@ Chapter 10.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [24
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [25
 
-] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl [25
+] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl [26
 
 ])
 Package minitoc Info: I0009
@@ -1236,7 +1243,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
+[27]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
@@ -1246,18 +1253,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 13758 strings out of 492649
- 199163 string characters out of 6129623
+ 13763 strings out of 492649
+ 199258 string characters out of 6129623
  332587 words of memory out of 5000000
- 16943 multiletter control sequences out of 15000+600000
- 149285 words of font info for 229 fonts, out of 8000000 for 9000
+ 16947 multiletter control sequences out of 15000+600000
+ 152233 words of font info for 233 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,17n,44p,1031b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/ntxsyralt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexas.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (27 pages, 241076 bytes).
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (28 pages, 241950 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 570 compressed objects within 6 object streams
- 109 named destinations out of 1000 (max. 500000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+ 110 named destinations out of 1000 (max. 500000)
  297 words of extra memory for PDF output out of 10000 (max. 10000000)
 

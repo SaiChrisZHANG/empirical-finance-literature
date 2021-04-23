@@ -100,7 +100,15 @@ They also presented 5 illustrative scenarios:
         
         \underline{\textit{Observed return}}: The observed return of security $i$ in period $t$ is the sum of its virtual returns of all the past \textbf{consecutive non-trading} periods.
         Formally, $\forall i \in [1,\cdots,N]$, $R^o_{i,t}=\sum^{\infty}_{k=0}X_{i,t}(k)R_{i,t-k}$. The (random) weights $X_{i,t}(k)\equiv(1-\delta_{i,t})\delta_{i,t-1} \cdots \delta_{i,t-k}$,
-        where $\delta_i$ is the (i.i.d.) non-trading indicator.
+        where $\delta_i$ is the (i.i.d.) non-trading indicator. 
+        $X_{i,t}(k)$ is also an indicator:
+        \begin{equation*}
+            X_{i,t}(k) =
+              \begin{cases}
+                1 & \text{$i$ trades at $t$, but not before}\\
+                0 & \text{if bank $i$ issues CBs at time $t$}
+              \end{cases}       
+          \end{equation*}
 
     \end{enumerate} 
     \item[E]    
