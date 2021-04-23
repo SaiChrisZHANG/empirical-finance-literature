@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -77,11 +77,17 @@ Andrew~W Lo and A~Craig MacKinlay.
 \newblock \emph{The review of financial studies}, 1\penalty0 (1):\penalty0
   41--66, 1988.
 
-\bibitem[Lo and MacKinlay(1990)]{lo1990contrarian}
+\bibitem[Lo and MacKinlay(1990{\natexlab{a}})]{lo1990contrarian}
 Andrew~W Lo and A~Craig MacKinlay.
 \newblock When are contrarian profits due to stock market overreaction?
 \newblock \emph{The review of financial studies}, 3\penalty0 (2):\penalty0
-  175--205, 1990.
+  175--205, 1990{\natexlab{a}}.
+
+\bibitem[Lo and MacKinlay(1990{\natexlab{b}})]{lo1990econometric}
+Andrew~W Lo and A~Craig MacKinlay.
+\newblock An econometric analysis of nonsynchronous trading.
+\newblock \emph{Journal of Econometrics}, 45\penalty0 (1-2):\penalty0 181--211,
+  1990{\natexlab{b}}.
 
 \bibitem[Luger(2003)]{luger2003exact}
 Richard Luger.
