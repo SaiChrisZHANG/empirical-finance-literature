@@ -83,7 +83,7 @@ They also presented 5 illustrative scenarios:
         \item[-] \textbf{\textit{Assumption}}: $\forall i \in [1,\cdots,N]$, the return is given by: $R_{i,t}=\mu_i+\beta_i\Lambda_{t-i}+\epsilon_{i,t}$, where $\beta_i>0$,
         $\Lambda$ is a serially independent common factor with zero mean and variance $\sigma_{\lambda}^2$, $\epsilon_{i,t}$ is assumed to be both cross-sectionally and serially independent.
         When $k<N$, the autocovariance matrix $\Gamma_k$ has zeros in all entries except along the $k$th superdiagonal. On the $k$th superdiagonal, 
-        the elements are $\gamma_{i,i+k}=\sigma^2_{\lambda}\beta_i\beta_{i+k}$, the profit is: $$E[\pi_t(k)]\simeq L_k = C_k = \frac{\sigma^2_{lambda}}{N^2}\sum^{N-k}_{i=1}\beta_i\beta_{i+k}>0$$
+        the elements are $\gamma_{i,i+k}=\sigma^2_{\lambda}\beta_i\beta_{i+k}$, the profit is: $$E[\pi_t(k)]\simeq L_k = C_k = \frac{\sigma^2_{\lambda}}{N^2}\sum^{N-k}_{i=1}\beta_i\beta_{i+k}>0$$
         \item[-] \textbf{\textit{Intuition}}: This is an artifact of the dependence of the $i$th security's return on a lagged common factor, where the lag is determined by $i$. Notice that the returns
         are serially independent, but sotck $i$'s returns can be predicted with past returns of stock $j$, where $j<i$. With this cross-correlation, a contrarian strategy can still profit, as long
         as the cross autocovariances are sufficiently large.
@@ -111,7 +111,11 @@ They also presented 5 illustrative scenarios:
           \end{equation*}
         
         \underline{\textit{Nontrading duration}}: the nontrading duration, or the number of past consecutive periods that security $i$ is not traded, 
-        is $\tilde{k}_{i,t}\equiv \sum^{\infty}_{k=1}\left(\prod_{j=1}^k\delta_{i,t-j}\right)$, its expectation is $E[\tilde{k}_{i,t}]=\frac{p_i}{1-p_i}$
+        is $\tilde{k}_{i,t}\equiv \sum^{\infty}_{k=1}\left(\prod_{j=1}^k\delta_{i,t-j}\right)$, its expectation is $E[\tilde{k}_{i,t}]=\frac{p_i}{1-p_i}$.
+        
+        \underline{\textit{Portfolio return}}: for an equal-weighted portfolio of securities with common nontrading probability $p_{\kappa}$, the observed return to
+        portfolio can be approximated as $R_{port,t}^o\rightarrow \mu_{port}+(1-p_{port})\beta_{port}\sum^{\infty}_{k=0}p_{port}^k\Lambda_{t-k}$, where $\beta_{port}$ is the
+        average $\beta$ of the securities. Then the observed return of the portfolio over $q$ periods is $R^o_{port,t}(q)\equiv \sum^{}$
     \end{enumerate} 
     \item[E]    
 \end{enumerate}
