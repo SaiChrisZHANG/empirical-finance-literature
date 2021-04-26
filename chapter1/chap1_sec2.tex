@@ -135,9 +135,12 @@ They also presented 5 illustrative scenarios:
         The bid-ask spread has a AR(1) as $E[\eta_{i,t-1}\eta_{i,t}]=-s_i^2/4$, where $s_i$ is the percentage bid-ask spread. All higher-order ARs and all cross-correlations are zero.
 
         The autocovariance matrices are given by:
-        \begin{align*}
-            \Gamma_1 = \gamma_{\lambda}(1)\beta\beta'
-        \end{align*}
+        $$\Gamma_k =
+        \begin{cases}
+            \gamma_{\lambda}(1)\beta\beta' -\frac{1}{4}diag[s_1^2,\cdots,s_N^2],&k=1\\
+            \gamma_{\lambda}(k)\beta\beta',&k>1
+        \end{cases}
+        $$
     \end{enumerate} 
 \end{enumerate}
 
