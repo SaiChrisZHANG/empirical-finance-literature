@@ -145,7 +145,8 @@ They also presented 5 illustrative scenarios:
         The profitability is:
         $$L_k=
         \begin{cases}
-            -\frac{\gamma_{\lambda}(1)}{N}\sum^N_{i=1}(\beta_i-\frac{\sum^N_{i=1}\beta_i}{N})
+            -\frac{\gamma_{\lambda}(1)}{N}\sum^N_{i=1}(\beta_i-\frac{\sum^N_{i=1}\beta_i}{N})^2 +\frac{N-1}{N^2}\sum^N_{i=1}\frac{s_i^2}{4}, & k=1\\
+            -\frac{\gamma_{\lambda}(k)}{N}\sum^N_{i=1}(\beta_i-\frac{\sum^N_{i=1}\beta_i}{N})^2, &k>1
         \end{cases}
         $$
     \end{enumerate} 
