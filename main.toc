@@ -22,24 +22,24 @@
 \contentsline {section}{\numberline {1.6}Issues and extensions}{16}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{16}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{16}{subsection.1.6.2}
-\contentsline {subsection}{\numberline {1.6.3}Instability in the prediction relation}{16}{subsection.1.6.3}
-\contentsline {subsection}{\numberline {1.6.4}Measurement}{16}{subsection.1.6.4}
-\contentsline {chapter}{\numberline {2}Cross-Section Predictability}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Section 1}{17}{section.2.1}
-\contentsline {chapter}{\numberline {3}GMM and Cross-section test}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Section 1}{18}{section.3.1}
-\contentsline {chapter}{\numberline {4}Advances in cross-section asset pricing}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Section 1}{19}{section.4.1}
-\contentsline {chapter}{\numberline {5}Consumption-based asset pricing}{20}{chapter.5}
-\contentsline {section}{\numberline {5.1}Section 1}{20}{section.5.1}
-\contentsline {chapter}{\numberline {6}Term structure of returns}{21}{chapter.6}
-\contentsline {section}{\numberline {6.1}Section 1}{21}{section.6.1}
-\contentsline {chapter}{\numberline {7}Learning}{22}{chapter.7}
-\contentsline {section}{\numberline {7.1}Section 1}{22}{section.7.1}
-\contentsline {chapter}{\numberline {8}Currencies: time-series and cross-section}{23}{chapter.8}
-\contentsline {section}{\numberline {8.1}Section 1}{23}{section.8.1}
-\contentsline {chapter}{\numberline {9}Intermediary-based asset pricing}{24}{chapter.9}
-\contentsline {section}{\numberline {9.1}Section 1}{24}{section.9.1}
-\contentsline {chapter}{\numberline {10}finance and big data}{25}{chapter.10}
-\contentsline {section}{\numberline {10.1}Section 1}{25}{section.10.1}
-\contentsline {chapter}{Bibliography}{26}{section.10.1}
+\contentsline {subsection}{\numberline {1.6.3}Instability in the prediction relation}{17}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Measurement}{17}{subsection.1.6.4}
+\contentsline {chapter}{\numberline {2}Cross-Section Predictability}{18}{chapter.2}
+\contentsline {section}{\numberline {2.1}Section 1}{18}{section.2.1}
+\contentsline {chapter}{\numberline {3}GMM and Cross-section test}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Section 1}{19}{section.3.1}
+\contentsline {chapter}{\numberline {4}Advances in cross-section asset pricing}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Section 1}{20}{section.4.1}
+\contentsline {chapter}{\numberline {5}Consumption-based asset pricing}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Section 1}{21}{section.5.1}
+\contentsline {chapter}{\numberline {6}Term structure of returns}{22}{chapter.6}
+\contentsline {section}{\numberline {6.1}Section 1}{22}{section.6.1}
+\contentsline {chapter}{\numberline {7}Learning}{23}{chapter.7}
+\contentsline {section}{\numberline {7.1}Section 1}{23}{section.7.1}
+\contentsline {chapter}{\numberline {8}Currencies: time-series and cross-section}{24}{chapter.8}
+\contentsline {section}{\numberline {8.1}Section 1}{24}{section.8.1}
+\contentsline {chapter}{\numberline {9}Intermediary-based asset pricing}{25}{chapter.9}
+\contentsline {section}{\numberline {9.1}Section 1}{25}{section.9.1}
+\contentsline {chapter}{\numberline {10}finance and big data}{26}{chapter.10}
+\contentsline {section}{\numberline {10.1}Section 1}{26}{section.10.1}
+\contentsline {chapter}{Bibliography}{27}{section.10.1}
