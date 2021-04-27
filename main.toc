@@ -18,7 +18,7 @@
 \contentsline {section}{\numberline {1.4}Decomposing prices}{16}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Campbell-Schiller decomposition}{16}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Lettau-Ludvigson decomposition}{16}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Prediction zoo}{16}{section.1.5}
+\contentsline {section}{\numberline {1.5}Prediction zoo}{17}{section.1.5}
 \contentsline {section}{\numberline {1.6}Issues and extensions}{17}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{17}{subsection.1.6.1}
 \contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{17}{subsection.1.6.2}
