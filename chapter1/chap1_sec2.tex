@@ -62,7 +62,7 @@ consistent with a \textbf{positively autocorrelated market index} and \textbf{ne
 
 They also presented 5 illustrative scenarios:
 \begin{enumerate}
-    \item[A] \underline{\textbf{\textit{I.I.D. returns}}}
+    \item[A.] \underline{\textbf{\textit{I.I.D. returns}}}
     \begin{enumerate}
         \item[-] $\forall k, \Gamma_k=0, L_k=C_k=O_k=0$, thus, $E[\pi_t(k)]=-\sigma^2(\mu)\leq 0$. 
         \item[-] \textit{\textbf{Intuition}}: When returns do follow random walks, any cross-sectional 
@@ -70,7 +70,7 @@ They also presented 5 illustrative scenarios:
         Since the strategy is reduced to shorting the higher and buying the lower mean return securities. BUT, $\sigma^2(\mu)$ is generally small.
     \end{enumerate}
 
-    \item[B] \underline{\textbf{\textit{Stock market overreaction}}}
+    \item[B.] \underline{\textbf{\textit{Stock market overreaction}}}
     \begin{enumerate}
         \item[-] \textbf{\textit{Assumption}}: negative self-autocorrelations and zero cross-autocorrelations, i.e., 
         the diagonal elements of $\Gamma_k$ are negative, the non-diagonal elements are 0. Thus, ignoring the small $\sigma^2(\mu)$, 
@@ -78,7 +78,7 @@ They also presented 5 illustrative scenarios:
         \item[-] \textit{\textbf{Intuition}}: In a overreacting market, "what goes up must come down" and vice versa. Thus, a contrarian investment strategy is profitable on average.
         A special case is the model of "fads": the sum of a random walk and an AR(1)\footnote{Notice that only AR(1) statisfies this conclusion.}.
     \end{enumerate}
-    \item[C] \underline{\textbf{\textit{White noise and lead-lag relations}}}
+    \item[C.] \underline{\textbf{\textit{White noise and lead-lag relations}}}
     \begin{enumerate}
         \item[-] \textbf{\textit{Assumption}}: $\forall i \in [1,\cdots,N]$, the return is given by: $R_{i,t}=\mu_i+\beta_i\Lambda_{t-i}+\epsilon_{i,t}$, where $\beta_i>0$,
         $\Lambda$ is a serially independent common factor with zero mean and variance $\sigma_{\lambda}^2$, $\epsilon_{i,t}$ is assumed to be both cross-sectionally and serially independent.
@@ -88,7 +88,7 @@ They also presented 5 illustrative scenarios:
         are serially independent, but sotck $i$'s returns can be predicted with past returns of stock $j$, where $j<i$. With this cross-correlation, a contrarian strategy can still profit, as long
         as the cross autocovariances are sufficiently large.
     \end{enumerate} 
-    \item[D] \underline{\textbf{\textit{Nonsynchronous trading and lead-lag effects}}}\footnote{See \citet{lo1990econometric} for a detailed discussion.}
+    \item[D.] \underline{\textbf{\textit{Nonsynchronous trading and lead-lag effects}}}\footnote{See \citet{lo1990econometric} for a detailed discussion.}
     \begin{enumerate}
         \item[-] \textbf{\textit{Assumption}}:
         
@@ -125,7 +125,7 @@ They also presented 5 illustrative scenarios:
         HOWEVER! This cannot fully explain the magnitude of weekly cross-autocorrelations.
     
     \end{enumerate} 
-    \item[E] \underline{\textbf{\textit{Positively dependent common factor and bid-ask spread}}}
+    \item[E.] \underline{\textbf{\textit{Positively dependent common factor and bid-ask spread}}}
     \begin{enumerate}
         \item[-] \textbf{\textit{Assumption:}}
         
@@ -178,4 +178,7 @@ individual stocks and for 3 size-sorted quintiles. Their results can be summariz
 and inefficient processing of market-wide information. They build a simple model and show the index's theoretical autocorrelations fall with an increase in the dissemination speed of market-wide information. Furthurmore, they attribute this
 decrease of positve index autocorrelations entirely to cross-stock autocorrelations. Self-autocorrelations of stocks are relatively persistent.
 
-\noindent \underline{\textbf{\textit{A brief summary of the model is}}}:
+\noindent \underline{\textbf{\textit{A brief summary of the model}}}:
+\begin{enumerate}
+    \item[A.] \textit{\textbf{Assumptions}}: 
+\end{enumerate}
