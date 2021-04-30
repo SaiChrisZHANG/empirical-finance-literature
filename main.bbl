@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -64,6 +64,12 @@ Eugene~F Fama and Kenneth~R French.
 \newblock Permanent and temporary components of stock prices.
 \newblock \emph{Journal of political Economy}, 96\penalty0 (2):\penalty0
   246--273, 1988.
+
+\bibitem[Froot and Perold(1995)]{froot1995new}
+Kenneth~A Froot and Andr{\'e}~F Perold.
+\newblock New trading practices and short-run market efficiency.
+\newblock \emph{The Journal of Futures Markets (1986-1998)}, 15\penalty0
+  (7):\penalty0 731, 1995.
 
 \bibitem[Kim(2006)]{kim2006wild}
 Jae~H Kim.
