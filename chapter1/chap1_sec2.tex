@@ -182,11 +182,13 @@ decrease of positve index autocorrelations entirely to cross-stock autocorrelati
 \begin{enumerate}
     \item[A.] \textit{\textbf{Assumptions}}
     \begin{enumerate}
-        \item $N$ stocks, managed by risk-neutral specialists individually. The true value is $V_t^i\equiv V_t+\xi_t^i$, where $V_i$ and $\xi_t^i$ follow independent random walks where the innovations are i.i.d. normal: $\Delta V_t = u_t \sim \mathcal{N} (0,\sigma_u^2)$, $\Delta \xi_t^i =e_t^i \sim \mathcal{N}(0,\sigma_e^2)$
+        \item $N$ stocks, managed by risk-neutral specialists individually. The true value is $V_t^i\equiv V_t+\xi_t^i$, where $V_i$ and $\xi_t^i$ follow independent random walks where the innovations are i.i.d. 
+        normal: $\Delta V_t = u_t \sim \mathcal{N} (0,\sigma_u^2)$, $\Delta \xi_t^i =e_t^i \sim \mathcal{N}(0,\sigma_e^2)$
         \item Trading cost and technical delays of information dissemination:
         \begin{enumerate}
-            \item[-] delayed observation: $V_t^i$ is observed at $t+1$ 
-            \item[-] 
+            \item[-] delayed observation of value: $V_t^i$ is observed at $t+1$ 
+            \item[-] instant observation of order flow: $F_t^i = u_t+e_t^i+\nu_t^i$, where $u_t+e_t^i$ is an informed-traders' component, the i.i.d. $\nu_t^i \sim \mathcal{N}(0,\sigma_{\nu}^i)$ is the "liquidity" traders' component.
+            \item[-] optimal price: $P_t^i=\lambda F_t^i+V_{t-1}^i$ where $\lambda=\frac{\sigma_u^2+\sigma_e^2}{\sigma_u^2+\sigma_e^2+\sigma_{\nu}^2}$ is the OLS estimator of $u_t+e_t^i$ on $F_t^i$
         \end{enumerate}
     \end{enumerate}  
     
