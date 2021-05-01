@@ -4,4 +4,8 @@
 * The CRSP market index excess return data are downloaded from French Kenneth's webiste.
 * links are here: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html
 
+global rootdir = "~/LIT/empirical-finance-literature"
+global chap1dir = "${rootdir}/"
 global outdir = "~/LIT/empirical-finance-literature/chapter1/output"
+global indir = "~/LIT/empirical-finance-literature/chapter1/data"
+
