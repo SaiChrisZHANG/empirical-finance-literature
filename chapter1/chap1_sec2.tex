@@ -201,7 +201,8 @@ decrease of positve index autocorrelations entirely to cross-stock autocorrelati
             \item[-] $V_t$ is observable at $t$ instead of $t+1$: $V_t$ trade is costless, so traders would earn positive net profits unless innovation in $V_t$ are fully incorporated in current prices. 
             A futures market might serve as a \textit{billboard}, making the current value publicly observable.
             \item[-] optimal price: $P_t^i = \lambda^{\prime}(F_t^i-u_t)+V_{t-1}^i+u_t$, where $\lambda^{\prime}=\frac{\sigma_e^2}{\sigma_e^2+\sigma_{\nu}^2}$
-            \item[-] price change of stock $i$ 
+            \item[-] price change of stock $i$ at $t$: $\Delta P_t^i = \lambda^{\prime}(e_t^i+\Delta\nu_t^i)+(1-\lambda^{\prime})e_{t-1}^i+u_t$
+            \item[-] cross-stock autocovariances: $Cov(\Delta P_t,\Delta P_{t-1})=\frac{N-1}{N}Cov(u_t,u_{t-1})=0$, it disappears!
              
         \end{enumerate}
     \end{enumerate}  
