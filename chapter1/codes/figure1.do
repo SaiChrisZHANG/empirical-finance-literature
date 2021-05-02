@@ -9,4 +9,12 @@ global chap1dir = "${rootdir}/chapter1"
 global outdir = "${chap1dir}/output"
 global indir = "${chap1dir}/data"
 
-use `"${indir}/daily_index_r.dta"', replace
+use `"${indir}/daily_return.dta"', replace
+
+* some basic cleaning
+gen yr = substr(date,1,4)
+gen mth = substr(date,5,2)
+gen day = substr(date,7,2)
+destring yr mth day, replace
+gen dt = mdy(mth, day, yr)
+keep mkt_er dt
