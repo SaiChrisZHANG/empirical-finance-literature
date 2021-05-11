@@ -221,8 +221,15 @@ information dissemination).
     Define the log bid-ask error $l_t-m_t\simeq\Delta(L_t-M_t)$ as $\epsilon_t$. If $\epsilon_t >0$, there is a greater fraction of buys
     at time $t$ then at time $t-1$.
 
-    $\frac{Cov(l_t,l_{t-1})-Cov(m_t,m_{t-1})}{Var(l_t)} = \frac{Cov(\epsilon_t,\epsilon_{t-1})}{Var(l_t)}+ \frac{Cov(m_t,\epsilon_{t-1})}{Var(l_t)}+Cov(m_{t-1},\epsilon_t)$ can be used to indicate the bounce, 
-    where 
+    $\frac{Cov(l_t,l_{t-1})-Cov(m_t,m_{t-1})}{Var(l_t)} = \frac{Cov(\epsilon_t,\epsilon_{t-1})}{Var(l_t)}+ \frac{Cov(m_t,\epsilon_{t-1})}{Var(l_t)}+\frac{Cov(m_{t-1},\epsilon_t)}{Var(l_t)}$ can be used to indicate the bounce, 
+    where: 
+    \begin{enumerate}
+        \item[-] $\frac{Cov(\epsilon_t,\epsilon_{t-1})}{Var(l_t)}$ is a pure measure of Roll-type bounce. They report that it decline marginally from 1983 to 1988, while the self-autocovariance $\frac{\sum^N_i(\omega^i)^2Cov(l_t^i,l_{t-1}^i)}{Var(l_t)}$
+        of the index (squared-weighted sum of self-ARs of all stocks). 
+        \item[-] $\frac{Cov(m_t,\epsilon_{t-1})}{Var(l_t)}$ is 
+    \end{enumerate}
+    
+    
     \item[-] \textbf{\textit{Nontrading}}: They examined
 \end{enumerate}
 However, bid-ask bounce would affect all orders of autocorrelations equally instead of mainly AR(1). 
