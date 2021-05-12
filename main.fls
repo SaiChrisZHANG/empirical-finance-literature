@@ -689,6 +689,19 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newpx/zplmia.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/pxmia.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/ntxmia.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zplr-x.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-ot1.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-ot1.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-ot1.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newpx/zplmi.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/pxmi.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/pxfonts/pxmi.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/rpxmi.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/rpxpplri.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newpx/zplmi.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/pxmi.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/pxfonts/pxmi.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/rpxmi.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/rpxpplri.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newpx/zplsy.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/pxsys.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
@@ -700,7 +713,6 @@ OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-ot1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-ot1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-ot1.tfm
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2
