@@ -22,7 +22,7 @@
 \contentsline {section}{\numberline {1.5}Prediction zoo}{19}{section.1.5}
 \contentsline {section}{\numberline {1.6}Issues and extensions}{19}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Persistency of most regressors}{19}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{19}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.2}Aggregate predictors without ex-ante choice}{20}{subsection.1.6.2}
 \contentsline {subsection}{\numberline {1.6.3}Instability in the prediction relation}{20}{subsection.1.6.3}
 \contentsline {subsection}{\numberline {1.6.4}Measurement}{20}{subsection.1.6.4}
 \contentsline {chapter}{\numberline {2}Cross-Section Predictability}{21}{chapter.2}
