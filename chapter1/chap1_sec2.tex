@@ -257,6 +257,17 @@ decrease of positve index autocorrelations entirely to cross-stock autocorrelati
     \item[-] \textbf{\textit{Nontrading}}: They examined two factors of the non-trading effect: trade frequency and degree of synchronousness. They calculated a measure of \textit{staleness}: the difference between last-trade midquote $m_t$ and the \textit{current} midquote $cm_t$: $m_t = cm_t+s_t = cm_t+(m_t-cm_t)$,
     where $cm_t$ is the return on the current midquote index, free of staleness and bid-ask bounce. Empirically, the decline of AR of $cm_t$ is greater than that of $m_t$, which means that nontrading staleness does NOT explain the reduction of index's AR.
 
-    Define equally-weighted current midquote index as $eq_t$ and $z_t = cm_t-eq_t$, then decompose the autocovariance of $cm_t$, get:
-    $\frac{Cov(cm_t,cm_{t-1})}{Var(l_t)}=\frac{Cov(eq_t,eq_{t-1})}{Var(l_t)}+\frac{Cov(eq_t,z_{t-1})}{Var(l_t)}+\frac{Cov(z_t,eq_{t-1})}{Var(l_t)}+$
+    Define equally-weighted current midquote index as $eq_t$ (versus value-weighted index $cm_t$) and $z_t = cm_t-eq_t$, then decompose the autocovariance of $cm_t$, get:
+    $\frac{Cov(cm_t,cm_{t-1})}{Var(l_t)}=\frac{Cov(eq_t,eq_{t-1})}{Var(l_t)}+\frac{Cov(eq_t,z_{t-1})}{Var(l_t)}+\frac{Cov(z_t,eq_{t-1})}{Var(l_t)}+\frac{Cov(z_t,z_{t-1})}{Var(l_t)}$, loosely speaking, the four items on the right-hand side can be seen as a predictability matrix:
+    \begin{center}
+        \begin{tabular}{ |c|c|c|c| } 
+        \hline
+        col1 & col2 & col3 \\
+        \hline
+        \multirow{3}{4em}{Multiple row} & cell2 & cell3 \\ 
+        & cell5 & cell6 \\ 
+        & cell8 & cell9 \\ 
+        \hline
+        \end{tabular}
+    \end{center}
 \end{enumerate}
