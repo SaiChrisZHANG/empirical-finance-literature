@@ -276,5 +276,6 @@ decrease of positve index autocorrelations entirely to cross-stock autocorrelati
     in other words, it has become more difficult to predict small stocks' returns, no matter with other small stocks' returns or large stocks' returns. 
     
     To incorporate information dissemination, consider $\frac{Cov(m_t,m_{t-1})}{Var(l_t)}-\frac{Cov(cm_t,cm_{t-1})}{Var(l_t)} = \frac{Cov(s_t,s_{t-1})}{Var(l_t)}+\frac{Cov(s_t,cm_{t-1})}{Var(l_t)}+\frac{Cov(cm_t,s_{t-1})}{Var(l_t)}$, where $s_t$ is the new information in quotes beyond that reflected in the trade. They found that
-    the changes of both $\frac{Cov(s_t,s_{t-1})}{Var(l_t)}$ and $\frac{Cov(s_t,cm_{t-1})}{Var(l_t)}$ are negligible.
+    the changes of both $\frac{Cov(s_t,s_{t-1})}{Var(l_t)}$ and $\frac{Cov(s_t,cm_{t-1})}{Var(l_t)}$ are negligible, while $\frac{Cov(cm_t,s_{t-1})}{Var(l_t)}$ was negative and rising over time, which means the responsiveness of current quotes ($cm_t$) to information between $t-1$ and the last trade as of time $t-1$ ($s_{t-1}$) declines,
+    the evdience of more rapid dissemination of market-wide information.
 \end{enumerate}
