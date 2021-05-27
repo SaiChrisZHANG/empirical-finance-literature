@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  26 MAY 2021 23:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  27 MAY 2021 23:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -261,6 +261,21 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen133
 \l_MT_above_shortintertext_sep=\dimen134
 \l_MT_below_shortintertext_sep=\dimen135
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -306,7 +321,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen136
+\@linkdim=\dimen138
 \Hy@linkcounter=\count116
 \Hy@pagecounter=\count117
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -325,10 +340,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count119
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen137
+\XeTeXLinkMargin=\dimen139
 \Fld@menulength=\count120
-\Field@Width=\dimen138
-\Fld@charsize=\dimen139
+\Field@Width=\dimen140
+\Fld@charsize=\dimen141
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -587,9 +602,6 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -600,7 +612,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
 \c@theorem=\count129
  (/usr/local/texlive/2018/texmf-dist/tex/latex/minitoc/minitoc.sty
 Package: minitoc 2015/07/13 v61 Package minitoc
@@ -657,55 +669,55 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plparsep=\skip116
 \pl@lab=\toks37
 )
-LaTeX Font Info:    Try loading font information for T1+zpltlf on input line 68.
+LaTeX Font Info:    Try loading font information for T1+zpltlf on input line 70.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/t1zpltlf.fd
 File: t1zpltlf.fd 2015/01/17 v1.0 font definition file for T1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 68.
+(Font)              scaled to size 12.0pt on input line 70.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 68.
-LaTeX Font Info:    Try loading font information for OML+npxmi on input line 68.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 70.
+LaTeX Font Info:    Try loading font information for OML+npxmi on input line 70.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 68.
-LaTeX Font Info:    Try loading font information for U+npxexa on input line 68.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 70.
+LaTeX Font Info:    Try loading font information for U+npxexa on input line 70.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 68.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 70.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 68.
-LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 68.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 70.
+LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 70.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/08/13 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 68.
-LaTeX Font Info:    Try loading font information for LMX+npxexx on input line 68.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 70.
+LaTeX Font Info:    Try loading font information for LMX+npxexx on input line 70.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/08/13 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    ... okay on input line 70.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -723,8 +735,8 @@ LaTeX Font Info:    ... okay on input line 68.
 * \textheight=693.5pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-37.0pt
-* \headheight=12.0pt
+* \topmargin=-77.0pt
+* \headheight=52.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
@@ -747,50 +759,18 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 Package marginnote Info: \pdfoutput not 0 or unimportant and
 (marginnote)             \pdflastxpos or \lastxpos available.
 (marginnote)             Extended position detection mode activated.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-)
-\Gin@req@height=\dimen140
-\Gin@req@width=\dimen141
-)
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 68.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count134
-)
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out) (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
-
-\c@mv@tabular=\count135
-\c@mv@boldtabular=\count136
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
+\scratchcounter=\count134
 \scratchdimen=\dimen142
-\scratchbox=\box32
-\nofMPsegments=\count138
-\nofMParguments=\count139
+\scratchbox=\box31
+\nofMPsegments=\count135
+\nofMParguments=\count136
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count140
+\MPscratchCnt=\count137
 \MPscratchDim=\dimen143
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
 \everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -804,6 +784,24 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring ON on input line 70.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count140
+)
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out) (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+\c@mv@tabular=\count141
+\c@mv@boldtabular=\count142
 \c@minilofdepth=\count143
 \c@minilotdepth=\count144
 \c@partlofdepth=\count145
@@ -849,55 +847,55 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                of loading the ``hyperref'' package.
 
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 74.
+(Font)              scaled to size 24.88pt on input line 76.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 75.
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 75.
+(Font)              scaled to size 24.88pt on input line 77.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 77.
+(Font)              scaled to size 17.28pt on input line 79.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 17.28pt on input line 78.
+(Font)              scaled to size 17.28pt on input line 80.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 82.
+(Font)              scaled to size 20.74pt on input line 84.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 83.
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 83.
+(Font)              scaled to size 20.74pt on input line 85.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 87.
-LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 88.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 88.
-LaTeX Font Info:    Font shape `T1/zpltlf/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/zpltlf/b/it' tried instead on input line 88.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/it' will be
-(Font)              scaled to size 14.4pt on input line 88.
-LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
 (Font)              scaled to size 14.4pt on input line 89.
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 90.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 90.
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/it' in size <14.4> not available
+(Font)              Font shape `T1/zpltlf/b/it' tried instead on input line 90.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/it' will be
+(Font)              scaled to size 14.4pt on input line 90.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
+(Font)              scaled to size 14.4pt on input line 91.
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 101.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 103.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 108.
+(Font)              scaled to size 12.0pt on input line 110.
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/it' in size <12> not available
-(Font)              Font shape `T1/zpltlf/b/it' tried instead on input line 108.
+(Font)              Font shape `T1/zpltlf/b/it' tried instead on input line 110.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 108.
+(Font)              scaled to size 12.0pt on input line 110.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.134 \newpage
+l.136 \newpage
                [1
 
 ]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 137.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 139.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout3 = `main.mtc1'.
@@ -980,21 +978,14 @@ File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 142.
-[3]
+(Font)              scaled to size 10.95pt on input line 144.
+ [3]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 144.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 144.
 (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chapter1.tex
 \openout3 = `main.mtc'.
 
@@ -1041,21 +1032,7 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 6.2pt on input line 35.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 35.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6]
+ [5] [6]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 92.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
@@ -1064,84 +1041,14 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 107.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 107.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9]
+ [7] [8] [9]
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 213.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 8.8pt on input line 213.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 6.6pt on input line 213.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10]) (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16]
+ [10]) (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex [11] [12] [13] [14] [15] [16]
 Package marginnote Info: Margin note 18.1 is on absolute page 18
 (marginnote)              on input line 230.
 Package marginnote Info: right page because not two side mode on input line 230.
@@ -1153,35 +1060,13 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 6.2pt on input line 230.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 5.5pt on input line 230.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20]
+ [17] [18]
+<./chapter1/outputs/fig1-1.png, id=526, 962.59625pt x 700.6175pt>
+File: ./chapter1/outputs/fig1-1.png Graphic file (type png)
+<use ./chapter1/outputs/fig1-1.png>
+Package pdftex.def Info: ./chapter1/outputs/fig1-1.png  used on input line 287.
+(pdftex.def)             Requested size: 398.33858pt x 289.91698pt.
+) [19] [20 <./chapter1/outputs/fig1-1.png>]) [21]
 Chapter 2.
 (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
 \openout3 = `main.mtc'.
@@ -1192,7 +1077,7 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 6.1pt on input line 2.
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2)) [21
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2)) [22
 
 ]
 Chapter 3.
@@ -1201,7 +1086,7 @@ Chapter 3.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3)) [22
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3)) [23
 
 ]
 Chapter 4.
@@ -1210,7 +1095,7 @@ Chapter 4.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4)) [23
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4)) [24
 
 ]
 Chapter 5.
@@ -1219,7 +1104,7 @@ Chapter 5.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc5)) [24
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc5)) [25
 
 ]
 Chapter 6.
@@ -1228,7 +1113,7 @@ Chapter 6.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc6)) [25
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc6)) [26
 
 ]
 Chapter 7.
@@ -1237,7 +1122,7 @@ Chapter 7.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7)) [26
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7)) [27
 
 ]
 Chapter 8.
@@ -1246,7 +1131,7 @@ Chapter 8.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [27
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [28
 
 ]
 Chapter 9.
@@ -1255,7 +1140,7 @@ Chapter 9.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [28
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [29
 
 ]
 Chapter 10.
@@ -1264,9 +1149,9 @@ Chapter 10.
 
 \openout3 = `main.mtc'.
 
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [29
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [30
 
-] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl [30
+] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl [31
 
 ])
 Package minitoc Info: I0009
@@ -1280,35 +1165,29 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+[32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4BA9FBD6EFE794B4CEB38A09FD8D0ED2;2538.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 13856 strings out of 492649
- 200523 string characters out of 6129623
- 334103 words of memory out of 5000000
- 17006 multiletter control sequences out of 15000+600000
+ 13867 strings out of 492649
+ 200727 string characters out of 6129623
+ 337775 words of memory out of 5000000
+ 17012 multiletter control sequences out of 15000+600000
  158723 words of font info for 248 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,17n,44p,1031b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,17n,44p,1031b,527s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/ntxsyralt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexas.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (32 pages, 271481 bytes).
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (33 pages, 361319 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 627 compressed objects within 7 object streams
- 127 named destinations out of 1000 (max. 500000)
- 297 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 694 PDF objects out of 1000 (max. 8388607)
+ 635 compressed objects within 7 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 302 words of extra memory for PDF output out of 10000 (max. 10000000)
 
