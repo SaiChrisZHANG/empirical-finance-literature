@@ -6,7 +6,7 @@
 
 global rootdir = "~/Desktop/LIT/empirical-finance-literature"
 global chap1dir = "${rootdir}/chapter1"
-global outdir = "${chap1dir}/output"
+global outdir = "${chap1dir}/outputs"
 global indir = "${chap1dir}/data"
 
 use `"${indir}/daily_return.dta"', clear
@@ -27,7 +27,7 @@ tsset dt
 tempfile reg_res
 
 * rolling window regressions: 300 trading days
-qui rolling _b _se, window(300) recursive saving(`reg_res', replace) keep(dt): regress mkt_er L.mkt_er, r
+qui rolling _b _se, window(300) saving(`reg_res', replace) keep(dt): regress mkt_er L.mkt_er, r
 
 use `reg_res', clear
 sort date
