@@ -39,5 +39,5 @@ rename _stat_3 se
 gen high = ar + 1.96*se
 gen low = ar - 1.96*se
 
-twoway line _b_spxadj date if date>=td(1oct2003), lc(black) lp(solid) || line _b_spxadj date, lc(gs8) lp(dash) || line _b_spxadj date, lc(gs8) lp(dash) yline(0, lc(red), lp(dot)) xtitle("Daily AR of the Excess Market Return, 1926 - 2021") xtitle("Daily AR(1)")
-
+* Only paint the AR coefficients, not the confidence interval
+twoway line ar date, lc(black) lp(solid) yline(0, lc(red) lp(solid) lw(thin)) ytitle("Daily Autocorrelation", size(medsmall)) tlabel(31dec1930 31dec1940 31dec1950 31dec1960 31dec1970 31dec1980 31dec1990 31dec2000 31dec2010 31dec2020, format(%tdCCYY) labsize(small)) ylabel(,labsize(small)) legend(off) xtitle("") saving("${outdir}/fig1.gph", replace)
