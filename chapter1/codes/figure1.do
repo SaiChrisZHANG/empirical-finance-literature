@@ -44,3 +44,5 @@ twoway line ar date, lc(black) lp(solid) yline(0, lc(red) lp(solid) lw(thin)) yt
 
 graph use "${outdir}/fig1-1"
 graph export "${outdir}/fig1-1.png", replace
+
+clear
