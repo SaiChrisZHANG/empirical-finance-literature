@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{28}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -118,6 +118,12 @@ Dimitrios Malliaropulos and Richard Priestley.
 \newblock Mean reversion in southeast asian stock markets.
 \newblock \emph{Journal of Empirical Finance}, 6\penalty0 (4):\penalty0
   355--384, 1999.
+
+\bibitem[Nagel(2012)]{nagel2012evaporating}
+Stefan Nagel.
+\newblock Evaporating liquidity.
+\newblock \emph{The Review of Financial Studies}, 25\penalty0 (7):\penalty0
+  2005--2039, 2012.
 
 \bibitem[Poterba and Summers(1988)]{poterba1988mean}
 James~M Poterba and Lawrence~H Summers.
