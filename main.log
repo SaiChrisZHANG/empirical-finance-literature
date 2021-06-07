@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  8 JUN 2021 00:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  8 JUN 2021 00:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1050,21 +1050,21 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 6.6pt on input line 213.
  [10]) (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex [11] [12] [13] [14] [15] [16] [17]
 Package marginnote Info: Margin note 19.1 is on absolute page 19
-(marginnote)              on input line 243.
-Package marginnote Info: right page because not two side mode on input line 243.
+(marginnote)              on input line 245.
+Package marginnote Info: right page because not two side mode on input line 245.
 Package marginnote Info: xpos seems to be 274.18958pt,
-(marginnote)             \marginnoterightadjust ignored on input line 243.
+(marginnote)             \marginnoterightadjust ignored on input line 245.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 243.
+(Font)              scaled to size 8.0pt on input line 245.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 6.2pt on input line 243.
+(Font)              scaled to size 6.2pt on input line 245.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 5.5pt on input line 243.
+(Font)              scaled to size 5.5pt on input line 245.
  [18] [19]
 <./chapter1/outputs/fig1-1.png, id=536, 962.59625pt x 700.6175pt>
 File: ./chapter1/outputs/fig1-1.png Graphic file (type png)
 <use ./chapter1/outputs/fig1-1.png>
-Package pdftex.def Info: ./chapter1/outputs/fig1-1.png  used on input line 300.
+Package pdftex.def Info: ./chapter1/outputs/fig1-1.png  used on input line 302.
 (pdftex.def)             Requested size: 398.33858pt x 289.91698pt.
 ) [20 <./chapter1/outputs/fig1-1.png>]) [21]
 Chapter 2.
