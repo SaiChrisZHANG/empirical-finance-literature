@@ -19,7 +19,11 @@ I also summarize a theoretical explanation of this observation.
 Using stock returns of 1926-1985 sample period, \citeauthor{fama1988permanent} presented evidence of large negative autocorrelations for return horizons beyond a year. Their proposition is that a slowly decaying component of prices
 induces negative AR in returns. This decay is slow such that for daily or weekly holding periods, it will not have a significant effect. 
 
-First, the authors present a simple model for stock prices: 
+First, the authors present a simple model for stock prices:
+$$
+p_t = q_t + z_t,\ \ q_t=q_{t-1} +\mu +\eta_t
+$$
+where price $p_t$ is 
 
 \subsection{Positive autocorrelations}\label{chap1:sec2:ssec2}
 Due to the positive cross-autocorrelations among individual stocks, \textbf{Stock indexes} have predominantly
