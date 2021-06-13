@@ -45,6 +45,8 @@ With this equation, we can deduct that if the price:
     \item[-] Has both $z_t$ and $q_t$: $\beta_T = \rho_T \cdot \frac{1}{1+Var[q_{t+T}-q_t]/Var[z_{t+T}-z_t]}$, $z_t$ pushes $\beta_T$ to -0.5 while $q_t$ pushes it to 0. Notice that $Var[z_{t+T}-z_t]\xrightarrow{T\rightarrow \infty} 2\sigma^2(z)$, 
     $Var[q_{t+T}-q_t]\xrightarrow{T\rightarrow\infty}\infty$, eventually, $\beta_T \rightarrow 0$.
 \end{enumerate}
+With this fairly simple model, \citeauthor{fama1988permanent} predict that if stock prices have both random-walk and slowy decaying stationary components, the slopes of regressing $r_{t,t+T}$ on $r_{t-T,t}$ might form a U-shaped pattern: starting around 0
+for short horizons, become more negative as T increases, then moving back to 0.
 
 \subsection{Positive autocorrelations}\label{chap1:sec2:ssec2}
 Due to the positive cross-autocorrelations among individual stocks, \textbf{Stock indexes} have predominantly
