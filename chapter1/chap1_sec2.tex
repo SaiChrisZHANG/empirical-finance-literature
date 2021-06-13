@@ -32,7 +32,9 @@ which is just the slope of regressing $z_{t+T}-z_t$ on $z_t-z_{t-T}$. When T inc
 $$
 \rho_{T} = \frac{-\sigma^2(z)+2Cov(z_t,z_{t+T}-Cov(z_t,z_{t+2T}))}{2\sigma^2(z) - 2Cov(z_{t+T},z_t)} \xrightarrow{T\rightarrow\infty}-0.5
 $$
-If $z_t$ is an AR(1), i.e. $z_{t+1} = \phi z_t$, then $E_t[z_{t+T},z_t]=(\phi^T-1)z_t$, and $Cov[z_{t+T}-z_t,z_t,z_{t-T}] = -(\phi^T-1)^2\sigma^2(z)= Var(E_t[z_{t+T}-z_t])$. Thus, $\rho^T = \frac{Var(E_t[z_{t+T}-z_t])}{Var(z_{t+T}-z_t)}$
+If $z_t$ is an AR(1), i.e. $z_{t+1} = \phi z_t$, then $E_t[z_{t+T},z_t]=(\phi^T-1)z_t$, and $Cov[z_{t+T}-z_t,z_t,z_{t-T}] = -(\phi^T-1)^2\sigma^2(z)= Var(E_t[z_{t+T}-z_t])$. Thus, $\rho^T = \frac{Var(E_t[z_{t+T}-z_t])}{Var(z_{t+T}-z_t)}$.
+
+Now, We cannot observe $z_t$, instead, we use observed returns to 
 
 \subsection{Positive autocorrelations}\label{chap1:sec2:ssec2}
 Due to the positive cross-autocorrelations among individual stocks, \textbf{Stock indexes} have predominantly
