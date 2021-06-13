@@ -42,7 +42,8 @@ With this equation, we can deduct that if the price:
 \begin{enumerate}
     \item[-] Does not have a stationary component ($\forall t, z_t=0$): $\beta_T=0$, no ARs
     \item[-] Does not have a random walk ($\forall t, q_t=0$): $\beta_T = \rho_T \xrightarrow{T\rightarrow \infty}-0.5$
-    \item[-] Has both $z_t$ and $q_t$: 
+    \item[-] Has both $z_t$ and $q_t$: $\beta_T = \rho_T \cdot \frac{1}{1+Var[q_{t+T}-q_t]/Var[z_{t+T}-z_t]}$, $z_t$ pushes $\beta_T$ to -0.5 while $q_t$ pushes it to 0. Notice that $Var[z_{t+T}-z_t]\xrightarrow{T\rightarrow \infty} 2\sigma^2(z)$, 
+    $Var[q_{t+T}-q_t]$
 \end{enumerate}
 
 \subsection{Positive autocorrelations}\label{chap1:sec2:ssec2}
