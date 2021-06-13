@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  13 JUN 2021 20:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  13 JUN 2021 21:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -936,6 +936,10 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc10.
 \openout3 = `main.mtc10'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc11.
+\openout3 = `main.mtc11'.
+
  (/Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <12> not available
 (Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 2.
@@ -1009,18 +1013,7 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
-LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <10> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 9.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 9.
-
-
-Package natbib Warning: Citation `campbell2017financial' on page 4 undefined on input line 9.
-
-
-Package natbib Warning: Citation `campbell2017financial' on page 4 undefined on input line 11.
-
-[4
+ [4
 
 ]
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
@@ -1028,266 +1021,52 @@ LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 17.28pt on input line 21.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec1.tex
-
-Package natbib Warning: Citation `campbell2017financial' on page 5 undefined on input line 1.
-
-
-Package natbib Warning: Citation `malkiel1989efficient' on page 5 undefined on input line 7.
-
-
-Package natbib Warning: Citation `malkiel1989efficient' on page 5 undefined on input line 16.
-
-
-Package natbib Warning: Citation `malkiel1970efficient' on page 5 undefined on input line 30.
-
+Package marginnote Info: Margin note 6.1 is on absolute page 7
+(marginnote)              on input line 35.
 Package marginnote Info: right page because not two side mode on input line 35.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 35.
+Package marginnote Info: xpos seems to be 101.64468pt,
+(marginnote)             \marginnoterightadjust ignored on input line 35.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 35.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 6.2pt on input line 35.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 35.
-[5]
-
-Package natbib Warning: Citation `shefrin1985disposition' on page 6 undefined on input line 48.
-
-
-Package natbib Warning: Citation `campbell2017financial' on page 6 undefined on input line 53.
-
-
-Package natbib Warning: Citation `box1970distribution' on page 6 undefined on input line 58.
-
-
-Package natbib Warning: Citation `box1970distribution' on page 6 undefined on input line 65.
-
-[6]
-
-Package natbib Warning: Citation `lo1988stock' on page 7 undefined on input line 78.
-
-
-Package natbib Warning: Citation `poterba1988mean' on page 7 undefined on input line 78.
-
+ [5] [6]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 92.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 6.6pt on input line 92.
-
-Package natbib Warning: Citation `cochrane1988big' on page 7 undefined on input line 107.
-
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 107.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 107.
-
-Package natbib Warning: Citation `priestley1981spectral' on page 7 undefined on input line 114.
-
-
-Package natbib Warning: Citation `lo1988stock' on page 7 undefined on input line 121.
-
-[7]
-
-Package natbib Warning: Citation `lo1988stock' on page 8 undefined on input line 127.
-
-
-Overfull \hbox (60.53853pt too wide) in paragraph at lines 127--129
-[]\T1/zpltlf/m/n/12 To ac-com-mo-date $\OML/npxmi/m/it/12 r[]$\T1/zpltlf/m/n/12 's ex-hibit-ing con-di-tional het-eroskedas-tic-ity, \T1/zpltlf/b/n/12 ? \T1/zpltlf/m/n/12 pro-posed a heteroskedasticity-
- []
-
-
-Package natbib Warning: Citation `fama1988permanent' on page 8 undefined on input line 135.
-
-
-Package natbib Warning: Citation `charles2009variance' on page 8 undefined on input line 156.
-
-
-Package natbib Warning: Citation `charles2009variance' on page 8 undefined on input line 158.
-
-
-Package natbib Warning: Citation `lo1988stock' on page 8 undefined on input line 161.
-
-
-Package natbib Warning: Citation `lo1990contrarian' on page 8 undefined on input line 164.
-
-[8]
-
-Package natbib Warning: Citation `chen2006variance' on page 9 undefined on input line 166.
-
-
-Package natbib Warning: Citation `wright2000alternative' on page 9 undefined on input line 171.
-
-
-Package natbib Warning: Citation `lo1988stock' on page 9 undefined on input line 171.
-
-
-Package natbib Warning: Citation `luger2003exact' on page 9 undefined on input line 177.
-
-
-Package natbib Warning: Citation `choi1999testing' on page 9 undefined on input line 179.
-
-
-Package natbib Warning: Citation `choi1999testing' on page 9 undefined on input line 179.
-
-
-Package natbib Warning: Citation `cochrane1988big' on page 9 undefined on input line 180.
-
-
-Package natbib Warning: Citation `cochrane1988big' on page 9 undefined on input line 180.
-
-
-Package natbib Warning: Citation `choi1999testing' on page 9 undefined on input line 181.
-
-
-Package natbib Warning: Citation `chow1993simple' on page 9 undefined on input line 189.
-
-[9]
-
-Package natbib Warning: Citation `whang2003multiple' on page 10 undefined on input line 196.
-
-
-Package natbib Warning: Citation `whang2003multiple' on page 10 undefined on input line 204.
-
-
-Package natbib Warning: Citation `belaire2004ranks' on page 10 undefined on input line 207.
-
-
-Package natbib Warning: Citation `wright2000alternative' on page 10 undefined on input line 207.
-
-
-Package natbib Warning: Citation `chow1993simple' on page 10 undefined on input line 208.
-
-
-Package natbib Warning: Citation `richardson1991tests' on page 10 undefined on input line 211.
-
+ [7] [8] [9]
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 213.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 8.8pt on input line 213.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 6.6pt on input line 213.
-
-Package natbib Warning: Citation `cecchetti1994variance' on page 10 undefined on input line 219.
-
-
-Package natbib Warning: Citation `chen2006variance' on page 10 undefined on input line 227.
-
-
-Package natbib Warning: Citation `chen2006variance' on page 10 undefined on input line 228.
-
-
-Package natbib Warning: Citation `richardson1991tests' on page 10 undefined on input line 228.
-
-
-Package natbib Warning: Citation `cecchetti1994variance' on page 10 undefined on input line 228.
-
-[10]
-
-Package natbib Warning: Citation `kim2006wild' on page 11 undefined on input line 235.
-
-
-Package natbib Warning: Citation `kim2006wild' on page 11 undefined on input line 235.
-
-
-Package natbib Warning: Citation `lo1988stock' on page 11 undefined on input line 235.
-
-
-Package natbib Warning: Citation `chow1993simple' on page 11 undefined on input line 235.
-
-
-Package natbib Warning: Citation `kim2006wild' on page 11 undefined on input line 242.
-
-
-Package natbib Warning: Citation `malliaropulos1999mean' on page 11 undefined on input line 244.
-
-
-Package natbib Warning: Citation `wu1986jackknife' on page 11 undefined on input line 244.
-
-
-Overfull \hbox (34.60788pt too wide) in paragraph at lines 244--247
-[]\T1/zpltlf/b/n/12 ? Test\T1/zpltlf/m/n/12 : They used a weighted boot-strap method pro-posed by \T1/zpltlf/b/n/12 ?\T1/zpltlf/m/n/12 , which is heteroskedasticity-
- []
-
-
-Package natbib Warning: Citation `malliaropulos1999mean' on page 11 undefined on input line 253.
-
-
-Package natbib Warning: Citation `kim2006wild' on page 11 undefined on input line 254.
-
-) (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex [11]
-
-Package natbib Warning: Citation `fama1988permanent' on page 12 undefined on input line 18.
-
-
-Package natbib Warning: Citation `fama1988permanent' on page 12 undefined on input line 19.
-
-[12]
-
-Package natbib Warning: Citation `lo1988stock' on page 13 undefined on input line 46.
-
-
-Package natbib Warning: Citation `lo1990contrarian' on page 13 undefined on input line 46.
-
-
-Package natbib Warning: Citation `lo1988stock' on page 13 undefined on input line 47.
-
-
-Package natbib Warning: Citation `lo1990contrarian' on page 13 undefined on input line 47.
-
-
-Package natbib Warning: Citation `lo1988stock' on page 13 undefined on input line 48.
-
-
-Package natbib Warning: Citation `lo1990contrarian' on page 13 undefined on input line 50.
-
-[13] [14]
-
-Package natbib Warning: Citation `lo1990econometric' on page 15 undefined on input line 124.
-
-[15]
-
-Package natbib Warning: Citation `roll1984simple' on page 16 undefined on input line 190.
-
-[16]
-
-Package natbib Warning: Citation `lo1990contrarian' on page 17 undefined on input line 198.
-
-
-Package natbib Warning: Citation `froot1995new' on page 17 undefined on input line 209.
-
-
-Package natbib Warning: Citation `froot1995new' on page 17 undefined on input line 210.
-
-[17]
-
-Package natbib Warning: Citation `froot1995new' on page 18 undefined on input line 244.
-
-
-Package natbib Warning: Citation `froot1995new' on page 18 undefined on input line 258.
-
-Package marginnote Info: right page because not two side mode on input line 263.
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoterightadjust on input line 263.
+ [10]) (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex [11] [12] [13] [14] [15] [16] [17]
+Package marginnote Info: Margin note 19.1 is on absolute page 20
+(marginnote)              on input line 269.
+Package marginnote Info: right page because not two side mode on input line 269.
+Package marginnote Info: xpos seems to be 274.18958pt,
+(marginnote)             \marginnoterightadjust ignored on input line 269.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 263.
+(Font)              scaled to size 8.0pt on input line 269.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 6.2pt on input line 263.
+(Font)              scaled to size 6.2pt on input line 269.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 5.5pt on input line 263.
-[18]
-
-Package natbib Warning: Citation `froot1995new' on page 19 undefined on input line 280.
-
-
-Package natbib Warning: Citation `froot1995new' on page 19 undefined on input line 288.
-
-[19]
-<./chapter1/outputs/fig1-1.png, id=388, 962.59625pt x 700.6175pt>
+(Font)              scaled to size 5.5pt on input line 269.
+ [18] [19] [20]
+<./chapter1/outputs/fig1-1.png, id=545, 962.59625pt x 700.6175pt>
 File: ./chapter1/outputs/fig1-1.png Graphic file (type png)
 <use ./chapter1/outputs/fig1-1.png>
-Package pdftex.def Info: ./chapter1/outputs/fig1-1.png  used on input line 320.
+Package pdftex.def Info: ./chapter1/outputs/fig1-1.png  used on input line 326.
 (pdftex.def)             Requested size: 398.33858pt x 289.91698pt.
-) [20] [21 <./chapter1/outputs/fig1-1.png>]) [22]
+) [21 <./chapter1/outputs/fig1-1.png>]) [22]
 Chapter 2.
 (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
 \openout3 = `main.mtc'.
@@ -1375,13 +1154,11 @@ Chapter 10.
 ] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl [32
 
 ])
-
-Package natbib Warning: There were undefined citations.
-
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
 \openout3 = `main.maf'.
+
 
 
 Package minitoc(hints) Warning: W0024
@@ -1391,41 +1168,26 @@ Package minitoc(hints) Warning: W0024
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
 [33]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: A8BB04E11C66AE5CB61C0299757DAC8B;2487
-(rerunfilecheck)             After:  4BA9FBD6EFE794B4CEB38A09FD8D0ED2;2538.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4BA9FBD6EFE794B4CEB38A09FD8D0ED2;2538.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
  ) 
 Here is how much of TeX's memory you used:
- 13872 strings out of 492649
- 200824 string characters out of 6129623
+ 13870 strings out of 492649
+ 200780 string characters out of 6129623
  337775 words of memory out of 5000000
- 17016 multiletter control sequences out of 15000+600000
- 161614 words of font info for 249 fonts, out of 8000000 for 9000
+ 17013 multiletter control sequences out of 15000+600000
+ 158723 words of font info for 248 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,17n,44p,1031b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,17n,44p,1031b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/ntxsyralt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexas.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (34 pages, 361108 bytes).
+Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (34 pages, 366204 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 524 compressed objects within 6 object streams
+ 704 PDF objects out of 1000 (max. 8388607)
+ 644 compressed objects within 7 object streams
  131 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 302 words of extra memory for PDF output out of 10000 (max. 10000000)
 

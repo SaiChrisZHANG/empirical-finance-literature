@@ -431,6 +431,7 @@ OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9
 OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10
+OUTPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc11
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
@@ -527,7 +528,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newpx/t1zplsups.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zplsups-Regular-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zplsups-Regular-t1.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-t1.tfm

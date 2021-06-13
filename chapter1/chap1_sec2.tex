@@ -36,8 +36,14 @@ If $z_t$ is an AR(1), i.e. $z_{t+1} = \phi z_t$, then $E_t[z_{t+T},z_t]=(\phi^T-
 
 Now, We cannot observe $z_t$, instead, we use observed returns to infer its properties. If changes in the random walk $q_t$ and stationary components $z_t$ are uncorrelated, then the slope of regression $r_{t,t+T}$ on $t_{t-T,t}$ is:
 $$
-\beta_T = \frac{Cov[r_{t,t+T},r_{t-T,t}]}{\sigma^2[r_{t-T,t}]}=\frac{\rho_T Var[z_{t+T}-z_t]}{\sigma^2[z_{t+T}-z_t]+\sigma^2[q_{t+T}-q_t]} \simeq \frac{-Var(E_t[z_{t+T}-z_t])}{\sigma^2(r_{t-T},t_t)}
+\beta_T = \frac{Cov[r_{t,t+T},r_{t-T,t}]}{\sigma^2[r_{t-T,t}]}=\frac{\rho_T Var[z_{t+T}-z_t]}{Var[z_{t+T}-z_t]+Var[q_{t+T}-q_t]} \simeq \frac{-Var(E_t[z_{t+T}-z_t])}{\sigma^2(r_{t-T},t_t)}
 $$
+With this equation, we can deduct that if the price:
+\begin{enumerate}
+    \item[-] Does not have a stationary component ($\forall t, z_t=0$): $\beta_T=0$, no ARs
+    \item[-] Does not have a random walk ($\forall t, q_t=0$): $\beta_T = \rho_T \xrightarrow{T\rightarrow \infty}-0.5$
+    \item[-] Has both $z_t$ and $q_t$:  
+\end{enumerate}
 
 \subsection{Positive autocorrelations}\label{chap1:sec2:ssec2}
 Due to the positive cross-autocorrelations among individual stocks, \textbf{Stock indexes} have predominantly
