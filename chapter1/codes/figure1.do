@@ -5,9 +5,9 @@
 * links are here: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html
 
 global rootdir = "~/Desktop/LIT/empirical-finance-literature"
-global chap1dir = "${rootdir}/chapter1"
-global outdir = "${chap1dir}/outputs"
-global indir = "${chap1dir}/data"
+global datadir = "~/Desktop/LIT/empirical finance literature data"
+global outdir = "${rootdir}/chapter1/outputs"
+global indir = "${datadir}/chapter1/data"
 
 use `"${indir}/daily_return.dta"', clear
 
