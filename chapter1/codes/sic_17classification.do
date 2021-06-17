@@ -60,4 +60,13 @@ program sic_17class
     * Fabricated products
     replace sic_17 = 10 if inrange($sicvar,3410,3412)|inrange($sicvar,3443,3444)|inrange($sicvar,3460,3499)
 
+    * Machinery and business equipment
+    replace sic_17 = 11 if inrange($sicvar,3510,3536)|inrange($sicvar,3540,3582)|inrange($sicvar,3585,3586)
+    replace sic_17 = 11 if inrange($sicvar,3589,3600)|inrange($sicvar,3610,3613)|inrange($sicvar,3620,3629)
+    replace sic_17 = 11 if inrange($sicvar,3670,3695)|$sicvar==3699|inrange($sicvar,3810,3812)
+    replace sic_17 = 11 if inrange($sicvar,3820,3827)|inrange($sicvar,3829,3839)|inrange(3950,3955)
+    replace sic_17 = 11 if $sicvar==5060|$sicvar==5063|$sicvar==5065|inrange($sicvar,5080,5081)
+
+    * Automobiles
+    
 end
