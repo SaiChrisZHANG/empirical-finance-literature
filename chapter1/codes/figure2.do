@@ -7,6 +7,7 @@
 global rootdir = "~/Desktop/LIT/empirical-finance-literature"
 global datadir = "~/Desktop/LIT/empirical finance literature data"
 global outdir = "${rootdir}/chapter1/outputs"
-global indir = "${datadir}/chapter1/data"
+global indir = "${datadir}/chapter1"
 
 use `"${indir}/monthly_NYSE_return.dta"', clear
+
