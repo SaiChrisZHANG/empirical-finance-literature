@@ -1,5 +1,5 @@
 * Author: Sai Zhang (saizhang.econ@gmail.com)
-* This file is used to produce figure 1 in Chapter 1 (see page 20).
+* This file is used to produce figure  in Chapter 1 (see page ).
 
 * The CRSP market index excess return data are downloaded from French Kenneth's webiste.
 * links are here: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html
@@ -9,7 +9,7 @@ global datadir = "~/Desktop/LIT/empirical finance literature data"
 global outdir = "${rootdir}/chapter1/outputs"
 global indir = "${datadir}/chapter1/data"
 
-use `"${indir}/daily_return.dta"', clear
+use `"${indir}/monthly_NYSE_return.dta"', clear
 
 * some basic cleaning
 gen yr = substr(date,1,4)
