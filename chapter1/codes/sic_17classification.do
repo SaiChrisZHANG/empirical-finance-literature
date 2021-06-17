@@ -91,6 +91,13 @@ program sic_17class
         replace sic_17 = 15 if inrange($sicvar,5710,5722)|inrange($sicvar,5730,3736)|$sicvar==5750|inrange($sicvar,5800,5813)|$sicvar==5900|inrange($sicvar,5910,5912)|inrange($sicvar,5920,5921)
         replace sic_17 = 15 if inrange($sicvar,5930,5932)|inrange($sicvar,5940,5949)|inrange($sicvar,5960,5963)|inrange($sicvar,5980,5990)|inrange($sicvar,5992,5995)|$sicvar==5999
 
-        * 
+        * Financials
+        replace sic_17 = 16 if inrange($sicvar,6010,6023)|inrange($sicvar,6025,6026)|inrange($sicvar,6028,6036)|inrange($sicvar,6040,6062)|inrange($sicvar,6080,6082)|inrange($sicvar,6090,6100)
+        replace sic_17 = 16 if inrange($sicvar,6110,6112)|inrange($sicvar,6120,6129)|inrange($sicvar,6140,6163)|$sicvar==6172|inrange($sicvar,6199,6300)|inrange($sicvar,6310,6312)
+        replace sic_17 = 16 if inrange($sicvar,6320,6324)|inrange($sicvar,6330,6331)|inrange($sicvar,6350,6351)|inrange($sicvar,6360,6361)|inrange($sicvar,6370,6371)|inrange($sicvar,6390,6411)
+        replace sic_17 = 16 if $sicvar==6500|$sicvar==6510|inrange($sicvar,6512,6515)|inrange($sicvar,6517,6519)|inrange($sicvar,6530,6532)|inrange($sicvar,6540,6541)|inrange($sicvar,6550,6553)
+        replace sic_17 = 16 if $sicvar==6611|$sicvar==6700|inrange($sicvar,6710,6726)|inrange($sicvar,6730,6733)|$sicvar==6790|$sicvar==6792|inrange($sicvar,6794,6795)|inrange($sicvar,6798,6799)
+
+        replace sic_17 = 17 if inrange($)
     } 
 end
