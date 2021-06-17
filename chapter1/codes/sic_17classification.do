@@ -26,8 +26,8 @@ program sic_17class
 
         * Clothes
         replace sic_17 = 4 if inrange($sicvar,2200,2284)|inrange($sicvar,2290,2399)|inrange($sicvar,3020,3021)
-        replace sic_17 = 4 if inrange($sicvar,3100,3111)|inrange($sicvar,3130,3131)|inrange($sicvar,3140,3149)
-        replace sic_17 = 4 if inrange($sicvar,3150,3151)|inrange($sicvar,3963,3965)|inrange($sicvar,5130,5139)
+        replace sic_17 = 4 if inrange($sicvar,3100,3111)|inrange($sicvar,3130,3131)|inrange($sicvar,3140,3151)
+        replace sic_17 = 4 if inrange($sicvar,3963,3965)|inrange($sicvar,5130,5139)
 
         * Durables
         replace sic_17 = 5 if inrange($sicvar,2510,2519)|inrange($sicvar,2590,2599)|inrange($sicvar,3060,3099)
@@ -77,7 +77,7 @@ program sic_17class
         replace sic_17 = 13 if $sicvar==3728|inrange($sicvar,3730,3732)|inrange($sicvar,3740,3743)|inrange($sicvar,3760,3769)
         replace sic_17 = 13 if $sicvar==3790|$sicvar==3795|$sicvar==3799|inrange($sicvar,4000,4013)|$sicvar==4100
         replace sic_17 = 13 if inrange($sicvar,4110,4121)|inrange($sicvar,4130,4131)|inrange($sicvar,4140,4142)|inrange($sicvar,4150,4151)
-        replace sic_17 = 13 if inrange($sicvar,4170,4173)|inrange($sicvar,4190,4200)|inrange($sicvar,4210,4231)|inrange($sicvar,4400,2700)
+        replace sic_17 = 13 if inrange($sicvar,4170,4173)|inrange($sicvar,4190,4200)|inrange($sicvar,4210,4231)|inrange($sicvar,4400,4700)
         replace sic_17 = 13 if inrange($sicvar,4710,4712)|inrange($sicvar,4720,4742)|$sicvar==4780|$sicvar==4783|$sicvar==4785|$sicvar==4789
 
         * Utilities
@@ -88,7 +88,7 @@ program sic_17class
         replace sic_17 = 15 if inrange($sicvar,5260,5261)|inrange($sicvar,5270,5271)|$sicvar==5300|inrange($sicvar,5310,5311)|$sicvar==5320|inrange($sicvar,5330,5331)
         replace sic_17 = 15 if $sicvar==5334|inrange($sicvar,5390,5400)|inrange($sicvar,5410,5412)|inrange($sicvar,5420,5421)|inrange($sicvar,5430,5431)|inrange($sicvar,5440,5441)
         replace sic_17 = 15 if inrange($sicvar,5450,5451)|inrange($sicvar,5460,5461)|inrange($sicvar,5490,5499)|inrange($sicvar,5540,5541)|inrange($sicvar,5550,5551)|inrange($sicvar,5600,5700)
-        replace sic_17 = 15 if inrange($sicvar,5710,5722)|inrange($sicvar,5730,3736)|$sicvar==5750|inrange($sicvar,5800,5813)|$sicvar==5900|inrange($sicvar,5910,5912)|inrange($sicvar,5920,5921)
+        replace sic_17 = 15 if inrange($sicvar,5710,5722)|inrange($sicvar,5730,3736)|$sicvar==5750|inrange($sicvar,5800,5813)|$sicvar==5890|$sicvar==5900|inrange($sicvar,5910,5912)|inrange($sicvar,5920,5921)
         replace sic_17 = 15 if inrange($sicvar,5930,5932)|inrange($sicvar,5940,5949)|inrange($sicvar,5960,5963)|inrange($sicvar,5980,5990)|inrange($sicvar,5992,5995)|$sicvar==5999
 
         * Financials
@@ -99,7 +99,7 @@ program sic_17class
         replace sic_17 = 16 if $sicvar==6611|$sicvar==6700|inrange($sicvar,6710,6726)|inrange($sicvar,6730,6733)|$sicvar==6790|$sicvar==6792|inrange($sicvar,6794,6795)|inrange($sicvar,6798,6799)
 
         * Other
-        replace sic_17 = 17 if inrange($sicvar,2520,2549)|inrange($sicvar,2600,2659)|$sicvar==2661|inrange($sicvar,2670,2761)|inrange($sicvar,2770,2771)|inrange($sicvar,2789,2799)|inrange($sicvar,2835,2836)
+        replace sic_17 = 17 if inrange($sicvar,2520,2549)|inrange($sicvar,2600,2659)|$sicvar==2661|inrange($sicvar,2670,2761)|inrange($sicvar,2770,2771)|inrange($sicvar,2780,2799)|inrange($sicvar,2835,2836)
         replace sic_17 = 17 if inrange($sicvar,2990,3000)|inrange($sicvar,3010,3011)|$sicvar==3041|$sicvar==3053|inrange($sicvar,3160,3161)|inrange($sicvar,3170,3172)|inrange($sicvar,3190,3221)|inrange($sicvar,3229,3231)
         replace sic_17 = 17 if $sicvar==3260|$sicvar==3263|$sicvar==3269|inrange($sicvar,3295,3299)|$sicvar==3537|inrange($sicvar,3640,3649)|inrange($sicvar,3660,3666)|$sicvar==3669|inrange($sicvar,3840,3851)
         replace sic_17 = 17 if $sicvar==3991|$sicvar==3993|inrange($sicvar,3995,3996)|inrange($sicvar,4810,4813)|inrange($sicvar,4820,4822)|inrange($sicvar,4830,4841)|inrange($sicvar,4890,4892)|$sicvar==4899|inrange($sicvar,4950,4961)

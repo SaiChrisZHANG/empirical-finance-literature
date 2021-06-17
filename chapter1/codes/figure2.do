@@ -11,3 +11,5 @@ global indir = "${datadir}/chapter1"
 
 use `"${indir}/monthly_NYSE_return.dta"', clear
 
+* generate the 17-industry SIC classification
+do `"${rootdir}/chapter1/codes/sic_17classification.do"'
