@@ -68,5 +68,10 @@ program sic_17class
     replace sic_17 = 11 if $sicvar==5060|$sicvar==5063|$sicvar==5065|inrange($sicvar,5080,5081)
 
     * Automobiles
-    
+    replace sic_17 = 12 if inrange($sicvar,3710,3711)|$sicvar==3714|$sicvar==3716|inrange($sicvar,3750,3751)
+    replace sic_17 = 12 if $sicvar==3792|inrange($sicvar,5010,5015)|inrange($sicvar,5510,5521)|inrange($sicvar,5530,5531)
+    replace sic_17 = 12 if inrange($sicvar,5560,5561)|inrange($sicvar,5570,5571)|inrange($sicvar,5590,5599)
+
+    * Transportation
+    replace 
 end
