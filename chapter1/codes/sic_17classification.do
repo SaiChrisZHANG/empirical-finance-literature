@@ -57,4 +57,7 @@ program sic_17class
     replace sic_17 = 9 if $sicvar==3300|inrange($sicvar,3310,3317)|inrange($sicvar,3320,3325)|inrange($sicvar,3330,3341)
     replace sic_17 = 9 if inrange($sicvar,3350,3357)|inrange($sicvar,3360,3369)|inrange($sicvar,3390,3399)
 
+    * Fabricated products
+    replace sic_17 = 10 if inrange($sicvar,3410,3412)|inrange($sicvar,3443,3444)|inrange($sicvar,3460,3499)
+
 end
