@@ -86,7 +86,8 @@ program sic_17class
         * Retail stores
         replace sic_17 = 15 if inrange($sicvar,3510,3536)|inrange($sicvar,3540,3582)|inrange($sicvar,3585,3586)|inrange($sicvar,3589,3600)
         replace sic_17 = 15 if inrange($sicvar,3610,3613)|inrange($sicvar,3620,3629)|inrange($sicvar,3670,3695)|$sicvar==3699
-        replace sic_17 = 15 if inrange($sicvar,3810,3812)|inrange($sicvar,3820,3839)|inrange($sicvar,3950,3955)|inrange($sicvar,)
+        replace sic_17 = 15 if inrange($sicvar,3810,3812)|inrange($sicvar,3820,3839)|inrange($sicvar,3950,3955)|$sicvar==5060|$sicvar==5063
+        replace sic_17 = 15 if $sicvar==5065|$sicvar==5080|inrange($sicvar,5080,5081)
     }
     local sicvar = "SICCD"
     
