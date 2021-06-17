@@ -73,5 +73,10 @@ program sic_17class
     replace sic_17 = 12 if inrange($sicvar,5560,5561)|inrange($sicvar,5570,5571)|inrange($sicvar,5590,5599)
 
     * Transportation
-    replace 
+    replace sic_17 = 13 if $sicvar==3713|$sicvar==3715|inrange($sicvar,3720,3721)|inrange($sicvar,3724,3725)
+    replace sic_17 = 13 if $sicvar==3728|inrange($sicvar,3730,3732)|inrange($sicvar,3740,3743)|inrange($sicvar,3760,3769)
+    replace sic_17 = 13 if $sicvar==3790|$sicvar==3795|$sicvar==3799|inrange($sicvar,4000,4013)|$sicvar==4100
+    replace sic_17 = 13 if inrange($sicvar,4110,4121)|inrange($sicvar,4130,4131)|inrange($sicvar,4140,4142)|inrange($sicvar,4150,4151)
+    replace sic_17 = 13 if inrange($sicvar,4170,4173)|inrange($sicvar,4190,4200)|inrange($sicvar,4210,4231)|inrange($sicvar,4400,2700)
+    replace sic_17 = 13 if inrange($sicvar,4710,4712)|inrange($sicvar,4720,4742)|$sicvar==4780|$sicvar==4783|$sicvar==4785|$sicvar==4789
 end
