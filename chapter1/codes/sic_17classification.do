@@ -25,6 +25,9 @@ program sic_17class
     replace sic_17 = 3 if $sicvar==1389|inrange($sicvar,2900,2912)|inrange($sicvar,5170,5172)
 
     * Clothes
-    replace sic_17 = 4 if 
+    replace sic_17 = 4 if inrange($sicvar,2200,2284)|inrange($sicvar,2290,2399)|inrange($sicvar,3020,3021)
+    replace sic_17 = 4 if inrange($sicvar,3100,3111)|inrange($sicvar,3130,3131)|inrange($sicvar,3140,3149)
+    replace sic_17 = 4 if inrange($sicvar,3150,3151)|inrange($sicvar,3963,3965)|inrange($sicvar,5130,5139)
+    
 
 end
