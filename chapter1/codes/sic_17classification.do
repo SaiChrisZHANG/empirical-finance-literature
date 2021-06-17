@@ -5,6 +5,7 @@
 
 cap program drop sic_17class
 program sic_17class
+    local sicvar = "SICCD"
     qui{
         * generate a 17-industry classification variable
         gen sic_17 = .
@@ -84,11 +85,12 @@ program sic_17class
         replace sic_17 = 14 if inrange($sicvar,4930,4932)|inrange($sicvar,4939,4942)
 
         * Retail stores
-        replace sic_17 = 15 if inrange($sicvar,3510,3536)|inrange($sicvar,3540,3582)|inrange($sicvar,3585,3586)|inrange($sicvar,3589,3600)
-        replace sic_17 = 15 if inrange($sicvar,3610,3613)|inrange($sicvar,3620,3629)|inrange($sicvar,3670,3695)|$sicvar==3699
-        replace sic_17 = 15 if inrange($sicvar,3810,3812)|inrange($sicvar,3820,3839)|inrange($sicvar,3950,3955)|$sicvar==5060|$sicvar==5063
-        replace sic_17 = 15 if $sicvar==5065|$sicvar==5080|inrange($sicvar,5080,5081)
-    }
-    local sicvar = "SICCD"
-    
+        replace sic_17 = 15 if inrange($sicvar,5260,5261)|inrange($sicvar,5270,5271)|$sicvar==5300|inrange($sicvar,5310,5311)|$sicvar==5320|inrange($sicvar,5330,5331)
+        replace sic_17 = 15 if $sicvar==5334|inrange($sicvar,5390,5400)|inrange($sicvar,5410,5412)|inrange($sicvar,5420,5421)|inrange($sicvar,5430,5431)|inrange($sicvar,5440,5441)
+        replace sic_17 = 15 if inrange($sicvar,5450,5451)|inrange($sicvar,5460,5461)|inrange($sicvar,5490,5499)|inrange($sicvar,5540,5541)|inrange($sicvar,5550,5551)|inrange($sicvar,5600,5700)
+        replace sic_17 = 15 if inrange($sicvar,5710,5722)|inrange($sicvar,5730,3736)|$sicvar==5750|inrange($sicvar,5800,5813)|$sicvar==5900|inrange($sicvar,5910,5912)|inrange($sicvar,5920,5921)
+        replace sic_17 = 15 if inrange($sicvar,5930,5932)|inrange($sicvar,5940,5949)|inrange($sicvar,5960,5963)|inrange($sicvar,5980,5990)|inrange($sicvar,5992,5995)|$sicvar==5999
+
+        * 
+    } 
 end
