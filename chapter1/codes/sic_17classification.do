@@ -98,6 +98,7 @@ program sic_17class
         replace sic_17 = 16 if $sicvar==6500|$sicvar==6510|inrange($sicvar,6512,6515)|inrange($sicvar,6517,6519)|inrange($sicvar,6530,6532)|inrange($sicvar,6540,6541)|inrange($sicvar,6550,6553)
         replace sic_17 = 16 if $sicvar==6611|$sicvar==6700|inrange($sicvar,6710,6726)|inrange($sicvar,6730,6733)|$sicvar==6790|$sicvar==6792|inrange($sicvar,6794,6795)|inrange($sicvar,6798,6799)
 
+        * Other
         replace sic_17 = 17 if inrange($sicvar,2520,2549)|inrange($sicvar,2600,2659)|$sicvar==2661|inrange($sicvar,2670,2761)|inrange($sicvar,2770,2771)|inrange($sicvar,2789,2799)|inrange($sicvar,2835,2836)
         replace sic_17 = 17 if inrange($sicvar,2990,3000)|inrange($sicvar,3010,3011)|$sicvar==3041|$sicvar==3053|inrange($sicvar,3160,3161)|inrange($sicvar,3170,3172)|inrange($sicvar,3190,3221)|inrange($sicvar,3229,3231)
         replace sic_17 = 17 if $sicvar==3260|$sicvar==3263|$sicvar==3269|inrange($sicvar,3295,3299)|$sicvar==3537|inrange($sicvar,3640,3649)|inrange($sicvar,3660,3666)|$sicvar==3669|inrange($sicvar,3840,3851)
@@ -109,5 +110,11 @@ program sic_17class
         replace sic_17 = 17 if $sicvar==7600|$sicvar==7620|inrange($sicvar,7622,7623)|inrange($sicvar,7629,7631)|inrange($sicvar,7640,7641)|inrange($sicvar,7690,7699)|inrange($sicvar,7800,7833)|inrange($sicvar,7840,7841)
         replace sic_17 = 17 if $sicvar==7900|inrange($sicvar,7910,7911)|inrange($sicvar,7920,7933)|inrange($sicvar,7940,7949)|$sicvar==7980|inrange($sicvar,7990,8499)|inrange($sicvar,8600,8700)|inrange($sicvar,8710,8713)
         replace sic_17 = 17 if inrange($sicvar,8720,8721)|inrange($sicvar,8730,8734)|inrange($sicvar,8740,8748)|inrange($sicvar,8800,8999)
+
+        * Unknown: can be seen as Others
+        replace sic_17 = 18 if mi(sic_17)
+
+        label define sic_17class 1 "Food" 2 "Mines" 3 "Oil" 4 "Clothes" 5 "Durables" 6 "Chemicals" 7 "Drugs, Soap, Perfumes, Tobacco" 8 "Construction" 9 "Steel" 10 "Fabricated Products" 11 "Machinery and Business Equipment" 12 "Automobiles" 13 "Tansportation" 14 "Utilities" 15 "Retail Stores" 16 "Financials" 17 "Other" 18 "Unknown"
+        label values sic_17 sic_17class
     } 
 end
