@@ -17,8 +17,11 @@ program sic_17class
     replace sic_17 = 1 if inrange($sicvar,5140,5159)|inrange($sicvar,5180,5182)|$sicvar==5191
 
     * Mines
-    replace sic_17 = 2 if inrange($sicvar,1000,1069)|inrange($sicvar,1080,1099)
-    replace sic_17 = 2 if inrange($sicvar,1200,1299)|inrange($sicvar,1400,1499)
-    replace sic_17 = 2 if inrange($sicvar,5050,5052)
+    replace sic_17 = 2 if inrange($sicvar,1000,1049)|inrange($sicvar,1060,1069)|inrange($sicvar,1080,1099)
+    replace sic_17 = 2 if inrange($sicvar,1200,1299)|inrange($sicvar,1400,1499)|inrange($sicvar,5050,5052)
+
+    * Oil
+    replace sic_17 = 3 if $sicvar==1300|inrange($sicvar,1310,1329)|inrange($sicvar,1380,1382)
+    replace sic_17 = 3 if $sicvar==1389|inrange($sicvar,2900,2912)|inrange($sicvar,5170,5172)
 
 end
