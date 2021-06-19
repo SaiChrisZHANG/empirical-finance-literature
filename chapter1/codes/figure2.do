@@ -21,7 +21,7 @@ keep if month(date) == 12
 gen mkt_cap = PRC * SHROUT
 * the diciles are for the next year
 gen year = year(date) + 1
-
+* generate the deciles
 qui{
     cap drop size_decile
     gen size_decile = .
@@ -33,9 +33,4 @@ qui{
         drop size_p`j'
     }
 }
-
-bys date: egen size_p90 = pctile(mkt_cap) if exchcd == 1, p(90)
-sort date size_p90
-replace size_decile = 10 if mkt_cap > size_p90 & size_decile == .
-drop size_p90
-
+replace size_decile=10 if mi(size_decile)
