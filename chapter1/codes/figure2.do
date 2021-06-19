@@ -22,15 +22,15 @@ gen mkt_cap = PRC * SHROUT
 * the diciles are for the next year
 gen year = year(date) + 1
 
-gen DECILE = .
+gen size_decile = .
 
 forvalues i = 1/9{
     local j=10*`i'
-    bys datadate: egen ME_p`j' = pctile(MElag) if exchcd == 1, p(`j')
-    sort datadate ME_p`j'
-    by datadate: replace ME_p`j' = ME_p`j'[_n-1] if ME_p`j' == .
-    replace DECILE = `i' if MElag <= ME_p`j' & DECILE == .
-    drop ME_p`j'
+    bys date: egen size_p`j' = pctile(mkt_cap), p(`j')
+    sort date size_p`j'
+    by date: replace size_p`j' = size_p`j'[_n-1] if size_p`j' == .
+    replace size_decile = `i' if mkt_cap <= size_p`j' & size_decile == .
+    drop size_p`j'
 }
 
 bys datadate: egen ME_p90 = pctile(MElag) if exchcd == 1, p(90)
