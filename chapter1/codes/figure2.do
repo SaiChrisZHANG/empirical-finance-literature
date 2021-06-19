@@ -41,3 +41,5 @@ restore
 * merge the deciles back
 gen year = year(date)
 merge m:1 PERMNO year using `size_decile'
+drop if _merge==2
+* no 2021 return information in the data set
