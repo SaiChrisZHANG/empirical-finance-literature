@@ -15,6 +15,7 @@ use `"${indir}/monthly_NYSE_return.dta"', clear
 do `"${rootdir}/chapter1/codes/sic_17classification.do"'
 
 * generate annually-updated size deciles
+tempfile size_decile
 preserve
 keep PERMNO date PRC SHROUT
 keep if month(date) == 12
@@ -34,3 +35,9 @@ qui{
     }
 }
 replace size_decile=10 if mi(size_decile)
+keep PERMNO year size_decile
+save `size_decile', replace
+restore
+* merge the deciles back
+gen year = year(date)
+merge m:1 PERMNO year using `size_decile'
