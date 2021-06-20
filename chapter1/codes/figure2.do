@@ -81,3 +81,4 @@ bys date: egen mthret_mkt = mean(ret_adj)
 bys date: egen mthret_mkt_w = total(ret_adj_w)/total(mkt_cap_w)
 keep mthret_mkt mthret_mkt_w date
 duplicates drop date, force
+
