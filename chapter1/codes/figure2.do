@@ -11,10 +11,12 @@ global indir = "${datadir}/chapter1"
 
 use `"${indir}/monthly_NYSE_return.dta"', clear
 
-* generate the 17-industry SIC classification
+* call a do file to generate the 17-industry SIC classification
 do `"${rootdir}/chapter1/codes/sic_17classification.do"'
 
+* ======================================
 * generate annually-updated size deciles
+* ======================================
 tempfile size_decile
 preserve
 keep PERMNO date PRC SHROUT
@@ -44,3 +46,15 @@ merge m:1 PERMNO year using `size_decile'
 drop if _merge==2
 * no 2021 return information in the data set
 drop _merge
+
+* ======================================
+* generate compounded returns
+* ======================================
+* Step 1: adjust returns for inflation with CPI
+*         historical inflation rates are downloaded from WRDS (https://wrds-www.wharton.upenn.edu/pages/get-data/center-research-security-prices-crsp/annual-update/index-treasury-and-inflation/us-treasury-and-inflation-indexes/)
+gen yyyymm = year(date)*100 + month(date)
+merge m:1 yyyymm using `"${indir}/monthly_cpi_inflation.dta"', nogen
+gen ret_adj = (1+RET)/(1+cpiret)-1
+
+* Step 2: generate 2 equal-weighted portfolio average returns, equal-weighted and value-weighted market returns
+*         one by the size deciles, one by the 17-industry classification
