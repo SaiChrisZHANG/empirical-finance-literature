@@ -78,7 +78,19 @@ sort PERMNO date
 by PERMNO: gen mkt_cap_w = PRC[_n-1]*SHROUT[_n-1]
 gen ret_adj_w = mkt_cap_w * ret_adj
 bys date: egen mthret_mkt = mean(ret_adj)
-bys date: egen mthret_mkt_w = total(ret_adj_w)/total(mkt_cap_w)
+bys date: egen up = total(ret_adj_w)
+bys date: egen down = total(mkt_cap_w)
+gen mthret_mkt_w = up/down
 keep mthret_mkt mthret_mkt_w date
 duplicates drop date, force
+restore
 
+* =========
+
+
+postfile handle str32 varname b se using bse, replace
+local regression_vars  // CREATE A LOCAL MACRO CONTAINING THE NAMES OF YOUR VARIABLES
+foreach r of local regression_vars {
+    post handle ("`r'") (_b[`r']) (_se[`r'])
+}
+postclose handle
