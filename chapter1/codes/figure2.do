@@ -60,5 +60,7 @@ gen ret_adj = (1+RET)/(1+cpiret)-1
 *         one by the size deciles, one by the 17-industry classification
 preserve
 *** decile-size portfolio returns
-bys size_decile yyyymm: egen mthret_size = mean(ret_adj)
-*** 
+bys size_decile date: egen mthret_size = mean(ret_adj)
+keep mthret_size date size_decile
+duplicates drop size_decile date, force
+
