@@ -58,27 +58,31 @@ gen ret_adj = (1+RET)/(1+cpiret)-1
 
 * Step 2: generate 2 equal-weighted portfolio average returns, equal-weighted and value-weighted market returns
 *         one by the size deciles, one by the 17-industry classification
+
+*** decile-size portfolio returns
 tempfile mthret_size
 preserve
-*** decile-size portfolio returns
 bys size_decile date: egen mthret_size = mean(ret_adj)
 keep mthret_size date size_decile
 duplicates drop size_decile date, force
-save `mthret_size', replace
 
+
+
+save `mthret_size', replace
 restore
+
+*** insdustry portfolio returns
 tempfile mthret_sic
 preserve
-*** insdustry portfolio returns
 bys sic_17 date: egen mthret_sic = mean(ret_adj)
 keep mthret_sic date sic_17
 duplicates drop sic_17 date, force
 save `mthret_sic', replace
-
 restore
+
+*** market average returns
 tempfile mthret_mkt
 preserve
-*** market average returns
 sort PERMNO date
 by PERMNO: gen mkt_cap_w = PRC[_n-1]*SHROUT[_n-1]
 gen ret_adj_w = mkt_cap_w * ret_adj
