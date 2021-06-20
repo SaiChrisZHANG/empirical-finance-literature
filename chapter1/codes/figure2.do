@@ -64,3 +64,19 @@ bys size_decile date: egen mthret_size = mean(ret_adj)
 keep mthret_size date size_decile
 duplicates drop size_decile date, force
 
+restore
+preserve
+*** insdustry portfolio returns
+bys sic_17 date: egen mthret_sic = mean(ret_adj)
+keep mthret_sic date sic_17
+duplicates drop sic_17 date, force
+
+restore
+preserve
+*** market average returns
+sort PERMNO date
+by PERMNO: gen mkt_cap_w = PRC[_n-1]*SHROUT[_n-1]
+gen ret_adj_w = mkt_cap_w * ret_adj
+
+bys date: egen mthret_mkt = mean(ret_adj)
+bys date: egen mthret_mkt_w = total(ret_adj_w)/total(mkt_cap_w)
