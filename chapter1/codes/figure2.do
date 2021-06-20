@@ -58,3 +58,7 @@ gen ret_adj = (1+RET)/(1+cpiret)-1
 
 * Step 2: generate 2 equal-weighted portfolio average returns, equal-weighted and value-weighted market returns
 *         one by the size deciles, one by the 17-industry classification
+preserve
+*** decile-size portfolio returns
+bys size_decile yyyymm: egen mthret_size = mean(ret_adj)
+*** 
