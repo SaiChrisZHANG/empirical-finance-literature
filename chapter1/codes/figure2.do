@@ -85,7 +85,9 @@ keep mthret_mkt mthret_mkt_w date
 duplicates drop date, force
 restore
 
-* =========
+* ========================================
+* run the regressions and generate figures
+* ========================================
 
 
 postfile handle str32 varname b se using bse, replace
