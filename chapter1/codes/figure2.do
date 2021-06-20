@@ -77,6 +77,7 @@ preserve
 sort PERMNO date
 by PERMNO: gen mkt_cap_w = PRC[_n-1]*SHROUT[_n-1]
 gen ret_adj_w = mkt_cap_w * ret_adj
-
 bys date: egen mthret_mkt = mean(ret_adj)
 bys date: egen mthret_mkt_w = total(ret_adj_w)/total(mkt_cap_w)
+keep mthret_mkt mthret_mkt_w date
+duplicates drop date, force
