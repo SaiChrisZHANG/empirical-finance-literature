@@ -67,7 +67,6 @@ keep mthret_size date size_decile
 duplicates drop size_decile date, force
 
 
-
 save `mthret_size', replace
 restore
 
