@@ -58,6 +58,7 @@ gen ret_adj = (1+RET)/(1+cpiret)-1
 
 * Step 2: generate 2 equal-weighted portfolio average returns, equal-weighted and value-weighted market returns
 *         one by the size deciles, one by the 17-industry classification
+* Step 3: generate 1-10 year compounding returns.
 
 *** decile-size portfolio returns
 tempfile mthret_size
@@ -65,7 +66,6 @@ preserve
 bys size_decile date: egen mthret_size = mean(ret_adj)
 keep mthret_size date size_decile
 duplicates drop size_decile date, force
-
 
 save `mthret_size', replace
 restore
