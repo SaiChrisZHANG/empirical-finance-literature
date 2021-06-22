@@ -35,10 +35,10 @@ qui{
         replace size_decile = `i' if mkt_cap <= size_p`j' & size_decile == .
         drop size_p`j'
     }
+    replace size_decile=10 if mi(size_decile)
+    keep PERMNO year size_decile
+    save `size_decile', replace
 }
-replace size_decile=10 if mi(size_decile)
-keep PERMNO year size_decile
-save `size_decile', replace
 restore
 * merge the deciles back
 gen year = year(date)
