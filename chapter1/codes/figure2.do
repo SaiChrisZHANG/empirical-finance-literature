@@ -63,7 +63,10 @@ drop yyyymm
 *         one by the size deciles, one by the 17-industry classification
 * Step 3: generate 1-10 year compounding returns, by summing monthly returns in 1-10 year's period of time
 
+* necessary codes
 cap ssc install rangestat
+* a simple function to generate compounding returns
+cap program drop ret_compound
 
 *** decile-size portfolio returns
 tempfile mthret_size
@@ -71,6 +74,7 @@ preserve
 bys size_decile mth_dt: egen mthret_size = mean(ret_adj)
 keep mthret_size mth_dt size_decile
 duplicates drop size_decile mth_dt, force
+foreach 
 
 save `mthret_size', replace
 restore
