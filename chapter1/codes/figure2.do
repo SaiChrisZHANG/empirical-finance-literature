@@ -65,6 +65,8 @@ tempfile mthret_size
 preserve
 bys size_decile date: egen mthret_size = mean(ret_adj)
 keep mthret_size date size_decile
+gen mth_dt = ym(year(date),month(date))
+format mth_dt %tm
 duplicates drop size_decile date, force
 
 save `mthret_size', replace
