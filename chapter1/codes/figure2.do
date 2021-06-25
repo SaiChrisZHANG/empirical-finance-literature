@@ -55,7 +55,9 @@ drop _merge
 gen yyyymm = year(date)*100 + month(date)
 merge m:1 yyyymm using `"${indir}/monthly_cpi_inflation.dta"', nogen
 gen ret_adj = (1+RET)/(1+cpiret)-1
-
+gen mth_dt = ym(year(date),month(date))
+format mth_dt %tm
+drop yyyymm
 
 * Step 2: generate 2 equal-weighted portfolio average returns, equal-weighted and value-weighted market returns
 *         one by the size deciles, one by the 17-industry classification
