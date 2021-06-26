@@ -67,9 +67,9 @@ drop yyyymm
 cap ssc install rangestat
 * a simple function to generate compounding returns
 cap program drop ret_compound
-program ret_compound{
-    
-}
+program ret_compound
+    args 
+end
 
 *** decile-size portfolio returns
 tempfile mthret_size
