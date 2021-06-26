@@ -68,7 +68,24 @@ cap ssc install rangestat
 * a simple function to generate compounding returns
 cap program drop ret_compound
 program ret_compound
-    args 
+    args retvar datevar period portfolio
+    * overlapping
+    rangestat (sum) compret_T`period'_minus_ol = `retvar', interval(`datevar',-12,0) by(`portfolio')
+    rangestat (sum) compret_T`period'_plus_ol = `retvar', interval(`datevar',0,12) by(`portfolio')
+    rangestat (obs) periods_minus = `portfolio', interval(`datevar',0,12) by(`portfolio')
+    rangestat (obs) periods_plus = `portfolio', interval(`datevar',0,12) by(`portfolio')
+    replace compret_T`period'_minus_ol = . if periods_minus < 13
+    replace compret_T`period'_plus_ol = . if periods_plus < 13
+    drop periods_minus periods_plus
+    * non-overlapping
+    rangestat (sum) compret_T`period'_minus_nol = `retvar', interval(`datevar',-12,-1) by(`portfolio')
+    rangestat (sum) compret_T`period'_plus_nol = `retvar', interval(`datevar',0,11) by(`portfolio')
+    rangestat (obs) periods_minus = `portfolio', interval(`datevar',0,12) by(`portfolio')
+    rangestat (obs) periods_plus = `portfolio', interval(`datevar',0,12) by(`portfolio')
+    replace compret_T`period'_minus_ol = . if periods_minus < 13
+    replace compret_T`period'_plus_ol = . if periods_plus < 13
+    drop periods_minus periods_plus
+
 end
 
 *** decile-size portfolio returns
