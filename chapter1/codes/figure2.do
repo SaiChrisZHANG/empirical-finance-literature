@@ -94,7 +94,9 @@ preserve
 bys size_decile mth_dt: egen mthret_size = mean(ret_adj)
 keep mthret_size mth_dt size_decile
 duplicates drop size_decile mth_dt, force
-foreach 
+forvalues t = 1/10{
+    ret_compound mthret_size mth_dt `t' size_decile
+}
 
 save `mthret_size', replace
 restore
