@@ -146,9 +146,9 @@ save `mthret_mkt_w', replace
 restore
 clear
 
-* ========================================
-* run the regressions and generate figures
-* ========================================
+* ======================================
+* run regressions and generate figures
+* ======================================
 * Note: following codes use 1926-2020 data, one can easily modify the codes and separately
 *       run 1926-1985 sub-period for replication and 1986-2020 for new trends
 * ++++++++++++++++++++++++++++++++++++++++
@@ -259,9 +259,11 @@ forvalues t = 1/10{
 postclose handle
 clear
 
-* ===============
+* ======================================
 * plot the betas
-* ===============
+* ======================================
+
+
 
 
 * erase all the intermediary files
