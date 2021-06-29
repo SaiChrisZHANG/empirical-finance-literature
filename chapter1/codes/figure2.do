@@ -212,26 +212,46 @@ forvalues sic = 1/17{
 postclose handle
 
 * market portfolios: equal-weighted versus value-weighted
-
+postfile handle str32 weight year str32 adj_method str32 overlapping b se using "~/Downloads/mkt_betas.dta", replace
 use `mthret_mkt', clear
-postfile handle sic year str32 adj_method str32 overlapping b se using "~/Downloads/sic17_betas.dta", replace
-
 tsset mth_dt
 forvalues t = 1/10{
     * r(t,t+T) on r(t-T,t)
     * Hansen-Hodrick (1980) adjusted SE
     qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
-    post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    post handle ("Equal-weighted") (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
     * Newey-West (1994) adjusted SE
     qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
-    post handle (`sic') (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    post handle ("Equal-weighted") (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
     
     * r(t,t+T-1) on r(t-T,t-1)
     * Hansen-Hodrick (1980) adjusted SE
     qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
-    post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    post handle ("Equal-weighted") (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
     * Newey-West (1994) adjusted SE
     qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-    post handle (`sic') (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+    post handle ("Equal-weighted") (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
 }
 
+use `mthret_mkt_w', clear
+tsset mth_dt
+forvalues t = 1/10{
+    * r(t,t+T) on r(t-T,t)
+    * Hansen-Hodrick (1980) adjusted SE
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
+    post handle ("Value-weighted") (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    * Newey-West (1994) adjusted SE
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
+    post handle ("Value-weighted") (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    
+    * r(t,t+T-1) on r(t-T,t-1)
+    * Hansen-Hodrick (1980) adjusted SE
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
+    post handle ("Value-weighted") (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    * Newey-West (1994) adjusted SE
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
+    post handle ("Value-weighted") (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+}
+
+postclose handle
+clear
