@@ -142,10 +142,10 @@ clear
 * ========================================
 * run the regressions and generate figures
 * ========================================
-
+* size-based decile portfolios
 use `mthret_size', clear
 
-postfile handle size_decile year str32 adj_method str32 varname b se using "~/Downloads/size10_betas.dta", replace
+postfile handle size_decile year str32 adj_method str32 overlapping b se using "~/Downloads/size10_betas.dta", replace
 forvalues decile = 1/10{
     preserve
     keep if size_decile == `decile'
@@ -173,9 +173,33 @@ forvalues decile = 1/10{
 }
 postclose handle
 
-postfile handle str32 varname b se using bse, replace
-local regression_vars  // CREATE A LOCAL MACRO CONTAINING THE NAMES OF YOUR VARIABLES
-foreach r of local regression_vars {
-    post handle ("`r'") (_b[`r']) (_se[`r'])
+* SIC 17-industry portfolios
+use `mthret_size', clear
+
+postfile handle size_decile year str32 adj_method str32 overlapping b se using "~/Downloads/size10_betas.dta", replace
+forvalues decile = 1/10{
+    preserve
+    keep if size_decile == `decile'
+    tsset mth_dt
+
+    forvalues t = 1/10{
+        * r(t,t+T) on r(t-T,t)
+        * Hansen-Hodrick (1980) adjusted SE
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
+        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        * Newey-West (1994) adjusted SE
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
+        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        
+        * r(t,t+T-1) on r(t-T,t-1)
+        * Hansen-Hodrick (1980) adjusted SE
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
+        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+        * Newey-West (1994) adjusted SE
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
+        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+    }
+    
+    restore
 }
 postclose handle
