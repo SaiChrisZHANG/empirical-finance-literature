@@ -177,28 +177,28 @@ postclose handle
 * SIC 17-industry portfolios
 use `mthret_sic', clear
 
-postfile handle size_decile year str32 adj_method str32 overlapping b se using "~/Downloads/size10_betas.dta", replace
-forvalues decile = 1/10{
+postfile handle sic year str32 adj_method str32 overlapping b se using "~/Downloads/sic17_betas.dta", replace
+forvalues sic = 1/17{
     preserve
-    keep if size_decile == `decile'
+    keep if sic_17 == `sic'
     tsset mth_dt
 
     forvalues t = 1/10{
         * r(t,t+T) on r(t-T,t)
         * Hansen-Hodrick (1980) adjusted SE
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
-        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
-        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         
         * r(t,t+T-1) on r(t-T,t-1)
         * Hansen-Hodrick (1980) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
-        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+        post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
     }
     
     restore
