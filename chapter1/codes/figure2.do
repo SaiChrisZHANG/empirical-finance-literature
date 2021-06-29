@@ -105,6 +105,7 @@ restore
 *** insdustry portfolio returns
 tempfile mthret_sic
 preserve
+replace sic_17 = 17 if sic_17 == 18
 bys sic_17 mth_dt: egen mthret_sic = mean(ret_adj)
 keep mthret_sic mth_dt sic_17
 duplicates drop sic_17 mth_dt, force
