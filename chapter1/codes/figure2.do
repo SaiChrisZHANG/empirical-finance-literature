@@ -183,7 +183,7 @@ postclose handle
 * sic 17-industry portfolios
 use `mthret_sic', clear
 
-postfile handle sic year str32 adj_method str32 overlapping b se using "~/Downloads/sic17_betas.dta", replace
+postfile handle sic year str32 adj_method str32 overlapping b se using "${indir}/sic17_betas.dta", replace
 forvalues sic = 1/17{
     preserve
     keep if sic_17 == `sic'
@@ -211,7 +211,7 @@ forvalues sic = 1/17{
 }
 postclose handle
 
-
+* market portfolios: equal-weighted versus value-weighted
 
 use `mthret_mkt', clear
 postfile handle sic year str32 adj_method str32 overlapping b se using "~/Downloads/sic17_betas.dta", replace
@@ -234,17 +234,4 @@ forvalues t = 1/10{
     qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
     post handle (`sic') (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
 }
-
-forvalues sic = 1/17{
-    preserve
-    keep if sic_17 == `sic'
-    tsset mth_dt
-
-    
-    
-    restore
-}
-postclose handle
-
-* market
 
