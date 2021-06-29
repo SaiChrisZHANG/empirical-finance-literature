@@ -149,8 +149,8 @@ clear
 * ========================================
 * run the regressions and generate figures
 * ========================================
-* Note: following codes use 1926-2020 data, one can separately run 1926-1985 sub-period for replication
-*       and 1986-2020 for 
+* Note: following codes use 1926-2020 data, one can easily modify the codes and separately
+*       run 1926-1985 sub-period for replication and 1986-2020 for new trends
 * ++++++++++++++++++++++++++++++++++++++++
 * size-based decile portfolios
 use `mthret_size', clear
@@ -262,3 +262,6 @@ clear
 * ===============
 * plot the betas
 * ===============
+
+
+cap erase "${indir}/size10_betas.dta" "${indir}/sic17_betas.dta" "${indir}/mkt_betas.dta"
