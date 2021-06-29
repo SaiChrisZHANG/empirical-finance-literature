@@ -81,9 +81,9 @@ program ret_compound
     drop periods_minus periods_plus
     * non-overlapping
     rangestat (sum) compret_T`period'_minus_nol = `retvar', interval(`datevar',-`T',-1) by(`portfolio')
-    rangestat (sum) compret_T`period'_plus_nol = `retvar', interval(`datevar',0,`T'-1) by(`portfolio')
+    rangestat (sum) compret_T`period'_plus_nol = `retvar', interval(`datevar',0,`T_1') by(`portfolio')
     rangestat (obs) periods_minus = `portfolio', interval(`datevar',-`T',-1) by(`portfolio')
-    rangestat (obs) periods_plus = `portfolio', interval(`datevar',0,`T'-1) by(`portfolio')
+    rangestat (obs) periods_plus = `portfolio', interval(`datevar',0,`T_1') by(`portfolio')
     replace compret_T`period'_minus_ol = . if periods_minus < `T' | mi(periods_minus)
     replace compret_T`period'_plus_ol = . if periods_plus < `T'
     drop periods_minus periods_plus
