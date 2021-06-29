@@ -159,7 +159,7 @@ forvalues decile = 1/10{
         post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
-        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        post handle (`decile') (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         
         * r(t,t+T-1) on r(t-T,t-1)
         * Hansen-Hodrick (1980) adjusted SE
@@ -167,7 +167,7 @@ forvalues decile = 1/10{
         post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`decile') (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
     }
 
     restore
@@ -190,7 +190,7 @@ forvalues sic = 1/17{
         post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
-        post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        post handle (`sic') (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         
         * r(t,t+T-1) on r(t-T,t-1)
         * Hansen-Hodrick (1980) adjusted SE
@@ -198,7 +198,7 @@ forvalues sic = 1/17{
         post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-        post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`sic') (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
     }
     
     restore
