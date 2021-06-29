@@ -105,12 +105,12 @@ restore
 *** insdustry portfolio returns
 tempfile mthret_sic
 preserve
-bys sic_17 date: egen mthret_sic = mean(ret_adj)
-keep mthret_sic date sic_17
-duplicates drop sic_17 date, force
+bys sic_17 mth_dt: egen mthret_sic = mean(ret_adj)
+keep mthret_sic mth_dt sic_17
+duplicates drop sic_17 mth_dt, force
 sort sic_17 mth_dt
 forvalues t = 1/10{
-    qui ret_compound sic_17 mth_dt `t' size_decile
+    qui ret_compound mthret_sic mth_dt `t' sic_17
 }
 save `mthret_sic', replace
 restore
@@ -118,21 +118,34 @@ restore
 *** market average returns
 tempfile mthret_mkt
 preserve
-sort PERMNO date
+sort PERMNO mth_dt
 by PERMNO: gen mkt_cap_w = PRC[_n-1]*SHROUT[_n-1]
 gen ret_adj_w = mkt_cap_w * ret_adj
-bys date: egen mthret_mkt = mean(ret_adj)
-bys date: egen up = total(ret_adj_w)
-bys date: egen down = total(mkt_cap_w)
+bys mth_dt: egen mthret_mkt = mean(ret_adj)
+bys mth_dt: egen up = total(ret_adj_w)
+bys mth_dt: egen down = total(mkt_cap_w)
 gen mthret_mkt_w = up/down
-keep mthret_mkt mthret_mkt_w date
-duplicates drop date, force
+keep mthret_mkt mthret_mkt_w mth_dt
+duplicates drop mth_dt, force
+sort mth_dt
+* tag is a pseudo-portfolio indicator
+gen tag = 1
+forvalues t = 1/10{
+    qui ret_compound mthret_mkt mth_dt `t' tag
+    qui ret_compound mthret_mkt_w mth_dt `t' tag
+}
+drop tag
 save `mthret_mkt', replace
 restore
+clear
 
 * ========================================
 * run the regressions and generate figures
 * ========================================
+
+use `mthret_size', clear
+for re
+
 
 
 postfile handle str32 varname b se using bse, replace
