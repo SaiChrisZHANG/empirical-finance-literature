@@ -212,7 +212,7 @@ forvalues sic = 1/17{
 postclose handle
 
 * market portfolios: equal-weighted versus value-weighted
-postfile handle str32 weight year str32 adj_method str32 overlapping b se using "~/Downloads/mkt_betas.dta", replace
+postfile handle str32 weight year str32 adj_method str32 overlapping b se using "${indir}/mkt_betas.dta", replace
 use `mthret_mkt', clear
 tsset mth_dt
 forvalues t = 1/10{
