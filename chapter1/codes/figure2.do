@@ -264,4 +264,7 @@ clear
 * ===============
 
 
-cap erase "${indir}/size10_betas.dta" "${indir}/sic17_betas.dta" "${indir}/mkt_betas.dta"
+* erase all the intermediary files
+cap erase "${indir}/size10_betas.dta"
+cap erase "${indir}/sic17_betas.dta"
+cap erase "${indir}/mkt_betas.dta"
