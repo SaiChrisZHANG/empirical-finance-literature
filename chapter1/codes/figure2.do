@@ -71,6 +71,7 @@ program ret_compound
     args retvar datevar period portfolio
     * overlapping
     local T = `period'*12
+    local T_1 = `period'*12 - 1
     rangestat (sum) compret_T`period'_minus_ol = `retvar', interval(`datevar',-`T',0) by(`portfolio')
     rangestat (sum) compret_T`period'_plus_ol = `retvar', interval(`datevar',0,`T') by(`portfolio')
     rangestat (obs) periods_minus = `portfolio', interval(`datevar',-`T',0) by(`portfolio')
