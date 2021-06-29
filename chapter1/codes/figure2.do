@@ -174,7 +174,7 @@ forvalues decile = 1/10{
 postclose handle
 
 * SIC 17-industry portfolios
-use `mthret_size', clear
+use `mthret_sic', clear
 
 postfile handle size_decile year str32 adj_method str32 overlapping b se using "~/Downloads/size10_betas.dta", replace
 forvalues decile = 1/10{
