@@ -1,5 +1,5 @@
 * Author: Sai Zhang (saizhang.econ@gmail.com)
-* This file is used to produce figure  in Chapter 1 (see page ).
+* This file is used to produce figure  in Chapter 1 (see page ), replicating Fama and French (1988).
 
 * The NYSE-listed stocks' monthly returns are downloaded from WRDS.
 * links are here: https://wrds-www.wharton.upenn.edu/pages/get-data/center-research-security-prices-crsp/
@@ -149,6 +149,9 @@ clear
 * ========================================
 * run the regressions and generate figures
 * ========================================
+* Note: following codes use 1926-2020 data, one can separately run 1926-1985 sub-period for replication
+*       and 1986-2020 for 
+* ++++++++++++++++++++++++++++++++++++++++
 * size-based decile portfolios
 use `mthret_size', clear
 
@@ -255,3 +258,7 @@ forvalues t = 1/10{
 
 postclose handle
 clear
+
+* ===============
+* plot the betas
+* ===============
