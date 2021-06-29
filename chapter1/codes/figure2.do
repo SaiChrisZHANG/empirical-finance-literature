@@ -84,8 +84,8 @@ program ret_compound
     rangestat (sum) compret_T`period'_plus_nol = `retvar', interval(`datevar',0,`T_1') by(`portfolio')
     rangestat (obs) periods_minus = `portfolio', interval(`datevar',-`T',-1) by(`portfolio')
     rangestat (obs) periods_plus = `portfolio', interval(`datevar',0,`T_1') by(`portfolio')
-    replace compret_T`period'_minus_ol = . if periods_minus < `T' | mi(periods_minus)
-    replace compret_T`period'_plus_ol = . if periods_plus < `T'
+    replace compret_T`period'_minus_nol = . if periods_minus < `T' | mi(periods_minus)
+    replace compret_T`period'_plus_nol = . if periods_plus < `T'
     drop periods_minus periods_plus
 end
 
@@ -95,6 +95,7 @@ preserve
 bys size_decile mth_dt: egen mthret_size = mean(ret_adj)
 keep mthret_size mth_dt size_decile
 duplicates drop size_decile mth_dt, force
+sort size_decile mth_dt
 forvalues t = 1/10{
     ret_compound mthret_size mth_dt `t' size_decile
 }
