@@ -97,9 +97,8 @@ keep mthret_size mth_dt size_decile
 duplicates drop size_decile mth_dt, force
 sort size_decile mth_dt
 forvalues t = 1/10{
-    ret_compound mthret_size mth_dt `t' size_decile
+    qui ret_compound mthret_size mth_dt `t' size_decile
 }
-
 save `mthret_size', replace
 restore
 
@@ -109,6 +108,10 @@ preserve
 bys sic_17 date: egen mthret_sic = mean(ret_adj)
 keep mthret_sic date sic_17
 duplicates drop sic_17 date, force
+sort sic_17 mth_dt
+forvalues t = 1/10{
+    qui ret_compound mthret_size mth_dt `t' size_decile
+}
 save `mthret_sic', replace
 restore
 
