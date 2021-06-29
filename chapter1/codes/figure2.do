@@ -118,6 +118,7 @@ restore
 
 *** market average returns
 tempfile mthret_mkt
+tempfile mthret_mkt_w
 preserve
 sort PERMNO mth_dt
 by PERMNO: gen mkt_cap_w = PRC[_n-1]*SHROUT[_n-1]
@@ -133,10 +134,15 @@ sort mth_dt
 gen tag = 1
 forvalues t = 1/10{
     qui ret_compound mthret_mkt mth_dt `t' tag
+}
+save `mthret_mkt', replace
+
+keep mthret_mkt mthret_mkt_w mth_dt tag
+forvalues t = 1/10{
     qui ret_compound mthret_mkt_w mth_dt `t' tag
 }
 drop tag
-save `mthret_mkt', replace
+save `mthret_mkt_w', replace
 restore
 clear
 
@@ -146,7 +152,7 @@ clear
 * size-based decile portfolios
 use `mthret_size', clear
 
-postfile handle size_decile year str32 adj_method str32 overlapping b se using "~/Downloads/size10_betas.dta", replace
+postfile handle size_decile year str32 adj_method str32 overlapping b se using "${indir}/size10_betas.dta", replace
 forvalues decile = 1/10{
     preserve
     keep if size_decile == `decile'
@@ -174,7 +180,7 @@ forvalues decile = 1/10{
 }
 postclose handle
 
-* SIC 17-industry portfolios
+* sic 17-industry portfolios
 use `mthret_sic', clear
 
 postfile handle sic year str32 adj_method str32 overlapping b se using "~/Downloads/sic17_betas.dta", replace
@@ -204,3 +210,41 @@ forvalues sic = 1/17{
     restore
 }
 postclose handle
+
+
+
+use `mthret_mkt', clear
+postfile handle sic year str32 adj_method str32 overlapping b se using "~/Downloads/sic17_betas.dta", replace
+
+tsset mth_dt
+forvalues t = 1/10{
+    * r(t,t+T) on r(t-T,t)
+    * Hansen-Hodrick (1980) adjusted SE
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
+    post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    * Newey-West (1994) adjusted SE
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
+    post handle (`sic') (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    
+    * r(t,t+T-1) on r(t-T,t-1)
+    * Hansen-Hodrick (1980) adjusted SE
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
+    post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    * Newey-West (1994) adjusted SE
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
+    post handle (`sic') (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+}
+
+forvalues sic = 1/17{
+    preserve
+    keep if sic_17 == `sic'
+    tsset mth_dt
+
+    
+    
+    restore
+}
+postclose handle
+
+* market
+
