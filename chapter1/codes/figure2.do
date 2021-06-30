@@ -179,7 +179,7 @@ forvalues decile = 1/10{
         post handle (`decile') (`t') ("HH") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-        post handle (`decile') (`t') ("NW") ("NOL") ("Full") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`decile') (`t') ("NW") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
 
         * replication sample (before 1986)
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
@@ -189,7 +189,7 @@ forvalues decile = 1/10{
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
         post handle (`decile') (`t') ("HH") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
-        post handle (`decile') (`t') ("NW") ("NOL") ("Pre-1986") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`decile') (`t') ("NW") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
 
         * new sample (since 1986)
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
@@ -199,7 +199,7 @@ forvalues decile = 1/10{
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
         post handle (`decile') (`t') ("HH") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
-        post handle (`decile') (`t') ("NW") ("NOL") ("Post-1986") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`decile') (`t') ("NW") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
     }
 
     restore
@@ -229,7 +229,7 @@ forvalues sic = 1/17{
         post handle (`sic') (`t') ("HH") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-        post handle (`sic') (`t') ("NW") ("NOL") ("Full") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`sic') (`t') ("NW") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
 
         * replication sample (before 1986)
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
@@ -239,7 +239,7 @@ forvalues sic = 1/17{
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
         post handle (`sic') (`t') ("HH") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
-        post handle (`sic') (`t') ("NW") ("NOL") ("Pre-1986") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`sic') (`t') ("NW") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
 
         * new sample (since 1986)
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
@@ -249,7 +249,7 @@ forvalues sic = 1/17{
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
         post handle (`sic') (`t') ("HH") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
-        post handle (`sic') (`t') ("NW") ("NOL") ("Post-1986") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`sic') (`t') ("NW") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
     }
     
     restore
@@ -274,17 +274,27 @@ forvalues t = 1/10{
     post handle ("Equal-weighted") (`t') ("HH") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
     * Newey-West (1994) adjusted SE
     qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-    post handle ("Equal-weighted") (`t') ("NW") ("NOL") ("Full") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+    post handle ("Equal-weighted") (`t') ("NW") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
 
     * replication sample
-    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
-    post handle ("Equal-weighted") (`t') ("HH") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
-    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
-    post handle ("Equal-weighted") (`t') ("NW") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
-    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
-    post handle ("Equal-weighted") (`t') ("HH") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
-    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-    post handle ("Equal-weighted") (`t') ("NW") ("NOL") ("Full") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
+    post handle ("Equal-weighted") (`t') ("HH") ("OL") ("Pre-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
+    post handle ("Equal-weighted") (`t') ("NW") ("OL") ("Pre-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
+    post handle ("Equal-weighted") (`t') ("HH") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
+    post handle ("Equal-weighted") (`t') ("NW") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+
+    * new sample
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
+    post handle ("Equal-weighted") (`t') ("HH") ("OL") ("Post-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
+    post handle ("Equal-weighted") (`t') ("NW") ("OL") ("Post-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
+    post handle ("Equal-weighted") (`t') ("HH") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
+    post handle ("Equal-weighted") (`t') ("NW") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
 }
 
 use `mthret_mkt_w', clear
@@ -293,18 +303,38 @@ forvalues t = 1/10{
     * r(t,t+T) on r(t-T,t)
     * Hansen-Hodrick (1980) adjusted SE
     qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
-    post handle ("Value-weighted") (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    post handle ("Value-weighted") (`t') ("HH") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
     * Newey-West (1994) adjusted SE
     qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
-    post handle ("Value-weighted") (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    post handle ("Value-weighted") (`t') ("NW") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
     
     * r(t,t+T-1) on r(t-T,t-1)
     * Hansen-Hodrick (1980) adjusted SE
     qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
-    post handle ("Value-weighted") (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    post handle ("Value-weighted") (`t') ("HH") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
     * Newey-West (1994) adjusted SE
     qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-    post handle ("Value-weighted") (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+    post handle ("Value-weighted") (`t') ("NW") ("NOL") ("Full") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+
+    * replication sample
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
+    post handle ("Value-weighted") (`t') ("HH") ("OL") ("Pre-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
+    post handle ("Value-weighted") (`t') ("NW") ("OL") ("Pre-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
+    post handle ("Value-weighted") (`t') ("HH") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
+    post handle ("Value-weighted") (`t') ("NW") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+
+    * new sample
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
+    post handle ("Value-weighted") (`t') ("HH") ("OL") ("Post-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
+    post handle ("Value-weighted") (`t') ("NW") ("OL") ("Post-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
+    post handle ("Value-weighted") (`t') ("HH") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
+    post handle ("Value-weighted") (`t') ("NW") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
 }
 
 postclose handle
