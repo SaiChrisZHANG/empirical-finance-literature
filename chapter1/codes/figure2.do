@@ -72,12 +72,12 @@ program ret_compound
     local T = `period'*12
 
     * full sample
-    rangestat (sum) compret_T`period'_minus_full = `retvar', interval(`datevar',-`T',0) by(`portfolio')
-    rangestat (sum) compret_T`period'_plus_full = `retvar', interval(`datevar',0,`T') by(`portfolio')
+    rangestat (sum) compret_T`period'_minus_ol = `retvar', interval(`datevar',-`T',0) by(`portfolio')
+    rangestat (sum) compret_T`period'_plus_ol = `retvar', interval(`datevar',0,`T') by(`portfolio')
     rangestat (obs) periods_minus = `portfolio', interval(`datevar',-`T',0) by(`portfolio')
     rangestat (obs) periods_plus = `portfolio', interval(`datevar',0,`T') by(`portfolio')
-    replace compret_T`period'_minus_full = . if periods_minus < `T'+1
-    replace compret_T`period'_plus_full = . if periods_plus < `T'+1
+    replace compret_T`period'_minus_ol = . if periods_minus < `T'+1
+    replace compret_T`period'_plus_ol = . if periods_plus < `T'+1
     drop periods_minus periods_plus
 
     * non-overlapping
@@ -151,34 +151,55 @@ clear
 * ======================================
 * run regressions and generate figures
 * ======================================
-* Note: following codes use 1926-2020 data, one can easily modify the codes and separately
+* Note: following codes use 1926-2020 data, I separately
 *       run 1926-1985 sub-period for replication and 1986-2020 for new trends
 * ++++++++++++++++++++++++++++++++++++++++
 * size-based decile portfolios
 use `mthret_size', clear
 
-postfile handle size_decile year str32 adj_method str32 overlapping b se using "${indir}/size10_betas.dta", replace
+postfile handle size_decile year str32 adj_method str32 overlapping str32 sampling b se using "${indir}/size10_betas.dta", replace
 forvalues decile = 1/10{
     preserve
     keep if size_decile == `decile'
     tsset mth_dt
 
     forvalues t = 1/10{
+        * full sample
         * r(t,t+T) on r(t-T,t)
         * Hansen-Hodrick (1980) adjusted SE
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
-        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        post handle (`decile') (`t') ("HH") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
-        post handle (`decile') (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        post handle (`decile') (`t') ("NW") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         
         * r(t,t+T-1) on r(t-T,t-1)
         * Hansen-Hodrick (1980) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
-        post handle (`decile') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+        post handle (`decile') (`t') ("HH") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-        post handle (`decile') (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`decile') (`t') ("NW") ("NOL") ("Full") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+
+        * replication sample (before 1986)
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
+        post handle (`decile') (`t') ("HH") ("OL") ("Pre-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
+        post handle (`decile') (`t') ("NW") ("OL") ("Pre-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
+        post handle (`decile') (`t') ("HH") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
+        post handle (`decile') (`t') ("NW") ("NOL") ("Pre-1986") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+
+        * new sample (since 1986)
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
+        post handle (`decile') (`t') ("HH") ("OL") ("Post-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
+        post handle (`decile') (`t') ("NW") ("OL") ("Post-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
+        post handle (`decile') (`t') ("HH") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
+        post handle (`decile') (`t') ("NW") ("NOL") ("Post-1986") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
     }
 
     restore
@@ -188,7 +209,7 @@ postclose handle
 * sic 17-industry portfolios
 use `mthret_sic', clear
 
-postfile handle sic year str32 adj_method str32 overlapping b se using "${indir}/sic17_betas.dta", replace
+postfile handle sic year str32 adj_method str32 overlapping str32 sampling b se using "${indir}/sic17_betas.dta", replace
 forvalues sic = 1/17{
     preserve
     keep if sic_17 == `sic'
@@ -198,18 +219,37 @@ forvalues sic = 1/17{
         * r(t,t+T) on r(t-T,t)
         * Hansen-Hodrick (1980) adjusted SE
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
-        post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        post handle (`sic') (`t') ("HH") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
-        post handle (`sic') (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
-        
+        post handle (`sic') (`t') ("NW") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
         * r(t,t+T-1) on r(t-T,t-1)
         * Hansen-Hodrick (1980) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
-        post handle (`sic') (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+        post handle (`sic') (`t') ("HH") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
         * Newey-West (1994) adjusted SE
         qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-        post handle (`sic') (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+        post handle (`sic') (`t') ("NW") ("NOL") ("Full") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+
+        * replication sample (before 1986)
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
+        post handle (`sic') (`t') ("HH") ("OL") ("Pre-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
+        post handle (`sic') (`t') ("NW") ("OL") ("Pre-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(tru) bw(12) r
+        post handle (`sic') (`t') ("HH") ("NOL") ("Pre-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))<1986, kernel(bar) bw(auto) r
+        post handle (`sic') (`t') ("NW") ("NOL") ("Pre-1986") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+
+        * new sample (since 1986)
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
+        post handle (`sic') (`t') ("HH") ("OL") ("Post-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
+        post handle (`sic') (`t') ("NW") ("OL") ("Post-1986") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(tru) bw(12) r
+        post handle (`sic') (`t') ("HH") ("NOL") ("Post-1986") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+        qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol if yofd(dofm(mth_dt))>1985, kernel(bar) bw(auto) r
+        post handle (`sic') (`t') ("NW") ("NOL") ("Post-1986") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
     }
     
     restore
@@ -217,25 +257,34 @@ forvalues sic = 1/17{
 postclose handle
 
 * market portfolios: equal-weighted versus value-weighted
-postfile handle str32 weight year str32 adj_method str32 overlapping b se using "${indir}/mkt_betas.dta", replace
+postfile handle str32 weight year str32 adj_method str32 overlapping str32 sampling b se using "${indir}/mkt_betas.dta", replace
 use `mthret_mkt', clear
 tsset mth_dt
 forvalues t = 1/10{
     * r(t,t+T) on r(t-T,t)
     * Hansen-Hodrick (1980) adjusted SE
     qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
-    post handle ("Equal-weighted") (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    post handle ("Equal-weighted") (`t') ("HH") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
     * Newey-West (1994) adjusted SE
     qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
-    post handle ("Equal-weighted") (`t') ("Newey-West") ("compret_T`t'_minus_ol") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
-    
+    post handle ("Equal-weighted") (`t') ("NW") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
     * r(t,t+T-1) on r(t-T,t-1)
     * Hansen-Hodrick (1980) adjusted SE
     qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
-    post handle ("Equal-weighted") (`t') ("Hansen-Hodrick") ("compret_T`t'_minus_nol") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    post handle ("Equal-weighted") (`t') ("HH") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
     * Newey-West (1994) adjusted SE
     qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
-    post handle ("Equal-weighted") (`t') ("Newey-West") ("compret_T`t'_minus_nol") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+    post handle ("Equal-weighted") (`t') ("NW") ("NOL") ("Full") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
+
+    * replication sample
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(tru) bw(12) r
+    post handle ("Equal-weighted") (`t') ("HH") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_ol compret_T`t'_minus_ol, kernel(bar) bw(auto) r
+    post handle ("Equal-weighted") (`t') ("NW") ("OL") ("Full") (_b[compret_T`t'_minus_ol]) (_se[compret_T`t'_minus_ol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(tru) bw(12) r
+    post handle ("Equal-weighted") (`t') ("HH") ("NOL") ("Full") (_b[compret_T`t'_minus_nol]) (_se[compret_T`t'_minus_nol])
+    qui ivreg2 compret_T`t'_plus_nol compret_T`t'_minus_nol, kernel(bar) bw(auto) r
+    post handle ("Equal-weighted") (`t') ("NW") ("NOL") ("Full") (_b["compret_T`t'_minus_nol"]) (_se[compret_T`t'_minus_nol])
 }
 
 use `mthret_mkt_w', clear
