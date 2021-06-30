@@ -354,6 +354,8 @@ forvalues decile = 1/10{
     local HHlines `HHlines' (rcapsym )
 }
 
+twoway rcapsym high low year if size_decile== & adj_method=="" & overlapping=="", lc(navy) mc(navy) m(diamond) || ///
+scatter b year if size_decile== & adj_method=="" & overlapping=="", c(l) lc(navy) mc(navy) m(diamond) yline(0,lc(black)) legend(off)
 
 
 * erase all the intermediary files
