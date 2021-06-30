@@ -69,17 +69,19 @@ cap ssc install rangestat
 cap program drop ret_compound
 program ret_compound
     args retvar datevar period portfolio
-    * overlapping
     local T = `period'*12
-    local T_1 = `period'*12 - 1
-    rangestat (sum) compret_T`period'_minus_ol = `retvar', interval(`datevar',-`T',0) by(`portfolio')
-    rangestat (sum) compret_T`period'_plus_ol = `retvar', interval(`datevar',0,`T') by(`portfolio')
+
+    * full sample
+    rangestat (sum) compret_T`period'_minus_full = `retvar', interval(`datevar',-`T',0) by(`portfolio')
+    rangestat (sum) compret_T`period'_plus_full = `retvar', interval(`datevar',0,`T') by(`portfolio')
     rangestat (obs) periods_minus = `portfolio', interval(`datevar',-`T',0) by(`portfolio')
     rangestat (obs) periods_plus = `portfolio', interval(`datevar',0,`T') by(`portfolio')
-    replace compret_T`period'_minus_ol = . if periods_minus < `T'+1
-    replace compret_T`period'_plus_ol = . if periods_plus < `T'+1
+    replace compret_T`period'_minus_full = . if periods_minus < `T'+1
+    replace compret_T`period'_plus_full = . if periods_plus < `T'+1
     drop periods_minus periods_plus
+
     * non-overlapping
+    local T_1 = `T'-1
     rangestat (sum) compret_T`period'_minus_nol = `retvar', interval(`datevar',-`T',-1) by(`portfolio')
     rangestat (sum) compret_T`period'_plus_nol = `retvar', interval(`datevar',0,`T_1') by(`portfolio')
     rangestat (obs) periods_minus = `portfolio', interval(`datevar',-`T',-1) by(`portfolio')
