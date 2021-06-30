@@ -262,7 +262,16 @@ clear
 * ======================================
 * plot the betas
 * ======================================
+* reference: https://medium.com/the-stata-guide/stata-graphs-define-your-own-color-schemes-4320b16f7ef7
 
+* Size deciles:
+use "${indir}/size10_betas.dta", clear
+append using 
+
+forvalues decile = 1/10{
+    colorpalette maroon, opacity(20(10)100)
+    local HHlines `HHlines' (rcapsym )
+}
 
 
 
