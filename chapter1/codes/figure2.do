@@ -352,20 +352,19 @@ gen marker = "Size Decile: " + string(size_decile)
 gen coef = b if abs(b)>=1.96*se
 
 forvalues decile = 1/10{
-    colorpalette black, opacity(10(11)100) nograph
+    colorpalette black, opacity(10(10)100) n(10) nograph
     local HHlines_full_ol `HHlines_full_ol' (line b year if size_decile==`decile' & sampling=="Full" & adj_method=="HH" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Full" & adj_method=="HH" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
-    colorpalette maroon, opacity(10(11)100) nograph
+    local NWlines_full_ol `NWlines_full_ol' (line b year if size_decile==`decile' & sampling=="Full" & adj_method=="NW" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Full" & adj_method=="NW" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
+    colorpalette maroon, opacity(10(10)100) n(10) nograph
     local HHlines_rep_ol `HHlines_rep_ol' (line b year if size_decile==`decile' & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
-    colorpalette navy, opacity(10(11)100) nograph
+    colorpalette navy, opacity(10(10)100) n(10) nograph
     local HHlines_new_ol `HHlines_new_ol' (line b year if size_decile==`decile' & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
 }
 
 * Full period, HH-adjusted standard errors, Overlapping
-twoway `HHlines_full_ol' (scatter b year if year==10 & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", m(none) mlabel(marker) mlabsize(*0.55) mlabcolor(black)), ///
-legend(off) xlabel(,labsize(small)) xtitle("year", size(medsmall)) ytitle("OLS Slopes (significant ones marked)", size(medsmall)) title("")
 
-twoway line b year if size_decile== & adj_method=="" & overlapping=="", lc(navy) || ///
-scatter b_sig year if size_decile== & adj_method=="" & overlapping=="", lc(navy) mc(navy) m(diamond) yline(0,lc(black)) legend(off)
+
+
 
 * erase all the intermediary files
 cap erase "${indir}/size10_betas.dta"
