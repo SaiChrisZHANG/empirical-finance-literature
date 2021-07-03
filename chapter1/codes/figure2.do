@@ -351,7 +351,7 @@ append using "${indir}/mkt_betas.dta"
 
 forvalues decile = 1/10{
     colorpalette maroon, opacity(20(10)100)
-    local HHlines `HHlines' (rcapsym )
+    local HHlines `HHlines' 
 }
 
 gen b_sig = b if abs(b)-1.96*se>=0
