@@ -347,7 +347,7 @@ clear
 
 * Size deciles:
 use "${indir}/size10_betas.dta", clear
-append using 
+append using "${indir}/mkt_betas.dta"
 
 forvalues decile = 1/10{
     colorpalette maroon, opacity(20(10)100)
