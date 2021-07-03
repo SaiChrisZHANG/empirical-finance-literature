@@ -418,8 +418,8 @@ clear
 
 * combine figures together
 cd "${outdir}"
-gr combine size_full_hh.gph size_full_nw.gph, rows(1) cols(2) imargin(medlarge) xsize(12) ysize(4.5) saving("${outdir}/size_full.gph", replace)
-gr combine size_pre1986_hh.gph size_post1986_hh.gph, rows(1) cols(2) imargin(medlarge) xsize(12) ysize(4.5) saving("${outdir}/pre_vs_post.gph", replace)
+gr combine size_full_hh.gph size_full_nw.gph, rows(1) cols(2) imargin(medlarge) xsize(12) ysize(4.5) saving("${outdir}/fig2-size_full.gph", replace)
+gr combine size_pre1986_hh.gph size_post1986_hh.gph, rows(1) cols(2) imargin(medlarge) xsize(12) ysize(4.5) saving("${outdir}/fig2-pre_vs_post.gph", replace)
 
 * erase all the intermediary files
 cap erase "${indir}/size10_betas.dta"
