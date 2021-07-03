@@ -347,7 +347,10 @@ clear
 
 * Size deciles:
 use "${indir}/size10_betas.dta", clear
-gen marker = "Size Decile: " + string(size_decile)
+append using "${indir}/mkt_betas.dta"
+gen marker = "Size Decile: " + string(size_decile) if !mi(size_decile)
+replace marker = "Market" if weight == "Equal-weighted"
+replace marker = "Market (weighted)" if weight == "Value-weighted"
 * only mark significant coefficients
 gen coef = b if abs(b)>=1.96*se
 
@@ -355,16 +358,63 @@ forvalues decile = 1/10{
     colorpalette black, opacity(10(10)100) n(10) nograph
     local HHlines_full_ol `HHlines_full_ol' (line b year if size_decile==`decile' & sampling=="Full" & adj_method=="HH" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Full" & adj_method=="HH" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
     local NWlines_full_ol `NWlines_full_ol' (line b year if size_decile==`decile' & sampling=="Full" & adj_method=="NW" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Full" & adj_method=="NW" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
-    colorpalette maroon, opacity(10(10)100) n(10) nograph
+    colorpalette dkgreen, opacity(10(10)100) n(10) nograph
     local HHlines_rep_ol `HHlines_rep_ol' (line b year if size_decile==`decile' & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
+    local NWlines_rep_ol `NWlines_rep_ol' (line b year if size_decile==`decile' & sampling=="Pre-1986" & adj_method=="NW" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Pre-1986" & adj_method=="NW" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
     colorpalette navy, opacity(10(10)100) n(10) nograph
     local HHlines_new_ol `HHlines_new_ol' (line b year if size_decile==`decile' & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
+    local NWlines_new_ol `NWlines_new_ol' (line b year if size_decile==`decile' & sampling=="Post-1986" & adj_method=="NW" & overlapping=="OL", lc("`r(p`decile')'") lp(solid) lw(*0.8)) || (scatter coef year if size_decile==`decile' & sampling=="Post-1986" & adj_method=="NW" & overlapping=="OL", mc("`r(p`decile')'") m(D) msize(small)) ||
 }
 
-* Full period, HH-adjusted standard errors, Overlapping
+* Full period, HH-adjusted standard errors, overlapping
+twoway `HHlines_full_ol' (scatter b year if year==10 & mi(weight) & sampling=="Full" & adj_method=="HH" & overlapping=="OL", m(none) mlabel(marker) mlabsize(*0.6) mlabcolor(black)) || ///
+(line b year if weight=="Equal-weighted" & sampling=="Full" & adj_method=="HH" & overlapping=="OL", lc(red) lp(solid)) || ///
+(scatter coef year if weight=="Equal-weighted" & sampling=="Full" & adj_method=="HH" & overlapping=="OL", mc(red) m(O) msize(small)) || ///
+(line b year if weight=="Value-weighted" & sampling=="Full" & adj_method=="HH" & overlapping=="OL", lc(red) lp(dash)) || ///
+(scatter coef year if weight=="Value-weighted" & sampling=="Full" & adj_method=="HH" & overlapping=="OL", mc(red) m(O) msize(small)), ///
+legend(order(22 "Equal-weighted Market Portfolio" 24 "Value-weighted Market Portfolio") size(small)) ///
+xlabel(1(1)10,labsize(small)) xscale(r(1/11)) xtitle("year", size(medsmall)) ///
+ytitle("OLS Slopes (significant ones marked)", size(medsmall)) ///
+title("OLS Slopes for the Size-Decile Portfolios, 1926-2020",size(medium)) ///
+note("The OLS estimation standard errors are adjusted using Hensen-Hodrick (1980) method.") saving("${outdir}/size_full_hh.gph", replace)
 
+* Full period, NW-adjusted standard errors, overlapping
+twoway `NWlines_full_ol' (scatter b year if year==10 & mi(weight) & sampling=="Full" & adj_method=="NW" & overlapping=="OL", m(none) mlabel(marker) mlabsize(*0.6) mlabcolor(black)) || ///
+(line b year if weight=="Equal-weighted" & sampling=="Full" & adj_method=="NW" & overlapping=="OL", lc(red) lp(solid)) || ///
+(scatter coef year if weight=="Equal-weighted" & sampling=="Full" & adj_method=="NW" & overlapping=="OL", mc(red) m(O) msize(small)) || ///
+(line b year if weight=="Value-weighted" & sampling=="Full" & adj_method=="NW" & overlapping=="OL", lc(red) lp(dash)) || ///
+(scatter coef year if weight=="Value-weighted" & sampling=="Full" & adj_method=="NW" & overlapping=="OL", mc(red) m(O) msize(small)), ///
+legend(order(22 "Equal-weighted Market Portfolio" 24 "Value-weighted Market Portfolio") size(small)) ///
+xlabel(1(1)10,labsize(small)) xscale(r(1/11)) xtitle("year", size(medsmall)) ///
+ytitle("OLS Slopes (significant ones marked)", size(medsmall)) ///
+title("OLS Slopes for the Size-Decile Portfolios, 1926-2020",size(medium)) ///
+note("The OLS estimation standard errors are adjusted using Newey-West (1994) method.") saving("${outdir}/size_full_nw.gph", replace)
 
+* Pre-1986, HH-adjusted standard errors, overlapping
+twoway `HHlines_rep_ol' (scatter b year if year==10 & mi(weight) & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", m(none) mlabel(marker) mlabsize(*0.6) mlabcolor(dkgreen)) || ///
+(line b year if weight=="Equal-weighted" & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", lc(red) lp(solid)) || ///
+(scatter coef year if weight=="Equal-weighted" & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", mc(red) m(O) msize(small)) || ///
+(line b year if weight=="Value-weighted" & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", lc(red) lp(dash)) || ///
+(scatter coef year if weight=="Value-weighted" & sampling=="Pre-1986" & adj_method=="HH" & overlapping=="OL", mc(red) m(O) msize(small)), ///
+legend(order(22 "Equal-weighted Market Portfolio" 24 "Value-weighted Market Portfolio") size(small)) ///
+xlabel(1(1)10,labsize(small)) xscale(r(1/11)) xtitle("year", size(medsmall)) ///
+ytitle("OLS Slopes (significant ones marked)", size(medsmall)) ///
+title("OLS Slopes for the Size-Decile Portfolios, 1926-1986",size(medium)) ///
+note("The OLS estimation standard errors are adjusted using Hensen-Hodrick (1980) method.") saving("${outdir}/size_pre1986_hh.gph", replace)
 
+* Post-1986, HH-adjusted standard errors, overlapping
+twoway `HHlines_new_ol' (scatter b year if year==10 & mi(weight) & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", m(none) mlabel(marker) mlabsize(*0.6) mlabcolor(black)) || ///
+(line b year if weight=="Equal-weighted" & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", lc(red) lp(solid)) || ///
+(scatter coef year if weight=="Equal-weighted" & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", mc(red) m(O) msize(small)) || ///
+(line b year if weight=="Value-weighted" & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", lc(red) lp(dash)) || ///
+(scatter coef year if weight=="Value-weighted" & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", mc(red) m(O) msize(small)), ///
+legend(order(22 "Equal-weighted Market Portfolio" 24 "Value-weighted Market Portfolio") size(small)) ///
+xlabel(1(1)10,labsize(small)) xscale(r(1/11)) xtitle("year", size(medsmall)) ///
+ytitle("OLS Slopes (significant ones marked)", size(medsmall)) ///
+title("OLS Slopes for the Size-Decile Portfolios, 1986-2020",size(medium)) ///
+note("The OLS estimation standard errors are adjusted using Hensen-Hodrick (1980) method.") saving("${outdir}/size_post1986_hh.gph", replace)
+
+clear
 
 * erase all the intermediary files
 cap erase "${indir}/size10_betas.dta"
