@@ -376,7 +376,7 @@ legend(order(22 "Equal-weighted Market Portfolio" 24 "Value-weighted Market Port
 xlabel(1(1)10,labsize(small)) xscale(r(1/11)) xtitle("year", size(medsmall)) ///
 ytitle("OLS Slopes (significant ones marked)", size(medsmall)) ///
 title("OLS Slopes for the Size-Decile Portfolios, 1926-2020",size(medium)) ///
-note("The OLS estimation standard errors are adjusted using Hensen-Hodrick (1980) method.") saving("${outdir}/size_full_hh.gph", replace)
+note("The OLS estimation standard errors are adjusted using Hansen-Hodrick (1980) method.") saving("${outdir}/size_full_hh.gph", replace)
 
 * Full period, NW-adjusted standard errors, overlapping
 twoway `NWlines_full_ol' (scatter b year if year==10 & mi(weight) & sampling=="Full" & adj_method=="NW" & overlapping=="OL", m(none) mlabel(marker) mlabsize(*0.6) mlabcolor(black)) || ///
@@ -400,7 +400,7 @@ legend(order(22 "Equal-weighted Market Portfolio" 24 "Value-weighted Market Port
 xlabel(1(1)10,labsize(small)) xscale(r(1/11)) xtitle("year", size(medsmall)) ///
 ytitle("OLS Slopes (significant ones marked)", size(medsmall)) ///
 title("OLS Slopes for the Size-Decile Portfolios, 1926-1986",size(medium)) ///
-note("The OLS estimation standard errors are adjusted using Hensen-Hodrick (1980) method.") saving("${outdir}/size_pre1986_hh.gph", replace)
+note("The OLS estimation standard errors are adjusted using Hansen-Hodrick (1980) method.") saving("${outdir}/size_pre1986_hh.gph", replace)
 
 * Post-1986, HH-adjusted standard errors, overlapping
 twoway `HHlines_new_ol' (scatter b year if year==10 & mi(weight) & sampling=="Post-1986" & adj_method=="HH" & overlapping=="OL", m(none) mlabel(marker) mlabsize(*0.6) mlabcolor(black)) || ///
@@ -412,7 +412,7 @@ legend(order(22 "Equal-weighted Market Portfolio" 24 "Value-weighted Market Port
 xlabel(1(1)10,labsize(small)) xscale(r(1/11)) xtitle("year", size(medsmall)) ///
 ytitle("OLS Slopes (significant ones marked)", size(medsmall)) ///
 title("OLS Slopes for the Size-Decile Portfolios, 1986-2020",size(medium)) ///
-note("The OLS estimation standard errors are adjusted using Hensen-Hodrick (1980) method.") saving("${outdir}/size_post1986_hh.gph", replace)
+note("The OLS estimation standard errors are adjusted using Hansen-Hodrick (1980) method.") saving("${outdir}/size_post1986_hh.gph", replace)
 
 clear
 
