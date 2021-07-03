@@ -416,7 +416,16 @@ note("The OLS estimation standard errors are adjusted using Hensen-Hodrick (1980
 
 clear
 
+* combine figures together
+cd "${outdir}"
+gr combine size_full_hh.gph size_full_nw.gph, rows(1) cols(2) imargin(medlarge) xsize(12) ysize(4.5) saving("${outdir}/size_full.gph", replace)
+gr combine size_pre1986_hh.gph size_post1986_hh.gph, rows(1) cols(2) imargin(medlarge) xsize(12) ysize(4.5) saving("${outdir}/pre_vs_post.gph", replace)
+
 * erase all the intermediary files
 cap erase "${indir}/size10_betas.dta"
 cap erase "${indir}/sic17_betas.dta"
 cap erase "${indir}/mkt_betas.dta"
+cap erase "${outdir}/size_full_hh.gph"
+cap erase "${outdir}/size_full_nw.gph"
+cap erase "${outdir}/size_pre1986_hh.gph"
+cap erase "${outdir}/size_post1986_hh.gph"
