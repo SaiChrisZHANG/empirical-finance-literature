@@ -707,9 +707,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/pxfonts/rpxpplri.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/newpx/zplsy.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/pxsys.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
-INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/./chapter1/outputs/fig1-1.png
-INPUT ./chapter1/outputs/fig1-1.png
-INPUT ./chapter1/outputs/fig1-1.png
+INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/./chapter1/outputs/fig1-2.png
+INPUT ./chapter1/outputs/fig1-2.png
+INPUT ./chapter1/outputs/fig1-2.png
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2

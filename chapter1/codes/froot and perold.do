@@ -40,9 +40,9 @@ gen high = ar + 1.96*se
 gen low = ar - 1.96*se
 
 * Only paint the AR coefficients, not the confidence interval
-twoway line ar date, lc(black) lp(solid) yline(0, lc(red) lp(solid) lw(thin)) ytitle("Daily Autocorrelation", size(medsmall)) tlabel(31dec1930 31dec1940 31dec1950 31dec1960 31dec1970 31dec1980 31dec1990 31dec2000 31dec2010 31dec2020, format(%tdCCYY) labsize(small)) ylabel(,labsize(small)) legend(off) xtitle("") saving("${outdir}/fig1-1.gph", replace)
+twoway line ar date, lc(black) lp(solid) yline(0, lc(red) lp(solid) lw(thin)) ytitle("Daily Autocorrelation", size(medsmall)) tlabel(31dec1930 31dec1940 31dec1950 31dec1960 31dec1970 31dec1980 31dec1990 31dec2000 31dec2010 31dec2020, format(%tdCCYY) labsize(small)) ylabel(,labsize(small)) legend(off) xtitle("") saving("${outdir}/fig1-2.gph", replace)
 
-graph use "${outdir}/fig1-1"
-graph export "${outdir}/fig1-1.png", replace
+graph use "${outdir}/fig1-2"
+graph export "${outdir}/fig1-2.png", replace
 
 clear
