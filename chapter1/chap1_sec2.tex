@@ -49,7 +49,14 @@ With this fairly simple model, \citeauthor{fama1988permanent} predict that if st
 for short horizons, become more negative as T increases, then moving back to 0.
 
 To support this proposition, \citeauthor{fama1988permanent} examined returns for industry portfolios and size-based portfolios. Industry and size are dimensions to capture differences in return behavior, which will generate different mix of $q_t$ and $z_t$,
-leading to different return patterns. They used NYSE-listed stocks' monthly returns from 1926 to 1985 for the analysis. I have replicated their main results with updated data till 2020.
+leading to different return patterns. They used NYSE-listed stocks' monthly returns from 1926 to 1985 for the analysis. They run OLS (and bias-adjusted OLS) regressions $r_{t+T,t}=\alpha_t+ \beta_t r_{t,t-T}+\epsilon_{t,t+T}$ for market capitalization based decile portfolios,
+SIC 17-industry portfolios, equal- and value-weighted NYSE market portfolios. I have replicated the size-based portfolio and market portfolio results with updated data till 2020.
+
+\begin{figure}[ht]
+    \includegraphics[width=\textwidth]{fig1-size_full.png}
+    \centering
+    \caption{Daily Autocorrelation of the Excess Market Return, 1926-2021}\label{fig1-1}
+\end{figure}
 
 \subsection{Positive autocorrelations}\label{chap1:sec2:ssec2}
 Due to the positive cross-autocorrelations among individual stocks, \textbf{Stock indexes} have predominantly
