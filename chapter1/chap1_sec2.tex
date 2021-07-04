@@ -52,12 +52,22 @@ To support this proposition, \citeauthor{fama1988permanent} examined returns for
 leading to different return patterns. They used NYSE-listed stocks' monthly returns from 1926 to 1985 for the analysis. They run OLS (and bias-adjusted OLS) regressions $r_{t+T,t}=\alpha_t+ \beta_t r_{t,t-T}+\epsilon_{t,t+T}$ for market capitalization based decile portfolios,
 SIC 17-industry portfolios, equal- and value-weighted NYSE market portfolios. I have replicated the size-based portfolio and market portfolio results with updated data till 2020. Yearly return window $T$ is chosen as $T\in\{1,\cdots,10\}$, or 12 to 120 months.
 
-In Figure \ref{fig1-size_full}, 
+The left panel of Figure \ref{fig1-size_full} replicates the Hansen-Hodrick adjusted OLS regression results. The general trend resembles \citeauthor{fama1988permanent}'s findings in two aspects: First, the OLS $\beta$s are generally negative, reaching minimum values for 3-5-year returns and
+becoming less negative for return horizons beyond 5 years. This U-shaped pattern, as explained by \citeauthor{fama1988permanent}, is consistent with the hypothesis that prices have stationary components (leading to negative $\beta$s, i.e., mean-reverse) and random-walk components that eventually
+dominating long-horizon returns ($\beta=0$). Second, portfolio heterogeneity is presented. Equal-weighted market portfolio resembles smaller firms, meanwhile, value-weighted market portfolio resembles larger firms. In the right panel, I have applied Newey-West standard error adjustment. Results are similar.
 
 \begin{figure}[ht]
     \includegraphics[width=\textwidth]{fig1-size_full.png}
     \centering
-    \caption{Daily Autocorrelation of the Excess Market Return, 1926-2021}\label{fig1-size_full}
+    \caption{OLS Slopes for Size and Market Portfolios, 1926-2020}\label{fig1-size_full}
+\end{figure}
+
+I also split the time window into 1926-1985 and 1986-2020. Two interesting results can be found.
+
+\begin{figure}[ht]
+    \includegraphics[width=\textwidth]{fig1-pre_vs_post.png}
+    \centering
+    \caption{OLS Slopes for Size and Market Portfolios, 1926-2020}\label{fig1-pre_vs_post}
 \end{figure}
 
 \subsection{Positive autocorrelations}\label{chap1:sec2:ssec2}
