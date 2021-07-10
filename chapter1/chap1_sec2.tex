@@ -75,6 +75,8 @@ Second, after 1985, the mean reverse of returns appears to be in a larger scale 
 In the paper, \citeauthor{fama1988permanent} also simulated mimic properties of NYSE monthly returns 10000 times to obtain sampling distributions of $beta$s. They simulate two models with 0 true slope: 1) a random walk in the log price with normal (0,1) monthly return,
 2) a random walk where return variances change every 2 years to approximate the real variance changes; and 2 models with both a random-walk and an AR1 component, which contain either constant or changing variances as well.
 
+Notice that the estimation this finite sample suffers from biased standard error: OLS standard errors are wrong due to overlapping observations, GMM (Newey-West) standard errors are wrong due to the small smaple size (for the 10-year returns, there are only 6 truly independent observations from 1926 to 1985).
+
 \subsection{Positive autocorrelations}\label{chap1:sec2:ssec2}
 Due to the positive cross-autocorrelations among individual stocks, \textbf{Stock indexes} have predominantly
 positive high-frequency autocorrelations. Below, I summarize 2 papers in detail on this subject.
