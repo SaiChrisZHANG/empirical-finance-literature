@@ -689,6 +689,9 @@ INPUT ./chapter1/outputs/fig1-size_full.png
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/./chapter1/outputs/fig1-pre_vs_post.png
 INPUT ./chapter1/outputs/fig1-pre_vs_post.png
 INPUT ./chapter1/outputs/fig1-pre_vs_post.png
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qplr.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-ot1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-ot1.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/newpx/zpl-Bold-tlf-ot1.tfm
@@ -826,6 +829,7 @@ INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.aux
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.out
 INPUT /Users/admin/Desktop/LIT/empirical-finance-literature/main.out
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc
@@ -834,6 +838,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/ntxsyralt.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/pxsys.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexas.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb
