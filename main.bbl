@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -163,6 +163,12 @@ Hersh Shefrin and Meir Statman.
   Theory and evidence.
 \newblock \emph{The Journal of finance}, 40\penalty0 (3):\penalty0 777--790,
   1985.
+
+\bibitem[Summers(1986)]{summers1986does}
+Lawrence~H Summers.
+\newblock Does the stock market rationally reflect fundamental values?
+\newblock \emph{The Journal of Finance}, 41\penalty0 (3):\penalty0 591--601,
+  1986.
 
 \bibitem[Whang and Kim(2003)]{whang2003multiple}
 Yoon-Jae Whang and Jinho Kim.
