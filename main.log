@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  23 JUL 2021 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.7)  23 JUL 2021 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -796,7 +796,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 70.
 LaTeX Info: Redefining \pageref on input line 70.
 LaTeX Info: Redefining \nameref on input line 70.
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out) (/Users/admin/Desktop/LIT/empirical-finance-literature/main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -894,67 +893,37 @@ l.136 \newpage
                [1
 
 ]
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 139.
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc1.
-\openout3 = `main.mtc1'.
 
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc2.
-\openout3 = `main.mtc2'.
+Package minitoc Warning: W0010
+(minitoc)                No file main.toc. 
+(minitoc)                MINITOCS NOT PREPARED on input line 139.
 
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc3.
-\openout3 = `main.mtc3'.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc4.
-\openout3 = `main.mtc4'.
+[2]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 144.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 144.
+(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chapter1.tex
+\openout3 = `main.mtc'.
 
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc5.
-\openout3 = `main.mtc5'.
+\openout3 = `main.mtc'.
 
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc6.
-\openout3 = `main.mtc6'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc7.
-\openout3 = `main.mtc7'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc8.
-\openout3 = `main.mtc8'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc9.
-\openout3 = `main.mtc9'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc10.
-\openout3 = `main.mtc10'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing main.mtc11.
-\openout3 = `main.mtc11'.
-
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.toc
-LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <12> not available
-(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 2.
 LaTeX Font Info:    Try loading font information for OT1+zpltlf on input line 2.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 2.
+(Font)              scaled to size 10.95pt on input line 2.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 2.
+(Font)              scaled to size 8.0pt on input line 2.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 2.
+(Font)              scaled to size 6.1pt on input line 2.
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -974,30 +943,7 @@ File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 LaTeX Font Info:    Try loading font information for U+npxsyc on input line 2.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
-) [2])
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 144.
- [3]
-Chapter 1.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 144.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 144.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chapter1.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
-LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 2.
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
+) (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc1
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
@@ -1013,7 +959,40 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
 (Font)              scaled to size 10.0pt on input line 9.
- [4
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <10> not available
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+
+
+Package natbib Warning: Citation `campbell2017financial' on page 3 undefined on input line 9.
+
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <12> not available
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 11.
+
+Package natbib Warning: Citation `campbell2017financial' on page 3 undefined on input line 11.
+
+
+LaTeX Warning: Reference `chap1:sec1' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Reference `chap1:sec2' on page 3 undefined on input line 13.
+
+
+LaTeX Warning: Reference `chap1:sec3' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Reference `chap1:sec4' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Reference `chap1:sec5' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Reference `chap1:sec6' on page 3 undefined on input line 19.
+
+[3
 
 ]
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
@@ -1021,191 +1000,257 @@ LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 17.28pt on input line 21.
  (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec1.tex
-Package marginnote Info: Margin note 6.1 is on absolute page 7
-(marginnote)              on input line 35.
+
+Package natbib Warning: Citation `campbell2017financial' on page 4 undefined on input line 1.
+
+
+Package natbib Warning: Citation `malkiel1989efficient' on page 4 undefined on input line 7.
+
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 10.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 10.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 10.
+
+Package natbib Warning: Citation `malkiel1989efficient' on page 4 undefined on input line 16.
+
+
+Package natbib Warning: Citation `malkiel1970efficient' on page 4 undefined on input line 30.
+
 Package marginnote Info: right page because not two side mode on input line 35.
-Package marginnote Info: xpos seems to be 101.64468pt,
-(marginnote)             \marginnoterightadjust ignored on input line 35.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoterightadjust on input line 35.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 35.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 6.2pt on input line 35.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 35.
- [5] [6]
+
+LaTeX Warning: Hyper reference `ToC-first-page' on page 4 undefined on input line 36.
+
+[4]
+
+LaTeX Warning: Reference `chap1:sec2' on page 5 undefined on input line 38.
+
+
+Package natbib Warning: Citation `shefrin1985disposition' on page 5 undefined on input line 48.
+
+
+Package natbib Warning: Citation `campbell2017financial' on page 5 undefined on input line 53.
+
+
+Package natbib Warning: Citation `box1970distribution' on page 5 undefined on input line 58.
+
+
+Package natbib Warning: Citation `box1970distribution' on page 5 undefined on input line 65.
+
+
+LaTeX Warning: Hyper reference `ToC-first-page' on page 5 undefined on input line 73.
+
+[5]
+
+Package natbib Warning: Citation `lo1988stock' on page 6 undefined on input line 78.
+
+
+Package natbib Warning: Citation `poterba1988mean' on page 6 undefined on input line 78.
+
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 92.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 6.6pt on input line 92.
+
+Package natbib Warning: Citation `cochrane1988big' on page 6 undefined on input line 107.
+
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 107.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 107.
- [7] [8] [9]
+
+Package natbib Warning: Citation `priestley1981spectral' on page 6 undefined on input line 114.
+
+
+Package natbib Warning: Citation `lo1988stock' on page 6 undefined on input line 121.
+
+
+LaTeX Warning: Reference `chap1:sec1:ssec3' on page 6 undefined on input line 125.
+
+
+LaTeX Warning: Hyper reference `ToC-first-page' on page 6 undefined on input line 126.
+
+[6]
+
+Package natbib Warning: Citation `lo1988stock' on page 7 undefined on input line 127.
+
+
+Overfull \hbox (60.53853pt too wide) in paragraph at lines 127--129
+[]\T1/zpltlf/m/n/12 To ac-com-mo-date $\OML/npxmi/m/it/12 r[]$\T1/zpltlf/m/n/12 's ex-hibit-ing con-di-tional het-eroskedas-tic-ity, \T1/zpltlf/b/n/12 ? \T1/zpltlf/m/n/12 pro-posed a heteroskedasticity-
+ []
+
+
+Package natbib Warning: Citation `fama1988permanent' on page 7 undefined on input line 135.
+
+
+Package natbib Warning: Citation `charles2009variance' on page 7 undefined on input line 156.
+
+
+Package natbib Warning: Citation `charles2009variance' on page 7 undefined on input line 158.
+
+
+Package natbib Warning: Citation `lo1988stock' on page 7 undefined on input line 161.
+
+
+Package natbib Warning: Citation `lo1990contrarian' on page 7 undefined on input line 164.
+
+
+LaTeX Warning: Hyper reference `ToC-first-page' on page 7 undefined on input line 165.
+
+[7]
+
+Package natbib Warning: Citation `chen2006variance' on page 8 undefined on input line 166.
+
+
+Package natbib Warning: Citation `wright2000alternative' on page 8 undefined on input line 171.
+
+
+Package natbib Warning: Citation `lo1988stock' on page 8 undefined on input line 171.
+
+
+Package natbib Warning: Citation `luger2003exact' on page 8 undefined on input line 177.
+
+
+Package natbib Warning: Citation `choi1999testing' on page 8 undefined on input line 179.
+
+
+Package natbib Warning: Citation `choi1999testing' on page 8 undefined on input line 179.
+
+
+Package natbib Warning: Citation `cochrane1988big' on page 8 undefined on input line 180.
+
+
+Package natbib Warning: Citation `cochrane1988big' on page 8 undefined on input line 180.
+
+
+Package natbib Warning: Citation `choi1999testing' on page 8 undefined on input line 181.
+
+
+Package natbib Warning: Citation `chow1993simple' on page 8 undefined on input line 189.
+
+
+LaTeX Warning: Hyper reference `ToC-first-page' on page 8 undefined on input line 195.
+
+[8]
+
+Package natbib Warning: Citation `whang2003multiple' on page 9 undefined on input line 196.
+
+
+Package natbib Warning: Citation `whang2003multiple' on page 9 undefined on input line 204.
+
+
+Package natbib Warning: Citation `belaire2004ranks' on page 9 undefined on input line 207.
+
+
+Package natbib Warning: Citation `wright2000alternative' on page 9 undefined on input line 207.
+
+
+Package natbib Warning: Citation `chow1993simple' on page 9 undefined on input line 208.
+
+
+Package natbib Warning: Citation `richardson1991tests' on page 9 undefined on input line 211.
+
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 213.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 8.8pt on input line 213.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 (Font)              scaled to size 6.6pt on input line 213.
- [10]) (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex [11] [12] [13]
-<./chapter1/outputs/fig1-size_full.png, id=461, 1220.56pt x 457.71pt>
+
+Package natbib Warning: Citation `cecchetti1994variance' on page 9 undefined on input line 219.
+
+
+Package natbib Warning: Citation `chen2006variance' on page 9 undefined on input line 227.
+
+
+Package natbib Warning: Citation `chen2006variance' on page 9 undefined on input line 228.
+
+
+Package natbib Warning: Citation `richardson1991tests' on page 9 undefined on input line 228.
+
+
+Package natbib Warning: Citation `cecchetti1994variance' on page 9 undefined on input line 228.
+
+
+LaTeX Warning: Hyper reference `ToC-first-page' on page 9 undefined on input line 231.
+
+[9]
+
+Package natbib Warning: Citation `kim2006wild' on page 10 undefined on input line 235.
+
+
+Package natbib Warning: Citation `kim2006wild' on page 10 undefined on input line 235.
+
+
+Package natbib Warning: Citation `lo1988stock' on page 10 undefined on input line 235.
+
+
+Package natbib Warning: Citation `chow1993simple' on page 10 undefined on input line 235.
+
+
+Package natbib Warning: Citation `kim2006wild' on page 10 undefined on input line 242.
+
+
+Package natbib Warning: Citation `malliaropulos1999mean' on page 10 undefined on input line 244.
+
+
+Package natbib Warning: Citation `wu1986jackknife' on page 10 undefined on input line 244.
+
+
+Overfull \hbox (34.60788pt too wide) in paragraph at lines 244--247
+[]\T1/zpltlf/b/n/12 ? Test\T1/zpltlf/m/n/12 : They used a weighted boot-strap method pro-posed by \T1/zpltlf/b/n/12 ?\T1/zpltlf/m/n/12 , which is heteroskedasticity-
+ []
+
+
+Package natbib Warning: Citation `malliaropulos1999mean' on page 10 undefined on input line 253.
+
+
+Package natbib Warning: Citation `kim2006wild' on page 10 undefined on input line 254.
+
+) (/Users/admin/Desktop/LIT/empirical-finance-literature/chapter1/chap1_sec2.tex
+
+LaTeX Warning: Reference `chap1:sec1:ssec2' on page 10 undefined on input line 1.
+
+
+LaTeX Warning: Hyper reference `ToC-first-page' on page 10 undefined on input line 4.
+
+[10]
+
+Package natbib Warning: Citation `fama1988permanent' on page 11 undefined on input line 19.
+
+
+Package natbib Warning: Citation `fama1988permanent' on page 11 undefined on input line 20.
+
+
+LaTeX Warning: Hyper reference `ToC-first-page' on page 11 undefined on input line 33.
+
+[11]
+
+Package natbib Warning: Citation `fama1988permanent' on page 12 undefined on input line 49.
+
+
+Package natbib Warning: Citation `fama1988permanent' on page 12 undefined on input line 52.
+
+
+LaTeX Warning: Reference `fig1-size_full' on page 12 undefined on input line 56.
+
+
+Package natbib Warning: Citation `fama1988permanent' on page 12 undefined on input line 56.
+
+
+Package natbib Warning: Citation `fama1988permanent' on page 12 undefined on input line 57.
+
+<./chapter1/outputs/fig1-size_full.png, id=138, 1220.56pt x 457.71pt>
 File: ./chapter1/outputs/fig1-size_full.png Graphic file (type png)
 <use ./chapter1/outputs/fig1-size_full.png>
 Package pdftex.def Info: ./chapter1/outputs/fig1-size_full.png  used on input line 61.
-(pdftex.def)             Requested size: 452.9679pt x 169.85988pt.
-<./chapter1/outputs/fig1-pre_vs_post.png, id=463, 1220.56pt x 457.71pt>
-File: ./chapter1/outputs/fig1-pre_vs_post.png Graphic file (type png)
-<use ./chapter1/outputs/fig1-pre_vs_post.png>
-Package pdftex.def Info: ./chapter1/outputs/fig1-pre_vs_post.png  used on input line 71.
-(pdftex.def)             Requested size: 452.9679pt x 169.85988pt.
- [14 <./chapter1/outputs/fig1-size_full.png> <./chapter1/outputs/fig1-pre_vs_post.png>]
-LaTeX Font Info:    Try loading font information for TS1+zpltlf on input line 86.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
-File: ts1zpltlf.fd 2015/01/18 v1.0 fd file for TS1/zpltlf
-)
-LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 86.
- [15] [16] [17] [18] [19] [20]
-Package marginnote Info: Margin note 22.1 is on absolute page 22
-(marginnote)              on input line 319.
-Package marginnote Info: right page because not two side mode on input line 319.
-Package marginnote Info: xpos seems to be 274.18958pt,
-(marginnote)             \marginnoterightadjust ignored on input line 319.
-LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 319.
-LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 6.2pt on input line 319.
-LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 5.5pt on input line 319.
- [21] [22]
-<./chapter1/outputs/fig1-2.png, id=587, 962.59625pt x 700.6175pt>
-File: ./chapter1/outputs/fig1-2.png Graphic file (type png)
-<use ./chapter1/outputs/fig1-2.png>
-Package pdftex.def Info: ./chapter1/outputs/fig1-2.png  used on input line 376.
-(pdftex.def)             Requested size: 398.33858pt x 289.91698pt.
-) [23 <./chapter1/outputs/fig1-2.png>]) [24]
-Chapter 2.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter2/chapter2.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
-LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 6.1pt on input line 2.
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc2)) [25
-
-]
-Chapter 3.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter3/chapter3.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc3)) [26
-
-]
-Chapter 4.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter4/chapter4.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc4)) [27
-
-]
-Chapter 5.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter5/chapter5.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc5)) [28
-
-]
-Chapter 6.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter6/chapter6.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc6)) [29
-
-]
-Chapter 7.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter7/chapter7.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc7)) [30
-
-]
-Chapter 8.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter8/chapter8.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc8)) [31
-
-]
-Chapter 9.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter9/chapter9.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc9)) [32
-
-]
-Chapter 10.
-(/Users/admin/Desktop/LIT/empirical-finance-literature/chapter10/chapter10.tex
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.mtc10)) [33
-
-] (/Users/admin/Desktop/LIT/empirical-finance-literature/main.bbl [34
-
-])
-Package minitoc Info: I0009
-(minitoc)             Listing minitoc auxiliary files. 
-(minitoc)             Creating the main.maf file.
-\openout3 = `main.maf'.
-
-
-
-Package minitoc(hints) Warning: W0024
-(minitoc(hints))                Some hints have been written 
-(minitoc(hints))                in the main.log file.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
-[35]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
- (/Users/admin/Desktop/LIT/empirical-finance-literature/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4BA9FBD6EFE794B4CEB38A09FD8D0ED2;2538.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
- ) 
-Here is how much of TeX's memory you used:
- 13936 strings out of 492649
- 202207 string characters out of 6129623
- 336775 words of memory out of 5000000
- 17062 multiletter control sequences out of 15000+600000
- 159100 words of font info for 249 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 32i,17n,44p,1031b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newpx/ecsups.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/ntxsyralt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/pxmia.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexas.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
-Output written on /Users/admin/Desktop/LIT/empirical-finance-literature/main.pdf (36 pages, 594872 bytes).
-PDF statistics:
- 753 PDF objects out of 1000 (max. 8388607)
- 686 compressed objects within 7 object streams
- 142 named destinations out of 1000 (max. 500000)
- 312 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+(pdftex.def)             Requested size: 452.9679pt x 169.85988pt
